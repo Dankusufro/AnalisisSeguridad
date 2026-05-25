@@ -1,4 +1,12 @@
 repo,source_file,package_name,current_version,vulnerability_id,severity,fix_version,message,cwe,cvss_score
+claude-code-action,claude-code-action-grype.json,undici,5.29.0,GHSA-v9p9-hfj2-hcw8,low,N/A,Undici has Unhandled Exception in WebSocket Client Due to Invalid server_max_window_bits Validation,N/A,0
+claude-code-action,claude-code-action-grype.json,undici,5.29.0,GHSA-vrm6-8vpv-qv8q,low,N/A,Undici has Unbounded Memory Consumption in WebSocket permessage-deflate Decompression,N/A,0
+claude-code-action,claude-code-action-grype.json,undici,5.29.0,GHSA-g9mf-h72j-4rw9,low,N/A,Undici has an unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resource exhaustion,N/A,0
+claude-code-action,claude-code-action-grype.json,undici,5.29.0,GHSA-2mjp-6q6p-2qxm,low,N/A,Undici has an HTTP Request/Response Smuggling issue,N/A,0
+claude-code-action,claude-code-action-grype.json,undici,5.29.0,GHSA-4992-7rv2-5pvq,low,N/A,Undici has CRLF Injection in undici via `upgrade` option,N/A,0
+claude-plugins-official,claude-plugins-official-grype.json,actions/download-artifact,v4,GHSA-cxww-7g56-2vh6,low,N/A,@actions/download-artifact has an Arbitrary File Write via artifact extraction,N/A,0
+codegraph,codegraph-grype.json,picomatch,4.0.3,GHSA-3v7f-55p6-f55p,low,N/A,Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching,N/A,0
+codegraph,codegraph-grype.json,picomatch,4.0.3,GHSA-c2c7-rcm5-vvqj,low,N/A,Picomatch has a ReDoS vulnerability via extglob quantifiers,N/A,0
 DeepSeek-TUI,DeepSeek-TUI-grype.json,quinn-proto,0.11.13,GHSA-6xvm-j4wr-6v98,low,N/A,Quinn affected by unauthenticated remote DoS via panic in QUIC transport parameter parsing,N/A,0
 DeepSeek-TUI,DeepSeek-TUI-grype.json,bytes,1.11.0,GHSA-434x-w66g-qw3r,low,N/A,bytes has integer overflow in BytesMut::reserve,N/A,0
 DeepSeek-TUI,DeepSeek-TUI-grype.json,time,0.3.46,GHSA-r6v5-fh4h-64xc,low,N/A,time vulnerable to stack exhaustion Denial of Service attack,N/A,0
@@ -11,86 +19,6 @@ DeepSeek-TUI,DeepSeek-TUI-grype.json,lru,0.12.5,GHSA-rhfx-m35p-ff5j,low,N/A,`Ite
 DeepSeek-TUI,DeepSeek-TUI-grype.json,rand,0.9.2,GHSA-cq8v-f236-94qc,low,N/A,Rand is unsound with a custom logger using rand::rng(),N/A,0
 DeepSeek-TUI,DeepSeek-TUI-grype.json,rustls-webpki,0.103.8,GHSA-965h-392x-2mh5,low,N/A,webpki: Name constraints for URI names were incorrectly accepted,N/A,0
 DeepSeek-TUI,DeepSeek-TUI-grype.json,rustls-webpki,0.103.8,GHSA-xgp8-3hg3-c2mh,low,N/A,webpki: Name constraints were accepted for certificates asserting a wildcard name,N/A,0
-TradingAgents,TradingAgents-grype.json,langchain-community,0.3.25,GHSA-pc6w-59fv-rh23,low,N/A,Langchain Community Vulnerable to XML External Entity (XXE) Attacks,N/A,0
-TradingAgents,TradingAgents-grype.json,langgraph-checkpoint,2.0.26,GHSA-wwqv-p2pp-99h5,low,N/A,"LangGraph Checkpoint affected by RCE in ""json"" mode of JsonPlusSerializer",N/A,0
-TradingAgents,TradingAgents-grype.json,python-multipart,0.0.18,GHSA-wp53-j4wj-2cfg,low,N/A,Python-Multipart has Arbitrary File Write via Non-Default Configuration,N/A,0
-TradingAgents,TradingAgents-grype.json,python-socketio,5.13.0,GHSA-g8c6-8fjj-2r4m,low,N/A,python-socketio vulnerable to arbitrary Python code execution (RCE) through malicious pickle deserialization in certain multi-server deployments,N/A,0
-TradingAgents,TradingAgents-grype.json,starlette,0.41.3,GHSA-7f5h-v6xp-fcq8,low,N/A,Starlette vulnerable to O(n^2) DoS via Range header merging in ``starlette.responses.FileResponse``,N/A,0
-TradingAgents,TradingAgents-grype.json,langgraph-checkpoint,2.0.26,GHSA-mhr3-j7m5-c7c9,low,N/A,LangGraph: BaseCache Deserialization of Untrusted Data may lead to Remote Code Execution,N/A,0
-TradingAgents,TradingAgents-grype.json,langgraph,0.4.8,GHSA-g48c-2wqr-h844,low,N/A,LangGraph checkpoint loading has unsafe msgpack deserialization,N/A,0
-TradingAgents,TradingAgents-grype.json,langchain-text-splitters,0.3.8,GHSA-m42m-m8cr-8m58,low,N/A,LangChain Text Splitters is vulnerable to XML External Entity (XXE) attacks due to unsafe XSLT parsing,N/A,0
-TradingAgents,TradingAgents-grype.json,starlette,0.41.3,GHSA-2c2j-9gv5-cj73,low,N/A,Starlette has possible denial-of-service vector when parsing large files in multipart forms,N/A,0
-TradingAgents,TradingAgents-grype.json,mcp,1.9.4,GHSA-j975-95f5-7wqh,low,N/A,"MCP Python SDK has Unhandled Exception in Streamable HTTP Transport, Leading to Denial of Service",N/A,0
-TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-c427-h43c-vf67,low,N/A,AIOHTTP accepts duplicate Host headers,N/A,0
-TradingAgents,TradingAgents-grype.json,marshmallow,3.26.1,GHSA-428g-f7cq-pgp5,low,N/A,Marshmallow has DoS in Schema.load(many),N/A,0
-TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-6mq8-rvhq-8wgg,low,N/A,AIOHTTP's HTTP Parser auto_decompress feature is vulnerable to zip bomb,N/A,0
-TradingAgents,TradingAgents-grype.json,urllib3,2.4.0,GHSA-pq67-6m6q-mj2v,low,N/A,urllib3 redirects are not disabled when retries are disabled on PoolManager instantiation,N/A,0
-TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-p998-jp59-783m,low,N/A,AIOHTTP affected by UNC SSRF/NTLMv2 Credential Theft/Local File Read in static resource handler on Windows,N/A,0
-TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-6jhg-hg63-jvvf,low,N/A,AIOHTTP vulnerable to  denial of service through large payloads,N/A,0
-TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-jj3x-wxrx-4x23,low,N/A,AIOHTTP vulnerable to DoS when bypassing asserts,N/A,0
-TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-m5qp-6w8w-w647,low,N/A,AIOHTTP has a Multipart Header Size Bypass,N/A,0
-TradingAgents,TradingAgents-grype.json,urllib3,2.4.0,GHSA-48p4-8xcf-vxj5,low,N/A,urllib3 does not control redirects in browsers and Node.js,N/A,0
-TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-w2fm-2cpv-w7v5,low,N/A,"aiohttp allows unlimited trailer headers, leading to possible uncapped memory usage",N/A,0
-TradingAgents,TradingAgents-grype.json,chainlit,2.5.5,GHSA-2g59-m95p-pgfq,low,N/A,Chainlit contain a server-side request forgery (SSRF) vulnerability,N/A,0
-TradingAgents,TradingAgents-grype.json,lxml,5.4.0,GHSA-vfmq-68hx-4jfw,low,N/A,lxml: Default configuration of iterparse() and ETCompatXMLParser() allows XXE to local files,N/A,0
-TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-g84x-mcqj-x9qq,low,N/A,AIOHTTP vulnerable to DoS through chunked messages,N/A,0
-TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-63hf-3vf5-4wqf,low,N/A,AIOHTTP's C parser (llhttp) accepts null bytes and control characters in response header values - header injection/security bypass,N/A,0
-TradingAgents,TradingAgents-grype.json,urllib3,2.4.0,GHSA-38jv-5279-wg99,low,N/A,Decompression-bomb safeguards bypassed when following HTTP redirects (streaming API),N/A,0
-TradingAgents,TradingAgents-grype.json,langchain-core,0.3.83,GHSA-qh6h-p6c9-ff54,low,N/A,LangChain Core has Path Traversal vulnerabilites in legacy `load_prompt` functions,N/A,0
-TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-9548-qrrj-x5pj,low,N/A,AIOHTTP is vulnerable to HTTP Request/Response Smuggling through incorrect parsing of chunked trailer sections,N/A,0
-TradingAgents,TradingAgents-grype.json,langchain-text-splitters,0.3.8,GHSA-fv5p-p927-qmxr,low,N/A,LangChain Text Splitters: HTMLHeaderTextSplitter.split_text_from_url SSRF Redirect Bypass,N/A,0
-TradingAgents,TradingAgents-grype.json,pyasn1,0.6.1,GHSA-jr27-m4p2-rc6r,low,N/A,Denial of Service in pyasn1 via Unbounded Recursion,N/A,0
-TradingAgents,TradingAgents-grype.json,orjson,3.10.18,GHSA-hx9q-6w63-j58v,low,N/A,orjson does not limit recursion for deeply nested JSON documents,N/A,0
-TradingAgents,TradingAgents-grype.json,langsmith,0.3.45,GHSA-rr7j-v2q5-chgv,low,N/A,LangSmith SDK: Streaming token events bypass output redaction,N/A,0
-TradingAgents,TradingAgents-grype.json,urllib3,2.4.0,GHSA-gm62-xv2j-4w53,low,N/A,urllib3 allows an unbounded number of links in the decompression chain,N/A,0
-TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-54jq-c3m8-4m76,low,N/A,AIOHTTP vulnerable to brute-force leak of internal static ﬁle path components,N/A,0
-TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-hcc4-c3v8-rx92,low,N/A,AIOHTTP Affected by Denial of Service (DoS) via Unbounded DNS Cache in TCPConnector,N/A,0
-TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-3wq7-rqq7-wx6j,low,N/A,AIOHTTP has late size enforcement for non-file multipart fields causes memory DoS,N/A,0
-TradingAgents,TradingAgents-grype.json,pyasn1,0.6.1,GHSA-63vm-454h-vhhq,low,N/A,pyasn1 has a DoS vulnerability in decoder,N/A,0
-TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-966j-vmvw-g2g9,low,N/A,AIOHTTP leaks Cookie and Proxy-Authorization headers on cross-origin redirect,N/A,0
-TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-mqqc-3gqh-h2x8,low,N/A,AIOHTTP has unicode match groups in regexes for ASCII protocol elements,N/A,0
-TradingAgents,TradingAgents-grype.json,urllib3,2.4.0,GHSA-2xpw-w6gg-jr37,low,N/A,urllib3 streaming API improperly handles highly compressed data,N/A,0
-TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-69f9-5gxw-wvc2,low,N/A,AIOHTTP's unicode processing of header values could cause parsing discrepancies,N/A,0
-TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-2vrm-gr82-f7m5,low,N/A,AIOHTTP has CRLF injection through multipart part content type header construction,N/A,0
-TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-mwh4-6h8g-pg8w,low,N/A,AIOHTTP has HTTP response splitting via \r in reason phrase,N/A,0
-TradingAgents,TradingAgents-grype.json,mcp,1.9.4,GHSA-9h52-p55h-vw2f,low,N/A,Model Context Protocol (MCP) Python SDK does not enable DNS rebinding protection by default,N/A,0
-TradingAgents,TradingAgents-grype.json,curl-cffi,0.11.3,GHSA-qw2m-4pqf-rmpp,low,N/A,curl_cffi: Redirect-based SSRF leads to internal network access in curl_cffi (with TLS impersonation bypass),N/A,0
-TradingAgents,TradingAgents-grype.json,langchain-openai,0.3.23,GHSA-r7w7-9xr2-qq2r,low,N/A,langchain-openai: Image token counting SSRF protection can be bypassed via DNS rebinding,N/A,0
-TradingAgents,TradingAgents-grype.json,python-multipart,0.0.18,GHSA-mj87-hwqh-73pj,low,N/A,python-multipart affected by Denial of Service via large multipart preamble or epilogue data,N/A,0
-TradingAgents,TradingAgents-grype.json,protobuf,5.29.5,GHSA-7gcm-g887-7qv7,low,N/A,protobuf affected by a JSON recursion depth bypass,N/A,0
-TradingAgents,TradingAgents-grype.json,pyjwt,2.10.1,GHSA-752w-5fwx-jx9f,low,N/A,PyJWT accepts unknown `crit` header extensions,N/A,0
-TradingAgents,TradingAgents-grype.json,langchain-core,0.3.83,GHSA-2g6r-c272-w58r,low,N/A,LangChain affected by SSRF via image_url token counting in ChatOpenAI.get_num_tokens_from_messages,N/A,0
-TradingAgents,TradingAgents-grype.json,python-dotenv,1.1.0,GHSA-mf9w-mj56-hr94,low,N/A,python-dotenv: Symlink following in set_key allows arbitrary file overwrite via cross-device rename fallback,N/A,0
-TradingAgents,TradingAgents-grype.json,chainlit,2.5.5,GHSA-v492-6xx2-p57g,low,N/A,Chainlit contains an authorization bypass vulnerability,N/A,0
-TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-fh55-r93g-j68g,low,N/A,AIOHTTP Vulnerable to Cookie Parser Warning Storm,N/A,0
-TradingAgents,TradingAgents-grype.json,requests,2.32.4,GHSA-gc5v-m9x4-r6x2,low,N/A,Requests has Insecure Temp File Reuse in its extract_zipped_paths() utility function,N/A,0
-TradingAgents,TradingAgents-grype.json,filelock,3.18.0,GHSA-w853-jp5j-5j7f,low,N/A,filelock has a TOCTOU race condition which allows symlink attacks during lock file creation,N/A,0
-TradingAgents,TradingAgents-grype.json,filelock,3.18.0,GHSA-qmgc-5h2g-mvrw,low,N/A,filelock Time-of-Check-Time-of-Use (TOCTOU) Symlink Vulnerability in SoftFileLock,N/A,0
-TradingAgents,TradingAgents-grype.json,pygments,2.19.1,GHSA-5239-wwwm-4pmq,low,N/A,Pygments has Regular Expression Denial of Service (ReDoS) due to Inefficient Regex for GUID Matching,N/A,0
-Understand-Anything,Understand-Anything-grype.json,vite,6.4.1,GHSA-p9ff-h696-f583,low,N/A,Vite Vulnerable to Arbitrary File Read via Vite Dev Server WebSocket,N/A,0
-Understand-Anything,Understand-Anything-grype.json,vite,7.3.1,GHSA-p9ff-h696-f583,low,N/A,Vite Vulnerable to Arbitrary File Read via Vite Dev Server WebSocket,N/A,0
-Understand-Anything,Understand-Anything-grype.json,vite,7.3.1,GHSA-v2wj-q39q-566r,low,N/A,Vite: `server.fs.deny` bypassed with queries,N/A,0
-Understand-Anything,Understand-Anything-grype.json,vite,6.4.1,GHSA-4w7w-66w2-5vf9,low,N/A,Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling,N/A,0
-Understand-Anything,Understand-Anything-grype.json,vite,7.3.1,GHSA-4w7w-66w2-5vf9,low,N/A,Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling,N/A,0
-Understand-Anything,Understand-Anything-grype.json,picomatch,2.3.1,GHSA-3v7f-55p6-f55p,low,N/A,Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching,N/A,0
-Understand-Anything,Understand-Anything-grype.json,picomatch,4.0.3,GHSA-3v7f-55p6-f55p,low,N/A,Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching,N/A,0
-Understand-Anything,Understand-Anything-grype.json,picomatch,2.3.1,GHSA-c2c7-rcm5-vvqj,low,N/A,Picomatch has a ReDoS vulnerability via extglob quantifiers,N/A,0
-Understand-Anything,Understand-Anything-grype.json,picomatch,4.0.3,GHSA-c2c7-rcm5-vvqj,low,N/A,Picomatch has a ReDoS vulnerability via extglob quantifiers,N/A,0
-Understand-Anything,Understand-Anything-grype.json,brace-expansion,2.0.2,GHSA-f886-m6hf-6m8v,low,N/A,brace-expansion: Zero-step sequence causes process hang and memory exhaustion,N/A,0
-Understand-Anything,Understand-Anything-grype.json,postcss,8.5.8,GHSA-qx2v-qp2m-jg93,low,N/A,PostCSS has XSS via Unescaped </style> in its CSS Stringify Output,N/A,0
-Understand-Anything,Understand-Anything-grype.json,postcss,8.5.8,GHSA-qx2v-qp2m-jg93,low,N/A,PostCSS has XSS via Unescaped </style> in its CSS Stringify Output,N/A,0
-Understand-Anything,Understand-Anything-grype.json,devalue,5.6.4,GHSA-77vg-94rm-hx3p,low,N/A,Svelte devalue: DoS via sparse array deserialization,N/A,0
-Understand-Anything,Understand-Anything-grype.json,brace-expansion,5.0.5,GHSA-jxxr-4gwj-5jf2,low,N/A,brace-expansion: Large numeric range defeats documented `max` DoS protection,N/A,0
-Understand-Anything,Understand-Anything-grype.json,brace-expansion,5.0.5,GHSA-jxxr-4gwj-5jf2,low,N/A,brace-expansion: Large numeric range defeats documented `max` DoS protection,N/A,0
-Understand-Anything,Understand-Anything-grype.json,smol-toml,1.6.0,GHSA-v3rj-xjv7-4jmq,low,N/A,smol-toml: Denial of Service via TOML documents containing thousands of consecutive commented lines,N/A,0
-claude-code-action,claude-code-action-grype.json,undici,5.29.0,GHSA-v9p9-hfj2-hcw8,low,N/A,Undici has Unhandled Exception in WebSocket Client Due to Invalid server_max_window_bits Validation,N/A,0
-claude-code-action,claude-code-action-grype.json,undici,5.29.0,GHSA-vrm6-8vpv-qv8q,low,N/A,Undici has Unbounded Memory Consumption in WebSocket permessage-deflate Decompression,N/A,0
-claude-code-action,claude-code-action-grype.json,undici,5.29.0,GHSA-g9mf-h72j-4rw9,low,N/A,Undici has an unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resource exhaustion,N/A,0
-claude-code-action,claude-code-action-grype.json,undici,5.29.0,GHSA-2mjp-6q6p-2qxm,low,N/A,Undici has an HTTP Request/Response Smuggling issue,N/A,0
-claude-code-action,claude-code-action-grype.json,undici,5.29.0,GHSA-4992-7rv2-5pvq,low,N/A,Undici has CRLF Injection in undici via `upgrade` option,N/A,0
-claude-plugins-official,claude-plugins-official-grype.json,actions/download-artifact,v4,GHSA-cxww-7g56-2vh6,low,N/A,@actions/download-artifact has an Arbitrary File Write via artifact extraction,N/A,0
-codegraph,codegraph-grype.json,picomatch,4.0.3,GHSA-3v7f-55p6-f55p,low,N/A,Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching,N/A,0
-codegraph,codegraph-grype.json,picomatch,4.0.3,GHSA-c2c7-rcm5-vvqj,low,N/A,Picomatch has a ReDoS vulnerability via extglob quantifiers,N/A,0
 dexter,dexter-grype.json,protobufjs,6.8.8,GHSA-xq3m-2v4x-88gg,low,N/A,Arbitrary code execution in protobufjs,N/A,0
 dexter,dexter-grype.json,protobufjs,7.5.4,GHSA-xq3m-2v4x-88gg,low,N/A,Arbitrary code execution in protobufjs,N/A,0
 dexter,dexter-grype.json,file-type,21.3.0,GHSA-j47w-4g3g-c36v,low,N/A,file-type: ZIP Decompression Bomb DoS via [Content_Types].xml entry,N/A,0
@@ -569,3 +497,75 @@ skills,skills-grype.json,hono,4.12.9,GHSA-26pp-8wgv-hjvm,low,N/A,Hono missing va
 skills,skills-grype.json,hono,4.12.9,GHSA-458j-xx4x-4375,low,N/A,hono Improperly Handles JSX Attribute Names Allows HTML Injection in hono/jsx SSR,N/A,0
 skills,skills-grype.json,uuid,10.0.0,GHSA-w5hq-g745-h8pq,low,N/A,uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided,N/A,0
 skills,skills-grype.json,uuid,11.1.0,GHSA-w5hq-g745-h8pq,low,N/A,uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided,N/A,0
+TradingAgents,TradingAgents-grype.json,langchain-community,0.3.25,GHSA-pc6w-59fv-rh23,low,N/A,Langchain Community Vulnerable to XML External Entity (XXE) Attacks,N/A,0
+TradingAgents,TradingAgents-grype.json,langgraph-checkpoint,2.0.26,GHSA-wwqv-p2pp-99h5,low,N/A,"LangGraph Checkpoint affected by RCE in ""json"" mode of JsonPlusSerializer",N/A,0
+TradingAgents,TradingAgents-grype.json,python-multipart,0.0.18,GHSA-wp53-j4wj-2cfg,low,N/A,Python-Multipart has Arbitrary File Write via Non-Default Configuration,N/A,0
+TradingAgents,TradingAgents-grype.json,python-socketio,5.13.0,GHSA-g8c6-8fjj-2r4m,low,N/A,python-socketio vulnerable to arbitrary Python code execution (RCE) through malicious pickle deserialization in certain multi-server deployments,N/A,0
+TradingAgents,TradingAgents-grype.json,starlette,0.41.3,GHSA-7f5h-v6xp-fcq8,low,N/A,Starlette vulnerable to O(n^2) DoS via Range header merging in ``starlette.responses.FileResponse``,N/A,0
+TradingAgents,TradingAgents-grype.json,langgraph-checkpoint,2.0.26,GHSA-mhr3-j7m5-c7c9,low,N/A,LangGraph: BaseCache Deserialization of Untrusted Data may lead to Remote Code Execution,N/A,0
+TradingAgents,TradingAgents-grype.json,langgraph,0.4.8,GHSA-g48c-2wqr-h844,low,N/A,LangGraph checkpoint loading has unsafe msgpack deserialization,N/A,0
+TradingAgents,TradingAgents-grype.json,langchain-text-splitters,0.3.8,GHSA-m42m-m8cr-8m58,low,N/A,LangChain Text Splitters is vulnerable to XML External Entity (XXE) attacks due to unsafe XSLT parsing,N/A,0
+TradingAgents,TradingAgents-grype.json,starlette,0.41.3,GHSA-2c2j-9gv5-cj73,low,N/A,Starlette has possible denial-of-service vector when parsing large files in multipart forms,N/A,0
+TradingAgents,TradingAgents-grype.json,mcp,1.9.4,GHSA-j975-95f5-7wqh,low,N/A,"MCP Python SDK has Unhandled Exception in Streamable HTTP Transport, Leading to Denial of Service",N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-c427-h43c-vf67,low,N/A,AIOHTTP accepts duplicate Host headers,N/A,0
+TradingAgents,TradingAgents-grype.json,marshmallow,3.26.1,GHSA-428g-f7cq-pgp5,low,N/A,Marshmallow has DoS in Schema.load(many),N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-6mq8-rvhq-8wgg,low,N/A,AIOHTTP's HTTP Parser auto_decompress feature is vulnerable to zip bomb,N/A,0
+TradingAgents,TradingAgents-grype.json,urllib3,2.4.0,GHSA-pq67-6m6q-mj2v,low,N/A,urllib3 redirects are not disabled when retries are disabled on PoolManager instantiation,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-p998-jp59-783m,low,N/A,AIOHTTP affected by UNC SSRF/NTLMv2 Credential Theft/Local File Read in static resource handler on Windows,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-6jhg-hg63-jvvf,low,N/A,AIOHTTP vulnerable to  denial of service through large payloads,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-jj3x-wxrx-4x23,low,N/A,AIOHTTP vulnerable to DoS when bypassing asserts,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-m5qp-6w8w-w647,low,N/A,AIOHTTP has a Multipart Header Size Bypass,N/A,0
+TradingAgents,TradingAgents-grype.json,urllib3,2.4.0,GHSA-48p4-8xcf-vxj5,low,N/A,urllib3 does not control redirects in browsers and Node.js,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-w2fm-2cpv-w7v5,low,N/A,"aiohttp allows unlimited trailer headers, leading to possible uncapped memory usage",N/A,0
+TradingAgents,TradingAgents-grype.json,chainlit,2.5.5,GHSA-2g59-m95p-pgfq,low,N/A,Chainlit contain a server-side request forgery (SSRF) vulnerability,N/A,0
+TradingAgents,TradingAgents-grype.json,lxml,5.4.0,GHSA-vfmq-68hx-4jfw,low,N/A,lxml: Default configuration of iterparse() and ETCompatXMLParser() allows XXE to local files,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-g84x-mcqj-x9qq,low,N/A,AIOHTTP vulnerable to DoS through chunked messages,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-63hf-3vf5-4wqf,low,N/A,AIOHTTP's C parser (llhttp) accepts null bytes and control characters in response header values - header injection/security bypass,N/A,0
+TradingAgents,TradingAgents-grype.json,urllib3,2.4.0,GHSA-38jv-5279-wg99,low,N/A,Decompression-bomb safeguards bypassed when following HTTP redirects (streaming API),N/A,0
+TradingAgents,TradingAgents-grype.json,langchain-core,0.3.83,GHSA-qh6h-p6c9-ff54,low,N/A,LangChain Core has Path Traversal vulnerabilites in legacy `load_prompt` functions,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-9548-qrrj-x5pj,low,N/A,AIOHTTP is vulnerable to HTTP Request/Response Smuggling through incorrect parsing of chunked trailer sections,N/A,0
+TradingAgents,TradingAgents-grype.json,langchain-text-splitters,0.3.8,GHSA-fv5p-p927-qmxr,low,N/A,LangChain Text Splitters: HTMLHeaderTextSplitter.split_text_from_url SSRF Redirect Bypass,N/A,0
+TradingAgents,TradingAgents-grype.json,pyasn1,0.6.1,GHSA-jr27-m4p2-rc6r,low,N/A,Denial of Service in pyasn1 via Unbounded Recursion,N/A,0
+TradingAgents,TradingAgents-grype.json,orjson,3.10.18,GHSA-hx9q-6w63-j58v,low,N/A,orjson does not limit recursion for deeply nested JSON documents,N/A,0
+TradingAgents,TradingAgents-grype.json,langsmith,0.3.45,GHSA-rr7j-v2q5-chgv,low,N/A,LangSmith SDK: Streaming token events bypass output redaction,N/A,0
+TradingAgents,TradingAgents-grype.json,urllib3,2.4.0,GHSA-gm62-xv2j-4w53,low,N/A,urllib3 allows an unbounded number of links in the decompression chain,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-54jq-c3m8-4m76,low,N/A,AIOHTTP vulnerable to brute-force leak of internal static ﬁle path components,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-hcc4-c3v8-rx92,low,N/A,AIOHTTP Affected by Denial of Service (DoS) via Unbounded DNS Cache in TCPConnector,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-3wq7-rqq7-wx6j,low,N/A,AIOHTTP has late size enforcement for non-file multipart fields causes memory DoS,N/A,0
+TradingAgents,TradingAgents-grype.json,pyasn1,0.6.1,GHSA-63vm-454h-vhhq,low,N/A,pyasn1 has a DoS vulnerability in decoder,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-966j-vmvw-g2g9,low,N/A,AIOHTTP leaks Cookie and Proxy-Authorization headers on cross-origin redirect,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-mqqc-3gqh-h2x8,low,N/A,AIOHTTP has unicode match groups in regexes for ASCII protocol elements,N/A,0
+TradingAgents,TradingAgents-grype.json,urllib3,2.4.0,GHSA-2xpw-w6gg-jr37,low,N/A,urllib3 streaming API improperly handles highly compressed data,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-69f9-5gxw-wvc2,low,N/A,AIOHTTP's unicode processing of header values could cause parsing discrepancies,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-2vrm-gr82-f7m5,low,N/A,AIOHTTP has CRLF injection through multipart part content type header construction,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-mwh4-6h8g-pg8w,low,N/A,AIOHTTP has HTTP response splitting via \r in reason phrase,N/A,0
+TradingAgents,TradingAgents-grype.json,mcp,1.9.4,GHSA-9h52-p55h-vw2f,low,N/A,Model Context Protocol (MCP) Python SDK does not enable DNS rebinding protection by default,N/A,0
+TradingAgents,TradingAgents-grype.json,curl-cffi,0.11.3,GHSA-qw2m-4pqf-rmpp,low,N/A,curl_cffi: Redirect-based SSRF leads to internal network access in curl_cffi (with TLS impersonation bypass),N/A,0
+TradingAgents,TradingAgents-grype.json,langchain-openai,0.3.23,GHSA-r7w7-9xr2-qq2r,low,N/A,langchain-openai: Image token counting SSRF protection can be bypassed via DNS rebinding,N/A,0
+TradingAgents,TradingAgents-grype.json,python-multipart,0.0.18,GHSA-mj87-hwqh-73pj,low,N/A,python-multipart affected by Denial of Service via large multipart preamble or epilogue data,N/A,0
+TradingAgents,TradingAgents-grype.json,protobuf,5.29.5,GHSA-7gcm-g887-7qv7,low,N/A,protobuf affected by a JSON recursion depth bypass,N/A,0
+TradingAgents,TradingAgents-grype.json,pyjwt,2.10.1,GHSA-752w-5fwx-jx9f,low,N/A,PyJWT accepts unknown `crit` header extensions,N/A,0
+TradingAgents,TradingAgents-grype.json,langchain-core,0.3.83,GHSA-2g6r-c272-w58r,low,N/A,LangChain affected by SSRF via image_url token counting in ChatOpenAI.get_num_tokens_from_messages,N/A,0
+TradingAgents,TradingAgents-grype.json,python-dotenv,1.1.0,GHSA-mf9w-mj56-hr94,low,N/A,python-dotenv: Symlink following in set_key allows arbitrary file overwrite via cross-device rename fallback,N/A,0
+TradingAgents,TradingAgents-grype.json,chainlit,2.5.5,GHSA-v492-6xx2-p57g,low,N/A,Chainlit contains an authorization bypass vulnerability,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-fh55-r93g-j68g,low,N/A,AIOHTTP Vulnerable to Cookie Parser Warning Storm,N/A,0
+TradingAgents,TradingAgents-grype.json,requests,2.32.4,GHSA-gc5v-m9x4-r6x2,low,N/A,Requests has Insecure Temp File Reuse in its extract_zipped_paths() utility function,N/A,0
+TradingAgents,TradingAgents-grype.json,filelock,3.18.0,GHSA-w853-jp5j-5j7f,low,N/A,filelock has a TOCTOU race condition which allows symlink attacks during lock file creation,N/A,0
+TradingAgents,TradingAgents-grype.json,filelock,3.18.0,GHSA-qmgc-5h2g-mvrw,low,N/A,filelock Time-of-Check-Time-of-Use (TOCTOU) Symlink Vulnerability in SoftFileLock,N/A,0
+TradingAgents,TradingAgents-grype.json,pygments,2.19.1,GHSA-5239-wwwm-4pmq,low,N/A,Pygments has Regular Expression Denial of Service (ReDoS) due to Inefficient Regex for GUID Matching,N/A,0
+Understand-Anything,Understand-Anything-grype.json,vite,6.4.1,GHSA-p9ff-h696-f583,low,N/A,Vite Vulnerable to Arbitrary File Read via Vite Dev Server WebSocket,N/A,0
+Understand-Anything,Understand-Anything-grype.json,vite,7.3.1,GHSA-p9ff-h696-f583,low,N/A,Vite Vulnerable to Arbitrary File Read via Vite Dev Server WebSocket,N/A,0
+Understand-Anything,Understand-Anything-grype.json,vite,7.3.1,GHSA-v2wj-q39q-566r,low,N/A,Vite: `server.fs.deny` bypassed with queries,N/A,0
+Understand-Anything,Understand-Anything-grype.json,vite,6.4.1,GHSA-4w7w-66w2-5vf9,low,N/A,Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling,N/A,0
+Understand-Anything,Understand-Anything-grype.json,vite,7.3.1,GHSA-4w7w-66w2-5vf9,low,N/A,Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling,N/A,0
+Understand-Anything,Understand-Anything-grype.json,picomatch,2.3.1,GHSA-3v7f-55p6-f55p,low,N/A,Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching,N/A,0
+Understand-Anything,Understand-Anything-grype.json,picomatch,4.0.3,GHSA-3v7f-55p6-f55p,low,N/A,Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching,N/A,0
+Understand-Anything,Understand-Anything-grype.json,picomatch,2.3.1,GHSA-c2c7-rcm5-vvqj,low,N/A,Picomatch has a ReDoS vulnerability via extglob quantifiers,N/A,0
+Understand-Anything,Understand-Anything-grype.json,picomatch,4.0.3,GHSA-c2c7-rcm5-vvqj,low,N/A,Picomatch has a ReDoS vulnerability via extglob quantifiers,N/A,0
+Understand-Anything,Understand-Anything-grype.json,brace-expansion,2.0.2,GHSA-f886-m6hf-6m8v,low,N/A,brace-expansion: Zero-step sequence causes process hang and memory exhaustion,N/A,0
+Understand-Anything,Understand-Anything-grype.json,postcss,8.5.8,GHSA-qx2v-qp2m-jg93,low,N/A,PostCSS has XSS via Unescaped </style> in its CSS Stringify Output,N/A,0
+Understand-Anything,Understand-Anything-grype.json,postcss,8.5.8,GHSA-qx2v-qp2m-jg93,low,N/A,PostCSS has XSS via Unescaped </style> in its CSS Stringify Output,N/A,0
+Understand-Anything,Understand-Anything-grype.json,devalue,5.6.4,GHSA-77vg-94rm-hx3p,low,N/A,Svelte devalue: DoS via sparse array deserialization,N/A,0
+Understand-Anything,Understand-Anything-grype.json,brace-expansion,5.0.5,GHSA-jxxr-4gwj-5jf2,low,N/A,brace-expansion: Large numeric range defeats documented `max` DoS protection,N/A,0
+Understand-Anything,Understand-Anything-grype.json,brace-expansion,5.0.5,GHSA-jxxr-4gwj-5jf2,low,N/A,brace-expansion: Large numeric range defeats documented `max` DoS protection,N/A,0
+Understand-Anything,Understand-Anything-grype.json,smol-toml,1.6.0,GHSA-v3rj-xjv7-4jmq,low,N/A,smol-toml: Denial of Service via TOML documents containing thousands of consecutive commented lines,N/A,0
