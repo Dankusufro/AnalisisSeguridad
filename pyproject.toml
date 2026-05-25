@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "analisis-open"
+version = "0.1.0"
+description = "Proyecto independiente para analisis de vulnerabilidades, SBOM, CodeQL, Grype y CI/CD"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools]
+py-modules = []

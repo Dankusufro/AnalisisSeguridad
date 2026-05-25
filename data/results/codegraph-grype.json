@@ -1,0 +1,38 @@
+{
+  "total_vulnerabilities": 2,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 2
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "picomatch",
+      "current_version": "4.0.3",
+      "vuln_id": "GHSA-3v7f-55p6-f55p",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "picomatch",
+      "current_version": "4.0.3",
+      "vuln_id": "GHSA-c2c7-rcm5-vvqj",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Picomatch has a ReDoS vulnerability via extglob quantifiers",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/Users/lights/produccion_software_emi305/data/repos/codegraph"
+  }
+}

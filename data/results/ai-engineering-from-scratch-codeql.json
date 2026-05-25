@@ -1,0 +1,3178 @@
+{
+  "total_issues": 232,
+  "issues_by_severity": {
+    "error": 0,
+    "warning": 232,
+    "note": 0
+  },
+  "issues": [
+    {
+      "rule_id": "py/http-response-splitting",
+      "rule_index": 5,
+      "level": "warning",
+      "message": "This HTTP header is constructed from a [user-provided value](1).\nThis HTTP header is constructed from a [user-provided value](2).",
+      "file": "phases/13-tools-and-protocols/09-mcp-transports/code/main.py",
+      "region": {
+        "startLine": 125,
+        "startColumn": 48,
+        "endColumn": 51
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/http-response-splitting",
+      "rule_index": 5,
+      "level": "warning",
+      "message": "This HTTP header is constructed from a [user-provided value](1).\nThis HTTP header is constructed from a [user-provided value](2).",
+      "file": "phases/13-tools-and-protocols/09-mcp-transports/code/main.py",
+      "region": {
+        "startLine": 130,
+        "startColumn": 44,
+        "endColumn": 47
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/http-response-splitting",
+      "rule_index": 5,
+      "level": "warning",
+      "message": "This HTTP header is constructed from a [user-provided value](1).",
+      "file": "phases/13-tools-and-protocols/09-mcp-transports/code/main.py",
+      "region": {
+        "startLine": 147,
+        "startColumn": 44,
+        "endColumn": 47
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/weak-sensitive-data-hashing",
+      "rule_index": 10,
+      "level": "warning",
+      "message": "[Sensitive data (id)](1) is used in a hashing algorithm (MD5) that is insecure.\n[Sensitive data (id)](2) is used in a hashing algorithm (MD5) that is insecure.\n[Sensitive data (id)](3) is used in a hashing algorithm (MD5) that is insecure.\n[Sensitive data (id)](4) is used in a hashing algorithm (MD5) that is insecure.\n[Sensitive data (id)](5) is used in a hashing algorithm (MD5) that is insecure.",
+      "file": "phases/11-llm-engineering/13-production-app/code/production_app.py",
+      "region": {
+        "startLine": 160,
+        "startColumn": 38,
+        "endColumn": 70
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/clear-text-logging-sensitive-data",
+      "rule_index": 28,
+      "level": "warning",
+      "message": "This expression logs [sensitive data (private)](1) as clear text.",
+      "file": "phases/05-nlp-foundations-to-advanced/24-coreference-resolution/code/main.py",
+      "region": {
+        "startLine": 144,
+        "startColumn": 15,
+        "endColumn": 74
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/clear-text-logging-sensitive-data",
+      "rule_index": 28,
+      "level": "warning",
+      "message": "This expression logs [sensitive data (private)](1) as clear text.",
+      "file": "phases/05-nlp-foundations-to-advanced/24-coreference-resolution/code/main.py",
+      "region": {
+        "startLine": 151,
+        "startColumn": 15,
+        "endColumn": 54
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/clear-text-logging-sensitive-data",
+      "rule_index": 28,
+      "level": "warning",
+      "message": "This expression logs [sensitive data (secret)](1) as clear text.",
+      "file": "phases/14-agent-engineering/38-verification-gates/code/main.py",
+      "region": {
+        "startLine": 41,
+        "startColumn": 13,
+        "endLine": 42,
+        "endColumn": 85
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'json' is not used.",
+      "file": "phases/11-llm-engineering/02-few-shot-cot/code/advanced_prompting.py",
+      "region": {
+        "startLine": 1,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'dataclass' is not used.\nImport of 'field' is not used.",
+      "file": "phases/11-llm-engineering/11-caching-cost/code/caching_cost.py",
+      "region": {
+        "startLine": 5,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'os' is not used.",
+      "file": "phases/00-setup-and-tooling/09-data-management/code/data_utils.py",
+      "region": {
+        "startLine": 1,
+        "endColumn": 10
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'json' is not used.",
+      "file": "phases/11-llm-engineering/10-evaluation/code/eval_framework.py",
+      "region": {
+        "startLine": 1,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'asdict' is not used.",
+      "file": "phases/11-llm-engineering/10-evaluation/code/eval_framework.py",
+      "region": {
+        "startLine": 6,
+        "endColumn": 49
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'sys' is not used.",
+      "file": "phases/00-setup-and-tooling/03-gpu-setup-and-cloud/code/gpu_check.py",
+      "region": {
+        "startLine": 2,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'math' is not used.",
+      "file": "phases/02-ml-fundamentals/02-linear-regression/code/linear_regression.py",
+      "region": {
+        "startLine": 2,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/15-autonomous-systems/02-star-family-reasoning/code/main.py",
+      "region": {
+        "startLine": 21,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'random' is not used.",
+      "file": "phases/17-infrastructure-and-production/01-managed-llm-platforms/code/main.py",
+      "region": {
+        "startLine": 11,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'statistics' is not used.",
+      "file": "phases/17-infrastructure-and-production/01-managed-llm-platforms/code/main.py",
+      "region": {
+        "startLine": 12,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/16-multi-agent-and-swarms/21-agent-economies/code/main.py",
+      "region": {
+        "startLine": 11,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/16-multi-agent-and-swarms/24-evaluation-coordination-benchmarks/code/main.py",
+      "region": {
+        "startLine": 10,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'time' is not used.",
+      "file": "phases/19-capstone-projects/03-realtime-voice-assistant/code/main.py",
+      "region": {
+        "startLine": 16,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'Any' is not used.",
+      "file": "phases/14-agent-engineering/08-memory-blocks-sleep-time-compute/code/main.py",
+      "region": {
+        "startLine": 11,
+        "endColumn": 23
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'Any' is not used.",
+      "file": "phases/14-agent-engineering/09-hybrid-memory-mem0/code/main.py",
+      "region": {
+        "startLine": 11,
+        "endColumn": 23
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'math' is not used.",
+      "file": "phases/06-speech-and-audio/07-text-to-speech/code/main.py",
+      "region": {
+        "startLine": 10,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'os' is not used.",
+      "file": "phases/13-tools-and-protocols/22-skills-and-agent-sdks/code/main.py",
+      "region": {
+        "startLine": 14,
+        "endColumn": 10
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'random' is not used.",
+      "file": "phases/19-capstone-projects/12-video-understanding-pipeline/code/main.py",
+      "region": {
+        "startLine": 15,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'math' is not used.",
+      "file": "phases/06-speech-and-audio/10-audio-language-models/code/main.py",
+      "region": {
+        "startLine": 10,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/16-multi-agent-and-swarms/06-hierarchical-architecture/code/main.py",
+      "region": {
+        "startLine": 9,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/15-autonomous-systems/15-propose-then-commit/code/main.py",
+      "region": {
+        "startLine": 21,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'dataclass' is not used.",
+      "file": "phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/code/main.py",
+      "region": {
+        "startLine": 16,
+        "endColumn": 34
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'dataclass' is not used.\nImport of 'field' is not used.",
+      "file": "phases/14-agent-engineering/28-orchestration-patterns/code/main.py",
+      "region": {
+        "startLine": 10,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'Any' is not used.",
+      "file": "phases/14-agent-engineering/28-orchestration-patterns/code/main.py",
+      "region": {
+        "startLine": 11,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/19-capstone-projects/08-production-rag-chatbot/code/main.py",
+      "region": {
+        "startLine": 17,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/15-autonomous-systems/04-darwin-godel-machine/code/main.py",
+      "region": {
+        "startLine": 17,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/13-tools-and-protocols/11-mcp-sampling/code/main.py",
+      "region": {
+        "startLine": 18,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'Any' is not used.",
+      "file": "phases/14-agent-engineering/29-production-runtimes/code/main.py",
+      "region": {
+        "startLine": 10,
+        "endColumn": 43
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'json' is not used.",
+      "file": "phases/13-tools-and-protocols/17-mcp-gateways-and-registries/code/main.py",
+      "region": {
+        "startLine": 18,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'Callable' is not used.",
+      "file": "phases/13-tools-and-protocols/17-mcp-gateways-and-registries/code/main.py",
+      "region": {
+        "startLine": 21,
+        "endColumn": 28
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/16-multi-agent-and-swarms/19-swarm-optimization-pso-aco/code/main.py",
+      "region": {
+        "startLine": 11,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'json' is not used.",
+      "file": "phases/13-tools-and-protocols/21-llm-routing-layer/code/main.py",
+      "region": {
+        "startLine": 13,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'Callable' is not used.",
+      "file": "phases/13-tools-and-protocols/21-llm-routing-layer/code/main.py",
+      "region": {
+        "startLine": 17,
+        "endColumn": 28
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/14-agent-engineering/06-tool-use-and-function-calling/code/main.py",
+      "region": {
+        "startLine": 9,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'Any' is not used.",
+      "file": "phases/13-tools-and-protocols/20-opentelemetry-genai/code/main.py",
+      "region": {
+        "startLine": 22,
+        "endColumn": 23
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'Any' is not used.",
+      "file": "phases/14-agent-engineering/12-anthropic-workflow-patterns/code/main.py",
+      "region": {
+        "startLine": 12,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'dataclass' is not used.",
+      "file": "phases/12-multimodal-ai/21-embodied-vlas-openvla-pi0-groot/code/main.py",
+      "region": {
+        "startLine": 12,
+        "endColumn": 34
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'dataclass' is not used.",
+      "file": "phases/13-tools-and-protocols/14-mcp-apps/code/main.py",
+      "region": {
+        "startLine": 16,
+        "endColumn": 34
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'Callable' is not used.",
+      "file": "phases/13-tools-and-protocols/14-mcp-apps/code/main.py",
+      "region": {
+        "startLine": 17,
+        "endColumn": 28
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'math' is not used.",
+      "file": "phases/08-generative-ai/08-controlnet-lora-conditioning/code/main.py",
+      "region": {
+        "startLine": 1,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'F' is not used.",
+      "file": "phases/04-computer-vision/28-world-models-video-diffusion/code/main.py",
+      "region": {
+        "startLine": 3,
+        "endColumn": 32
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'math' is not used.",
+      "file": "phases/15-autonomous-systems/03-alphaevolve-evolutionary-coding/code/main.py",
+      "region": {
+        "startLine": 15,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/16-multi-agent-and-swarms/16-negotiation-bargaining/code/main.py",
+      "region": {
+        "startLine": 10,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/14-agent-engineering/30-eval-driven-agent-development/code/main.py",
+      "region": {
+        "startLine": 9,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'Any' is not used.",
+      "file": "phases/14-agent-engineering/30-eval-driven-agent-development/code/main.py",
+      "region": {
+        "startLine": 10,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/16-multi-agent-and-swarms/10-group-chat-speaker-selection/code/main.py",
+      "region": {
+        "startLine": 8,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/14-agent-engineering/13-langgraph-stateful-graphs/code/main.py",
+      "region": {
+        "startLine": 11,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'dataclass' is not used.",
+      "file": "phases/15-autonomous-systems/18-llama-guard/code/main.py",
+      "region": {
+        "startLine": 12,
+        "endColumn": 34
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'asdict' is not used.",
+      "file": "phases/19-capstone-projects/16-github-issue-to-pr-agent/code/main.py",
+      "region": {
+        "startLine": 16,
+        "endColumn": 49
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'json' is not used.",
+      "file": "phases/10-llms-from-scratch/10-evaluation/code/main.py",
+      "region": {
+        "startLine": 1,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/14-agent-engineering/19-benchmarks-swebench-gaia/code/main.py",
+      "region": {
+        "startLine": 10,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'Any' is not used.",
+      "file": "phases/14-agent-engineering/19-benchmarks-swebench-gaia/code/main.py",
+      "region": {
+        "startLine": 11,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/14-agent-engineering/20-benchmarks-webarena-osworld/code/main.py",
+      "region": {
+        "startLine": 9,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'math' is not used.",
+      "file": "phases/16-multi-agent-and-swarms/07-society-of-mind-debate/code/main.py",
+      "region": {
+        "startLine": 10,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'math' is not used.",
+      "file": "phases/09-reinforcement-learning/05-dqn/code/main.py",
+      "region": {
+        "startLine": 1,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'np' is not used.",
+      "file": "phases/11-llm-engineering/05-context-engineering/code/main.py",
+      "region": {
+        "startLine": 2,
+        "endColumn": 19
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'json' is not used.",
+      "file": "phases/13-tools-and-protocols/08-building-an-mcp-client/code/main.py",
+      "region": {
+        "startLine": 13,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'Callable' is not used.",
+      "file": "phases/14-agent-engineering/24-agent-observability-platforms/code/main.py",
+      "region": {
+        "startLine": 11,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'asdict' is not used.",
+      "file": "phases/04-computer-vision/24-sam3-open-vocab-segmentation/code/main.py",
+      "region": {
+        "startLine": 2,
+        "endColumn": 42
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'Any' is not used.",
+      "file": "phases/10-llms-from-scratch/20-deepseek-v3-walkthrough/code/main.py",
+      "region": {
+        "startLine": 17,
+        "endColumn": 23
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'Callable' is not used.",
+      "file": "phases/14-agent-engineering/14-autogen-actor-model/code/main.py",
+      "region": {
+        "startLine": 12,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'Callable' is not used.",
+      "file": "phases/11-llm-engineering/17-agent-framework-tradeoffs/code/main.py",
+      "region": {
+        "startLine": 18,
+        "endColumn": 28
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'math' is not used.",
+      "file": "phases/12-multimodal-ai/17-video-language-temporal-grounding/code/main.py",
+      "region": {
+        "startLine": 11,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'dataclass' is not used.\nImport of 'field' is not used.",
+      "file": "phases/13-tools-and-protocols/07-building-an-mcp-server/code/main.py",
+      "region": {
+        "startLine": 20,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'Any' is not used.",
+      "file": "phases/13-tools-and-protocols/07-building-an-mcp-server/code/main.py",
+      "region": {
+        "startLine": 21,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'json' is not used.",
+      "file": "phases/12-multimodal-ai/25-multimodal-agents-computer-use/code/main.py",
+      "region": {
+        "startLine": 10,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'time' is not used.",
+      "file": "phases/16-multi-agent-and-swarms/17-generative-agents-simulation/code/main.py",
+      "region": {
+        "startLine": 11,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/19-capstone-projects/15-constitutional-safety-harness/code/main.py",
+      "region": {
+        "startLine": 16,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/17-infrastructure-and-production/19-ai-gateways/code/main.py",
+      "region": {
+        "startLine": 9,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/19-capstone-projects/14-speculative-decoding-server/code/main.py",
+      "region": {
+        "startLine": 16,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/15-autonomous-systems/10-claude-code-permission-modes/code/main.py",
+      "region": {
+        "startLine": 15,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/14-agent-engineering/05-self-refine-and-critic/code/main.py",
+      "region": {
+        "startLine": 10,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'math' is not used.",
+      "file": "phases/12-multimodal-ai/11-chameleon-early-fusion-tokens/code/main.py",
+      "region": {
+        "startLine": 15,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/17-infrastructure-and-production/06-sglang-radixattention/code/main.py",
+      "region": {
+        "startLine": 14,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/19-capstone-projects/09-code-migration-agent/code/main.py",
+      "region": {
+        "startLine": 15,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'sys' is not used.",
+      "file": "phases/07-transformers-deep-dive/14-build-a-transformer-capstone/code/main.py",
+      "region": {
+        "startLine": 13,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'Iterable' is not used.",
+      "file": "phases/19-capstone-projects/05-autonomous-research-agent/code/main.py",
+      "region": {
+        "startLine": 17,
+        "endColumn": 28
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/14-agent-engineering/22-voice-agents-pipecat-livekit/code/main.py",
+      "region": {
+        "startLine": 9,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'Callable' is not used.",
+      "file": "phases/14-agent-engineering/22-voice-agents-pipecat-livekit/code/main.py",
+      "region": {
+        "startLine": 10,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'sys' is not used.",
+      "file": "phases/19-capstone-projects/01-terminal-native-coding-agent/code/main.py",
+      "region": {
+        "startLine": 18,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'dataclass' is not used.\nImport of 'field' is not used.",
+      "file": "phases/13-tools-and-protocols/23-capstone-tool-ecosystem/code/main.py",
+      "region": {
+        "startLine": 22,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/14-agent-engineering/25-multi-agent-debate/code/main.py",
+      "region": {
+        "startLine": 10,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'Any' is not used.",
+      "file": "phases/14-agent-engineering/25-multi-agent-debate/code/main.py",
+      "region": {
+        "startLine": 11,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'Any' is not used.\nImport of 'Callable' is not used.",
+      "file": "phases/14-agent-engineering/11-planning-htn-and-evolutionary/code/main.py",
+      "region": {
+        "startLine": 12,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/14-agent-engineering/27-prompt-injection-defense/code/main.py",
+      "region": {
+        "startLine": 10,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/14-agent-engineering/21-computer-use-agents/code/main.py",
+      "region": {
+        "startLine": 10,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/16-multi-agent-and-swarms/14-consensus-and-bft/code/main.py",
+      "region": {
+        "startLine": 9,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'Callable' is not used.",
+      "file": "phases/16-multi-agent-and-swarms/14-consensus-and-bft/code/main.py",
+      "region": {
+        "startLine": 11,
+        "endColumn": 28
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/16-multi-agent-and-swarms/15-voting-debate-topology/code/main.py",
+      "region": {
+        "startLine": 11,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'math' is not used.",
+      "file": "phases/06-speech-and-audio/05-whisper-architecture-finetuning/code/main.py",
+      "region": {
+        "startLine": 9,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'dataclass' is not used.\nImport of 'field' is not used.",
+      "file": "phases/13-tools-and-protocols/10-mcp-resources-and-prompts/code/main.py",
+      "region": {
+        "startLine": 17,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'List' is not used.",
+      "file": "phases/07-transformers-deep-dive/05-full-transformer/code/main.py",
+      "region": {
+        "startLine": 12,
+        "endColumn": 24
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'field' is not used.",
+      "file": "phases/11-llm-engineering/15-prompt-caching/code/main.py",
+      "region": {
+        "startLine": 16,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'os' is not used.",
+      "file": "phases/13-tools-and-protocols/13-mcp-async-tasks/code/main.py",
+      "region": {
+        "startLine": 19,
+        "endColumn": 10
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'heapq' is not used.",
+      "file": "phases/10-llms-from-scratch/12-inference-optimization/code/main.py",
+      "region": {
+        "startLine": 2,
+        "endColumn": 13
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'json' is not used.",
+      "file": "phases/11-llm-engineering/13-production-app/code/production_app.py",
+      "region": {
+        "startLine": 3,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'AsyncGenerator' is not used.",
+      "file": "phases/11-llm-engineering/13-production-app/code/production_app.py",
+      "region": {
+        "startLine": 13,
+        "endColumn": 34
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 74,
+      "level": "warning",
+      "message": "Import of 'subprocess' is not used.",
+      "file": "phases/00-setup-and-tooling/01-dev-environment/code/verify.py",
+      "region": {
+        "startLine": 3,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/import-own-module",
+      "rule_index": 76,
+      "level": "warning",
+      "message": "The module 'main' imports itself.",
+      "file": "phases/10-llms-from-scratch/08-dpo/code/main.py",
+      "region": {
+        "startLine": 11,
+        "endColumn": 65
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/import-own-module",
+      "rule_index": 76,
+      "level": "warning",
+      "message": "The module 'main' imports itself.",
+      "file": "phases/10-llms-from-scratch/07-rlhf/code/main.py",
+      "region": {
+        "startLine": 11,
+        "endColumn": 65
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/import-own-module",
+      "rule_index": 76,
+      "level": "warning",
+      "message": "The module 'main' imports itself.",
+      "file": "phases/10-llms-from-scratch/06-instruction-tuning-sft/code/main.py",
+      "region": {
+        "startLine": 11,
+        "endColumn": 98
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unsafe-cyclic-import",
+      "rule_index": 77,
+      "level": "warning",
+      "message": "'MiniGPT' may not be defined if module [main](1) is imported before module [main](2), as the [definition](3) of MiniGPT occurs after the cyclic [import](4) of main.\n'MiniGPT' may not be defined if module [main](5) is imported before module [main](2), as the [definition](6) of MiniGPT occurs after the cyclic [import](7) of main.",
+      "file": "phases/10-llms-from-scratch/08-dpo/code/main.py",
+      "region": {
+        "startLine": 11,
+        "startColumn": 18,
+        "endColumn": 25
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unsafe-cyclic-import",
+      "rule_index": 77,
+      "level": "warning",
+      "message": "'LayerNorm' may not be defined if module [main](1) is imported before module [main](2), as the [definition](3) of LayerNorm occurs after the cyclic [import](4) of main.\n'LayerNorm' may not be defined if module [main](5) is imported before module [main](2), as the [definition](6) of LayerNorm occurs after the cyclic [import](7) of main.",
+      "file": "phases/10-llms-from-scratch/08-dpo/code/main.py",
+      "region": {
+        "startLine": 11,
+        "startColumn": 27,
+        "endColumn": 36
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unsafe-cyclic-import",
+      "rule_index": 77,
+      "level": "warning",
+      "message": "'Embedding' may not be defined if module [main](1) is imported before module [main](2), as the [definition](3) of Embedding occurs after the cyclic [import](4) of main.\n'Embedding' may not be defined if module [main](5) is imported before module [main](2), as the [definition](6) of Embedding occurs after the cyclic [import](7) of main.",
+      "file": "phases/10-llms-from-scratch/08-dpo/code/main.py",
+      "region": {
+        "startLine": 11,
+        "startColumn": 38,
+        "endColumn": 47
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unsafe-cyclic-import",
+      "rule_index": 77,
+      "level": "warning",
+      "message": "'TransformerBlock' may not be defined if module [main](1) is imported before module [main](2), as the [definition](3) of TransformerBlock occurs after the cyclic [import](4) of main.\n'TransformerBlock' may not be defined if module [main](5) is imported before module [main](2), as the [definition](6) of TransformerBlock occurs after the cyclic [import](7) of main.",
+      "file": "phases/10-llms-from-scratch/08-dpo/code/main.py",
+      "region": {
+        "startLine": 11,
+        "startColumn": 49,
+        "endColumn": 65
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unsafe-cyclic-import",
+      "rule_index": 77,
+      "level": "warning",
+      "message": "'MiniGPT' may not be defined if module [main](1) is imported before module [main](2), as the [definition](3) of MiniGPT occurs after the cyclic [import](4) of main.\n'MiniGPT' may not be defined if module [main](5) is imported before module [main](2), as the [definition](6) of MiniGPT occurs after the cyclic [import](7) of main.",
+      "file": "phases/10-llms-from-scratch/07-rlhf/code/main.py",
+      "region": {
+        "startLine": 11,
+        "startColumn": 18,
+        "endColumn": 25
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unsafe-cyclic-import",
+      "rule_index": 77,
+      "level": "warning",
+      "message": "'LayerNorm' may not be defined if module [main](1) is imported before module [main](2), as the [definition](3) of LayerNorm occurs after the cyclic [import](4) of main.\n'LayerNorm' may not be defined if module [main](5) is imported before module [main](2), as the [definition](6) of LayerNorm occurs after the cyclic [import](7) of main.",
+      "file": "phases/10-llms-from-scratch/07-rlhf/code/main.py",
+      "region": {
+        "startLine": 11,
+        "startColumn": 27,
+        "endColumn": 36
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unsafe-cyclic-import",
+      "rule_index": 77,
+      "level": "warning",
+      "message": "'Embedding' may not be defined if module [main](1) is imported before module [main](2), as the [definition](3) of Embedding occurs after the cyclic [import](4) of main.\n'Embedding' may not be defined if module [main](5) is imported before module [main](2), as the [definition](6) of Embedding occurs after the cyclic [import](7) of main.",
+      "file": "phases/10-llms-from-scratch/07-rlhf/code/main.py",
+      "region": {
+        "startLine": 11,
+        "startColumn": 38,
+        "endColumn": 47
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unsafe-cyclic-import",
+      "rule_index": 77,
+      "level": "warning",
+      "message": "'TransformerBlock' may not be defined if module [main](1) is imported before module [main](2), as the [definition](3) of TransformerBlock occurs after the cyclic [import](4) of main.\n'TransformerBlock' may not be defined if module [main](5) is imported before module [main](2), as the [definition](6) of TransformerBlock occurs after the cyclic [import](7) of main.",
+      "file": "phases/10-llms-from-scratch/07-rlhf/code/main.py",
+      "region": {
+        "startLine": 11,
+        "startColumn": 49,
+        "endColumn": 65
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unsafe-cyclic-import",
+      "rule_index": 77,
+      "level": "warning",
+      "message": "'MiniGPT' may not be defined if module [main](1) is imported before module [main](2), as the [definition](3) of MiniGPT occurs after the cyclic [import](4) of main.\n'MiniGPT' may not be defined if module [main](5) is imported before module [main](2), as the [definition](6) of MiniGPT occurs after the cyclic [import](7) of main.",
+      "file": "phases/10-llms-from-scratch/06-instruction-tuning-sft/code/main.py",
+      "region": {
+        "startLine": 11,
+        "startColumn": 18,
+        "endColumn": 25
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unsafe-cyclic-import",
+      "rule_index": 77,
+      "level": "warning",
+      "message": "'LayerNorm' may not be defined if module [main](1) is imported before module [main](2), as the [definition](3) of LayerNorm occurs after the cyclic [import](4) of main.\n'LayerNorm' may not be defined if module [main](5) is imported before module [main](2), as the [definition](6) of LayerNorm occurs after the cyclic [import](7) of main.",
+      "file": "phases/10-llms-from-scratch/06-instruction-tuning-sft/code/main.py",
+      "region": {
+        "startLine": 11,
+        "startColumn": 27,
+        "endColumn": 36
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unsafe-cyclic-import",
+      "rule_index": 77,
+      "level": "warning",
+      "message": "'TransformerBlock' may not be defined if module [main](1) is imported before module [main](2), as the [definition](3) of TransformerBlock occurs after the cyclic [import](4) of main.\n'TransformerBlock' may not be defined if module [main](5) is imported before module [main](2), as the [definition](6) of TransformerBlock occurs after the cyclic [import](7) of main.",
+      "file": "phases/10-llms-from-scratch/06-instruction-tuning-sft/code/main.py",
+      "region": {
+        "startLine": 11,
+        "startColumn": 71,
+        "endColumn": 87
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unsafe-cyclic-import",
+      "rule_index": 77,
+      "level": "warning",
+      "message": "'Embedding' may not be defined if module [main](1) is imported before module [main](2), as the [definition](3) of Embedding occurs after the cyclic [import](4) of main.\n'Embedding' may not be defined if module [main](5) is imported before module [main](2), as the [definition](6) of Embedding occurs after the cyclic [import](7) of main.",
+      "file": "phases/10-llms-from-scratch/06-instruction-tuning-sft/code/main.py",
+      "region": {
+        "startLine": 11,
+        "startColumn": 89,
+        "endColumn": 98
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/syntax-error",
+      "rule_index": 80,
+      "level": "warning",
+      "message": "unknown encoding: core (in Python 3).",
+      "file": "phases/07-transformers-deep-dive/16-speculative-decoding/code/main.py",
+      "region": {},
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 84,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "phases/16-multi-agent-and-swarms/22-production-scaling-queues-checkpoints/code/main.py",
+      "region": {
+        "startLine": 168,
+        "startColumn": 9,
+        "endColumn": 29
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 84,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "phases/06-speech-and-audio/09-music-generation/code/main.py",
+      "region": {
+        "startLine": 70,
+        "startColumn": 13,
+        "endColumn": 31
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 84,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "phases/19-capstone-projects/15-constitutional-safety-harness/code/main.py",
+      "region": {
+        "startLine": 33,
+        "startColumn": 9,
+        "endColumn": 26
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 84,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "phases/14-agent-engineering/37-runtime-feedback-loops/code/main.py",
+      "region": {
+        "startLine": 99,
+        "startColumn": 13,
+        "endColumn": 38
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 84,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "phases/01-math-foundations/11-singular-value-decomposition/code/svd.py",
+      "region": {
+        "startLine": 584,
+        "startColumn": 5,
+        "endColumn": 24
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 84,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "phases/02-ml-fundamentals/12-hyperparameter-tuning/code/tuning.py",
+      "region": {
+        "startLine": 560,
+        "startColumn": 5,
+        "endColumn": 22
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/pythagorean",
+      "rule_index": 92,
+      "level": "warning",
+      "message": "Pythagorean calculation with sub-optimal numerics.",
+      "file": "phases/01-math-foundations/19-complex-numbers/code/complex_numbers.py",
+      "region": {
+        "startLine": 50,
+        "startColumn": 16,
+        "endColumn": 58
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/pythagorean",
+      "rule_index": 92,
+      "level": "warning",
+      "message": "Pythagorean calculation with sub-optimal numerics.",
+      "file": "phases/01-math-foundations/19-complex-numbers/code/complex_numbers.py",
+      "region": {
+        "startLine": 251,
+        "startColumn": 19,
+        "endLine": 252,
+        "endColumn": 67
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/pythagorean",
+      "rule_index": 92,
+      "level": "warning",
+      "message": "Pythagorean calculation with sub-optimal numerics.",
+      "file": "phases/01-math-foundations/18-convex-optimization/code/convex.py",
+      "region": {
+        "startLine": 377,
+        "startColumn": 23,
+        "endColumn": 93
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/pythagorean",
+      "rule_index": 92,
+      "level": "warning",
+      "message": "Pythagorean calculation with sub-optimal numerics.",
+      "file": "phases/01-math-foundations/20-fourier-transform/code/fourier.py",
+      "region": {
+        "startLine": 33,
+        "startColumn": 16,
+        "endColumn": 58
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/pythagorean",
+      "rule_index": 92,
+      "level": "warning",
+      "message": "Pythagorean calculation with sub-optimal numerics.",
+      "file": "phases/06-speech-and-audio/16-anti-spoofing-audio-watermarking/code/main.py",
+      "region": {
+        "startLine": 46,
+        "startColumn": 26,
+        "endColumn": 54
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/pythagorean",
+      "rule_index": 92,
+      "level": "warning",
+      "message": "Pythagorean calculation with sub-optimal numerics.",
+      "file": "phases/06-speech-and-audio/01-audio-fundamentals/code/main.py",
+      "region": {
+        "startLine": 57,
+        "startColumn": 13,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/pythagorean",
+      "rule_index": 92,
+      "level": "warning",
+      "message": "Pythagorean calculation with sub-optimal numerics.",
+      "file": "phases/06-speech-and-audio/06-speaker-recognition-verification/code/main.py",
+      "region": {
+        "startLine": 43,
+        "startColumn": 20,
+        "endColumn": 48
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/pythagorean",
+      "rule_index": 92,
+      "level": "warning",
+      "message": "Pythagorean calculation with sub-optimal numerics.",
+      "file": "phases/12-multimodal-ai/19-audio-language-whisper-to-af3/code/main.py",
+      "region": {
+        "startLine": 47,
+        "startColumn": 20,
+        "endColumn": 48
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/pythagorean",
+      "rule_index": 92,
+      "level": "warning",
+      "message": "Pythagorean calculation with sub-optimal numerics.",
+      "file": "phases/06-speech-and-audio/02-spectrograms-mel-features/code/main.py",
+      "region": {
+        "startLine": 39,
+        "startColumn": 20,
+        "endColumn": 48
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/pythagorean",
+      "rule_index": 92,
+      "level": "warning",
+      "message": "Pythagorean calculation with sub-optimal numerics.",
+      "file": "phases/06-speech-and-audio/03-audio-classification/code/main.py",
+      "region": {
+        "startLine": 38,
+        "startColumn": 20,
+        "endColumn": 48
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/ineffectual-statement",
+      "rule_index": 107,
+      "level": "warning",
+      "message": "This statement has no effect.",
+      "file": "phases/04-computer-vision/24-sam3-open-vocab-segmentation/code/main.py",
+      "region": {
+        "startLine": 62,
+        "startColumn": 9,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/multiple-definition",
+      "rule_index": 114,
+      "level": "warning",
+      "message": "This assignment to 'cumulative' is unnecessary as it is [redefined](1) before this value is used.",
+      "file": "phases/01-math-foundations/10-dimensionality-reduction/code/dim_reduction.py",
+      "region": {
+        "startLine": 308,
+        "startColumn": 5,
+        "endColumn": 15
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/multiple-definition",
+      "rule_index": 114,
+      "level": "warning",
+      "message": "This assignment to 'tool_done_at' is unnecessary as it is [redefined](1) before this value is used.",
+      "file": "phases/19-capstone-projects/03-realtime-voice-assistant/code/main.py",
+      "region": {
+        "startLine": 132,
+        "startColumn": 5,
+        "endColumn": 17
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/multiple-definition",
+      "rule_index": 114,
+      "level": "warning",
+      "message": "This assignment to 'dlogits' is unnecessary as it is [redefined](1) before this value is used.",
+      "file": "phases/10-llms-from-scratch/06-instruction-tuning-sft/code/main.py",
+      "region": {
+        "startLine": 154,
+        "startColumn": 17,
+        "endColumn": 24
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/multiple-definition",
+      "rule_index": 114,
+      "level": "warning",
+      "message": "This assignment to 'best_pred' is unnecessary as it is [redefined](1) before this value is used.",
+      "file": "phases/12-multimodal-ai/17-video-language-temporal-grounding/code/main.py",
+      "region": {
+        "startLine": 68,
+        "startColumn": 21,
+        "endColumn": 30
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/multiple-definition",
+      "rule_index": 114,
+      "level": "warning",
+      "message": "This assignment to 'cold_starts_per_day' is unnecessary as it is [redefined](1) before this value is used.",
+      "file": "phases/17-infrastructure-and-production/10-cold-start-mitigation/code/main.py",
+      "region": {
+        "startLine": 71,
+        "startColumn": 9,
+        "endColumn": 28
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/multiple-definition",
+      "rule_index": 114,
+      "level": "warning",
+      "message": "This assignment to 'denoised' is unnecessary as it is [redefined](1) before this value is used.",
+      "file": "phases/01-math-foundations/11-singular-value-decomposition/code/svd.py",
+      "region": {
+        "startLine": 408,
+        "startColumn": 9,
+        "endColumn": 17
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/multiple-definition",
+      "rule_index": 114,
+      "level": "warning",
+      "message": "This assignment to 'verify' is unnecessary as it is [redefined](1) before this value is used.",
+      "file": "phases/01-math-foundations/12-tensor-operations/code/tensors.py",
+      "region": {
+        "startLine": 417,
+        "startColumn": 5,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/uninitialized-local-variable",
+      "rule_index": 115,
+      "level": "warning",
+      "message": "Local variable 'iteration' may be used before it is initialized.",
+      "file": "phases/11-llm-engineering/09-function-calling/code/function_calling.py",
+      "region": {
+        "startLine": 336,
+        "startColumn": 23,
+        "endColumn": 32
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-global-variable",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "The global variable 'splits' is not used.",
+      "file": "phases/00-setup-and-tooling/09-data-management/code/data_utils.py",
+      "region": {
+        "startLine": 174,
+        "startColumn": 5,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-global-variable",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "The global variable 'sqft_log' is not used.",
+      "file": "phases/02-ml-fundamentals/08-feature-engineering/code/features.py",
+      "region": {
+        "startLine": 321,
+        "startColumn": 5,
+        "endColumn": 13
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-global-variable",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "The global variable 'beta_results' is not used.",
+      "file": "phases/10-llms-from-scratch/08-dpo/code/main.py",
+      "region": {
+        "startLine": 456,
+        "startColumn": 5,
+        "endColumn": 17
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-global-variable",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "The global variable 'sft_avg' is not used.",
+      "file": "phases/10-llms-from-scratch/07-rlhf/code/main.py",
+      "region": {
+        "startLine": 435,
+        "startColumn": 5,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-global-variable",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "The global variable 'rlhf_avg' is not used.",
+      "file": "phases/10-llms-from-scratch/07-rlhf/code/main.py",
+      "region": {
+        "startLine": 435,
+        "startColumn": 14,
+        "endColumn": 22
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-global-variable",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "The global variable 'step' is not used.",
+      "file": "phases/03-deep-learning-core/06-optimizers/code/main.py",
+      "region": {
+        "startLine": 283,
+        "startColumn": 9,
+        "endColumn": 13
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-global-variable",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "The global variable 'i' is not used.",
+      "file": "phases/10-llms-from-scratch/12-inference-optimization/code/main.py",
+      "region": {
+        "startLine": 489,
+        "startColumn": 9,
+        "endColumn": 10
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-global-variable",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "The global variable 'epoch' is not used.",
+      "file": "phases/03-deep-learning-core/11-intro-to-pytorch/code/pytorch_intro.py",
+      "region": {
+        "startLine": 347,
+        "startColumn": 9,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-global-variable",
+      "rule_index": 116,
+      "level": "warning",
+      "message": "The global variable 'run' is not used.",
+      "file": "phases/01-math-foundations/16-sampling-methods/code/sampling.py",
+      "region": {
+        "startLine": 585,
+        "startColumn": 13,
+        "endColumn": 16
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable single_answer is not used.",
+      "file": "phases/11-llm-engineering/02-few-shot-cot/code/advanced_prompting.py",
+      "region": {
+        "startLine": 337,
+        "startColumn": 5,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable single_text is not used.",
+      "file": "phases/11-llm-engineering/02-few-shot-cot/code/advanced_prompting.py",
+      "region": {
+        "startLine": 337,
+        "startColumn": 20,
+        "endColumn": 31
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable rng is not used.",
+      "file": "phases/02-ml-fundamentals/10-bias-variance/code/bias_variance.py",
+      "region": {
+        "startLine": 197,
+        "startColumn": 5,
+        "endColumn": 8
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable tracker is not used.",
+      "file": "phases/11-llm-engineering/11-caching-cost/code/caching_cost.py",
+      "region": {
+        "startLine": 370,
+        "startColumn": 5,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable unconstrained_min is not used.",
+      "file": "phases/01-math-foundations/18-convex-optimization/code/convex.py",
+      "region": {
+        "startLine": 388,
+        "startColumn": 9,
+        "endColumn": 26
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable X_pca50 is not used.",
+      "file": "phases/01-math-foundations/10-dimensionality-reduction/code/dim_reduction.py",
+      "region": {
+        "startLine": 84,
+        "startColumn": 5,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable all_eigenvalues is not used.",
+      "file": "phases/01-math-foundations/10-dimensionality-reduction/code/dim_reduction.py",
+      "region": {
+        "startLine": 302,
+        "startColumn": 5,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable random_kept is not used.",
+      "file": "phases/15-autonomous-systems/02-star-family-reasoning/code/main.py",
+      "region": {
+        "startLine": 75,
+        "startColumn": 5,
+        "endColumn": 16
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable seq_len is not used.",
+      "file": "phases/10-llms-from-scratch/11-quantization/code/main.py",
+      "region": {
+        "startLine": 202,
+        "startColumn": 5,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable qmin is not used.",
+      "file": "phases/10-llms-from-scratch/11-quantization/code/main.py",
+      "region": {
+        "startLine": 332,
+        "startColumn": 5,
+        "endColumn": 9
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable qmax is not used.",
+      "file": "phases/10-llms-from-scratch/11-quantization/code/main.py",
+      "region": {
+        "startLine": 333,
+        "startColumn": 5,
+        "endColumn": 9
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable out_audio is not used.",
+      "file": "phases/06-speech-and-audio/15-streaming-speech-to-speech-moshi-hibiki/code/main.py",
+      "region": {
+        "startLine": 81,
+        "startColumn": 9,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable tool_done_at is not used.",
+      "file": "phases/19-capstone-projects/03-realtime-voice-assistant/code/main.py",
+      "region": {
+        "startLine": 183,
+        "startColumn": 17,
+        "endColumn": 29
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable best_true is not used.",
+      "file": "phases/15-autonomous-systems/04-darwin-godel-machine/code/main.py",
+      "region": {
+        "startLine": 128,
+        "startColumn": 13,
+        "endColumn": 22
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable C is not used.",
+      "file": "phases/07-transformers-deep-dive/09-vision-transformers/code/main.py",
+      "region": {
+        "startLine": 20,
+        "startColumn": 5,
+        "endColumn": 6
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable t_play is not used.",
+      "file": "phases/06-speech-and-audio/12-voice-assistant-pipeline/code/main.py",
+      "region": {
+        "startLine": 123,
+        "startColumn": 5,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable avg_kl is not used.",
+      "file": "phases/10-llms-from-scratch/07-rlhf/code/main.py",
+      "region": {
+        "startLine": 271,
+        "startColumn": 13,
+        "endColumn": 19
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable rng is not used.",
+      "file": "phases/04-computer-vision/06-object-detection-yolo/code/main.py",
+      "region": {
+        "startLine": 190,
+        "startColumn": 5,
+        "endColumn": 8
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable hbm_capacity_blocks_per_engine is not used.",
+      "file": "phases/17-infrastructure-and-production/18-vllm-production-stack-lmcache/code/main.py",
+      "region": {
+        "startLine": 45,
+        "startColumn": 5,
+        "endColumn": 35
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable delta is not used.",
+      "file": "phases/08-generative-ai/08-controlnet-lora-conditioning/code/main.py",
+      "region": {
+        "startLine": 85,
+        "startColumn": 5,
+        "endColumn": 10
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable unique_prefixes is not used.",
+      "file": "phases/17-infrastructure-and-production/22-load-testing-llm-apis/code/main.py",
+      "region": {
+        "startLine": 46,
+        "startColumn": 9,
+        "endColumn": 24
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable gemma3_ratio is not used.",
+      "file": "phases/07-transformers-deep-dive/15-attention-variants/code/main.py",
+      "region": {
+        "startLine": 143,
+        "startColumn": 5,
+        "endColumn": 17
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable polished_hides_weakness is not used.",
+      "file": "phases/15-autonomous-systems/05-ai-scientist-v2/code/main.py",
+      "region": {
+        "startLine": 75,
+        "startColumn": 5,
+        "endColumn": 28
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable reason is not used.",
+      "file": "phases/14-agent-engineering/13-langgraph-stateful-graphs/code/main.py",
+      "region": {
+        "startLine": 117,
+        "startColumn": 17,
+        "endColumn": 23
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable rng is not used.",
+      "file": "phases/09-reinforcement-learning/10-multi-agent-rl/code/main.py",
+      "region": {
+        "startLine": 112,
+        "startColumn": 5,
+        "endColumn": 8
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable ftp_fixed is not used.",
+      "file": "phases/14-agent-engineering/19-benchmarks-swebench-gaia/code/main.py",
+      "region": {
+        "startLine": 44,
+        "startColumn": 5,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable quants is not used.",
+      "file": "phases/19-capstone-projects/07-end-to-end-fine-tuning-pipeline/code/main.py",
+      "region": {
+        "startLine": 121,
+        "startColumn": 5,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable rng is not used.",
+      "file": "phases/08-generative-ai/12-3d-generation/code/main.py",
+      "region": {
+        "startLine": 83,
+        "startColumn": 5,
+        "endColumn": 8
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable score is not used.",
+      "file": "phases/10-llms-from-scratch/18-multi-token-prediction/code/main.py",
+      "region": {
+        "startLine": 104,
+        "startColumn": 5,
+        "endColumn": 10
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable needle is not used.",
+      "file": "phases/12-multimodal-ai/18-long-video-million-token/code/main.py",
+      "region": {
+        "startLine": 45,
+        "startColumn": 5,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable head_dim is not used.",
+      "file": "phases/10-llms-from-scratch/20-deepseek-v3-walkthrough/code/main.py",
+      "region": {
+        "startLine": 145,
+        "startColumn": 5,
+        "endColumn": 13
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable shared_count is not used.",
+      "file": "phases/10-llms-from-scratch/20-deepseek-v3-walkthrough/code/main.py",
+      "region": {
+        "startLine": 151,
+        "startColumn": 5,
+        "endColumn": 17
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable rng is not used.",
+      "file": "phases/06-speech-and-audio/09-music-generation/code/main.py",
+      "region": {
+        "startLine": 52,
+        "startColumn": 5,
+        "endColumn": 8
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable user_prompt is not used.",
+      "file": "phases/18-ethics-safety-alignment/15-indirect-prompt-injection/code/main.py",
+      "region": {
+        "startLine": 93,
+        "startColumn": 5,
+        "endColumn": 16
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable xt is not used.",
+      "file": "phases/12-multimodal-ai/13-transfusion-autoregressive-diffusion/code/main.py",
+      "region": {
+        "startLine": 98,
+        "startColumn": 5,
+        "endColumn": 7
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable key is not used.",
+      "file": "phases/14-agent-engineering/05-self-refine-and-critic/code/main.py",
+      "region": {
+        "startLine": 62,
+        "startColumn": 9,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable create_agent is not used.",
+      "file": "phases/14-agent-engineering/23-otel-genai-conventions/code/main.py",
+      "region": {
+        "startLine": 93,
+        "startColumn": 5,
+        "endColumn": 17
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable invoke is not used.",
+      "file": "phases/14-agent-engineering/23-otel-genai-conventions/code/main.py",
+      "region": {
+        "startLine": 103,
+        "startColumn": 5,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable total_len is not used.",
+      "file": "phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/code/main.py",
+      "region": {
+        "startLine": 29,
+        "startColumn": 5,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable total_len is not used.",
+      "file": "phases/05-nlp-foundations-to-advanced/28-long-context-evaluation/code/main.py",
+      "region": {
+        "startLine": 44,
+        "startColumn": 5,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable context is not used.",
+      "file": "phases/05-nlp-foundations-to-advanced/09-sequence-to-sequence/code/main.py",
+      "region": {
+        "startLine": 11,
+        "startColumn": 5,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable rng is not used.",
+      "file": "phases/16-multi-agent-and-swarms/15-voting-debate-topology/code/main.py",
+      "region": {
+        "startLine": 98,
+        "startColumn": 5,
+        "endColumn": 8
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable first_audio is not used.",
+      "file": "phases/06-speech-and-audio/11-real-time-audio-processing/code/main.py",
+      "region": {
+        "startLine": 86,
+        "startColumn": 5,
+        "endColumn": 16
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable draft_p is not used.",
+      "file": "phases/10-llms-from-scratch/12-inference-optimization/code/main.py",
+      "region": {
+        "startLine": 277,
+        "startColumn": 13,
+        "endColumn": 20
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable python_list is not used.",
+      "file": "phases/00-setup-and-tooling/05-jupyter-notebooks/code/notebook_tips.py",
+      "region": {
+        "startLine": 17,
+        "startColumn": 5,
+        "endColumn": 16
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable numpy_array is not used.",
+      "file": "phases/00-setup-and-tooling/05-jupyter-notebooks/code/notebook_tips.py",
+      "region": {
+        "startLine": 22,
+        "startColumn": 5,
+        "endColumn": 16
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable magic is not used.",
+      "file": "phases/03-deep-learning-core/11-intro-to-pytorch/code/pytorch_intro.py",
+      "region": {
+        "startLine": 39,
+        "startColumn": 9,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable num is not used.",
+      "file": "phases/03-deep-learning-core/11-intro-to-pytorch/code/pytorch_intro.py",
+      "region": {
+        "startLine": 39,
+        "startColumn": 16,
+        "endColumn": 19
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable norm_const is not used.",
+      "file": "phases/01-math-foundations/16-sampling-methods/code/sampling.py",
+      "region": {
+        "startLine": 60,
+        "startColumn": 5,
+        "endColumn": 15
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 123,
+      "level": "warning",
+      "message": "Variable axis_size is not used.",
+      "file": "phases/01-math-foundations/12-tensor-operations/code/tensors.py",
+      "region": {
+        "startLine": 209,
+        "startColumn": 9,
+        "endColumn": 18
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/redundant-comparison",
+      "rule_index": 128,
+      "level": "warning",
+      "message": "Test is always true, because of [this condition](1).",
+      "file": "phases/02-ml-fundamentals/15-time-series/code/time_series.py",
+      "region": {
+        "startLine": 69,
+        "startColumn": 73,
+        "endColumn": 78
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/comparison-of-constants",
+      "rule_index": 140,
+      "level": "warning",
+      "message": "Comparison of constants; use 'True' or 'False' instead.",
+      "file": "phases/01-math-foundations/13-numerical-stability/code/numerical.py",
+      "region": {
+        "startLine": 177,
+        "startColumn": 34,
+        "endColumn": 50
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/comparison-of-constants",
+      "rule_index": 140,
+      "level": "warning",
+      "message": "Comparison of constants; use 'True' or 'False' instead.",
+      "file": "phases/01-math-foundations/13-numerical-stability/code/numerical.py",
+      "region": {
+        "startLine": 185,
+        "startColumn": 38,
+        "endColumn": 55
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/comparison-of-constants",
+      "rule_index": 140,
+      "level": "warning",
+      "message": "Comparison of constants; use 'True' or 'False' instead.",
+      "file": "phases/01-math-foundations/13-numerical-stability/code/numerical.py",
+      "region": {
+        "startLine": 186,
+        "startColumn": 36,
+        "endColumn": 53
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unnecessary-lambda",
+      "rule_index": 151,
+      "level": "warning",
+      "message": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly.",
+      "file": "phases/01-math-foundations/04-calculus-for-ml/code/derivatives.py",
+      "region": {
+        "startLine": 49,
+        "startColumn": 20,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unnecessary-lambda",
+      "rule_index": 151,
+      "level": "warning",
+      "message": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly.",
+      "file": "phases/01-math-foundations/04-calculus-for-ml/code/derivatives.py",
+      "region": {
+        "startLine": 49,
+        "startColumn": 43,
+        "endColumn": 64
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unnecessary-lambda",
+      "rule_index": 151,
+      "level": "warning",
+      "message": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly.",
+      "file": "phases/01-math-foundations/04-calculus-for-ml/code/derivatives.py",
+      "region": {
+        "startLine": 50,
+        "startColumn": 20,
+        "endColumn": 41
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unnecessary-lambda",
+      "rule_index": 151,
+      "level": "warning",
+      "message": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly.",
+      "file": "phases/01-math-foundations/04-calculus-for-ml/code/derivatives.py",
+      "region": {
+        "startLine": 50,
+        "startColumn": 43,
+        "endColumn": 64
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unnecessary-lambda",
+      "rule_index": 151,
+      "level": "warning",
+      "message": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly.",
+      "file": "phases/03-deep-learning-core/08-weight-initialization/code/main.py",
+      "region": {
+        "startLine": 128,
+        "startColumn": 28,
+        "endColumn": 60
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unnecessary-lambda",
+      "rule_index": 151,
+      "level": "warning",
+      "message": "This 'lambda' is just a simple wrapper around a callable object. Use that object directly.",
+      "file": "phases/14-agent-engineering/05-self-refine-and-critic/code/main.py",
+      "region": {
+        "startLine": 81,
+        "startColumn": 50,
+        "endColumn": 76
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/implicit-string-concatenation-in-list",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Implicit string concatenation. Maybe missing a comma?",
+      "file": "phases/10-llms-from-scratch/03-data-pipelines/code/main.py",
+      "region": {
+        "startLine": 239,
+        "startColumn": 9,
+        "endLine": 244,
+        "endColumn": 89
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/implicit-string-concatenation-in-list",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Implicit string concatenation. Maybe missing a comma?",
+      "file": "phases/10-llms-from-scratch/03-data-pipelines/code/main.py",
+      "region": {
+        "startLine": 246,
+        "startColumn": 9,
+        "endLine": 250,
+        "endColumn": 108
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/implicit-string-concatenation-in-list",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Implicit string concatenation. Maybe missing a comma?",
+      "file": "phases/10-llms-from-scratch/03-data-pipelines/code/main.py",
+      "region": {
+        "startLine": 252,
+        "startColumn": 9,
+        "endLine": 256,
+        "endColumn": 62
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/implicit-string-concatenation-in-list",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Implicit string concatenation. Maybe missing a comma?",
+      "file": "phases/10-llms-from-scratch/03-data-pipelines/code/main.py",
+      "region": {
+        "startLine": 258,
+        "startColumn": 9,
+        "endLine": 262,
+        "endColumn": 68
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/implicit-string-concatenation-in-list",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Implicit string concatenation. Maybe missing a comma?",
+      "file": "phases/10-llms-from-scratch/03-data-pipelines/code/main.py",
+      "region": {
+        "startLine": 264,
+        "startColumn": 9,
+        "endLine": 268,
+        "endColumn": 50
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/implicit-string-concatenation-in-list",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Implicit string concatenation. Maybe missing a comma?",
+      "file": "phases/10-llms-from-scratch/03-data-pipelines/code/main.py",
+      "region": {
+        "startLine": 270,
+        "startColumn": 9,
+        "endLine": 274,
+        "endColumn": 50
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/implicit-string-concatenation-in-list",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Implicit string concatenation. Maybe missing a comma?",
+      "file": "phases/10-llms-from-scratch/03-data-pipelines/code/main.py",
+      "region": {
+        "startLine": 276,
+        "startColumn": 9,
+        "endLine": 280,
+        "endColumn": 87
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/implicit-string-concatenation-in-list",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Implicit string concatenation. Maybe missing a comma?",
+      "file": "phases/10-llms-from-scratch/03-data-pipelines/code/main.py",
+      "region": {
+        "startLine": 282,
+        "startColumn": 9,
+        "endLine": 286,
+        "endColumn": 89
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/implicit-string-concatenation-in-list",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Implicit string concatenation. Maybe missing a comma?",
+      "file": "phases/10-llms-from-scratch/03-data-pipelines/code/main.py",
+      "region": {
+        "startLine": 288,
+        "startColumn": 9,
+        "endLine": 292,
+        "endColumn": 62
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/implicit-string-concatenation-in-list",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Implicit string concatenation. Maybe missing a comma?",
+      "file": "phases/10-llms-from-scratch/03-data-pipelines/code/main.py",
+      "region": {
+        "startLine": 294,
+        "startColumn": 9,
+        "endLine": 298,
+        "endColumn": 76
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/implicit-string-concatenation-in-list",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Implicit string concatenation. Maybe missing a comma?",
+      "file": "phases/14-agent-engineering/19-benchmarks-swebench-gaia/code/main.py",
+      "region": {
+        "startLine": 123,
+        "startColumn": 9,
+        "endLine": 125,
+        "endColumn": 48
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/implicit-string-concatenation-in-list",
+      "rule_index": 153,
+      "level": "warning",
+      "message": "Implicit string concatenation. Maybe missing a comma?",
+      "file": "phases/14-agent-engineering/41-workbench-for-real-repos/code/main.py",
+      "region": {
+        "startLine": 94,
+        "startColumn": 9,
+        "endLine": 97,
+        "endColumn": 62
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unexpected-raise-in-special-method",
+      "rule_index": 159,
+      "level": "warning",
+      "message": "This method raises [ValueError](1) - should raise an ArithmeticError or return NotImplemented instead.",
+      "file": "phases/01-math-foundations/02-vectors-matrices-operations/code/matrices.py",
+      "region": {
+        "startLine": 55,
+        "startColumn": 5,
+        "endColumn": 30
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/mixed-returns",
+      "rule_index": 163,
+      "level": "warning",
+      "message": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None.",
+      "file": "phases/02-ml-fundamentals/07-unsupervised-learning/code/clustering.py",
+      "region": {
+        "startLine": 230,
+        "startColumn": 5,
+        "endColumn": 50
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/mixed-returns",
+      "rule_index": 163,
+      "level": "warning",
+      "message": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None.",
+      "file": "phases/13-tools-and-protocols/09-mcp-transports/code/main.py",
+      "region": {
+        "startLine": 107,
+        "startColumn": 5,
+        "endColumn": 31
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/mixed-returns",
+      "rule_index": 163,
+      "level": "warning",
+      "message": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None.",
+      "file": "phases/13-tools-and-protocols/09-mcp-transports/code/main.py",
+      "region": {
+        "startLine": 134,
+        "startColumn": 5,
+        "endColumn": 30
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/mixed-returns",
+      "rule_index": 163,
+      "level": "warning",
+      "message": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None.",
+      "file": "phases/13-tools-and-protocols/09-mcp-transports/code/main.py",
+      "region": {
+        "startLine": 160,
+        "startColumn": 5,
+        "endColumn": 33
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    }
+  ],
+  "sarif_metadata": {
+    "version": "2.1.0",
+    "schema_uri": "https://json.schemastore.org/sarif-2.1.0.json",
+    "tool": {
+      "name": "CodeQL",
+      "version": "unknown",
+      "information_uri": ""
+    },
+    "tool_name": "CodeQL",
+    "tool_version": "unknown"
+  }
+}

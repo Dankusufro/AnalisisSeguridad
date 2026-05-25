@@ -1,0 +1,23 @@
+repo,sbom_file,components,ecosystems,grype_total,critical,high,medium,low,codeql_total,codeql_security,priority,evidence_files
+Anthropic-Cybersecurity-Skills,Anthropic-Cybersecurity-Skills-sbom.json,3,github-actions,0,0,0,0,0,194,183,P1,Anthropic-Cybersecurity-Skills-codeql.json; Anthropic-Cybersecurity-Skills-sbom.json
+DeepSeek-TUI,DeepSeek-TUI-sbom.json,862,"cargo, github-actions",12,0,0,0,12,0,0,P2,DeepSeek-TUI-codeql.json; DeepSeek-TUI-grype-raw.json; DeepSeek-TUI-grype.json; DeepSeek-TUI-sbom.json
+FinceptTerminal,FinceptTerminal-sbom.json,81,"github-actions, pip",0,0,0,0,0,0,0,P3,FinceptTerminal-codeql.json; FinceptTerminal-sbom.json
+TradingAgents,TradingAgents-sbom.json,201,pip,56,0,0,0,56,51,0,P2,TradingAgents-codeql.json; TradingAgents-grype-raw.json; TradingAgents-grype.json; TradingAgents-sbom.json
+Understand-Anything,Understand-Anything-sbom.json,1083,"github-actions, npm",16,0,0,0,16,11,11,P0,Understand-Anything-codeql.json; Understand-Anything-grype-raw.json; Understand-Anything-grype.json; Understand-Anything-sbom.json
+agency-agents,agency-agents-sbom.json,1,github-actions,0,0,0,0,0,0,0,P3,agency-agents-codeql.json; agency-agents-sbom.json
+ai-engineering-from-scratch,ai-engineering-from-scratch-sbom.json,2,github-actions,0,0,0,0,0,232,4,P1,ai-engineering-from-scratch-codeql.json; ai-engineering-from-scratch-grype-raw.json; ai-engineering-from-scratch-grype.json; ai-engineering-from-scratch-sbom.json
+andrej-karpathy-skills,andrej-karpathy-skills-sbom.json,0,No detectado,0,0,0,0,0,0,0,P3,andrej-karpathy-skills-codeql.json; andrej-karpathy-skills-sbom.json
+chrome-devtools-mcp,chrome-devtools-mcp-sbom.json,11,"github-actions, npm",0,0,0,0,0,0,0,P3,chrome-devtools-mcp-codeql.json; chrome-devtools-mcp-grype-raw.json; chrome-devtools-mcp-grype.json; chrome-devtools-mcp-sbom.json
+claude-code-action,claude-code-action.json,37,"github-actions, npm",5,0,0,0,5,16,14,P1,claude-code-action-codeql.json; claude-code-action-grype-raw.json; claude-code-action-grype.json; claude-code-action-sbom.json; claude-code-action.json
+claude-plugins-official,claude-plugins-official-sbom.json,14,github-actions,1,0,0,0,1,19,0,P2,claude-plugins-official-codeql.json; claude-plugins-official-grype-raw.json; claude-plugins-official-grype.json; claude-plugins-official-sbom.json
+codegraph,codegraph-sbom.json,15,"github-actions, npm",2,0,0,0,2,0,0,P2,codegraph-codeql.json; codegraph-grype-raw.json; codegraph-grype.json; codegraph-sbom.json
+dexter,dexter-sbom.json,243,"github-actions, npm",11,0,0,0,11,0,0,P2,dexter-codeql.json; dexter-grype-raw.json; dexter-grype.json; dexter-sbom.json
+genai-code-review,genai-code-review.json,5,"github-actions, pip",3,0,0,0,3,4,0,P2,genai-code-review-codeql.json; genai-code-review-grype-raw.json; genai-code-review-grype.json; genai-code-review-sbom.json; genai-code-review.json
+jcode,jcode-sbom.json,832,"cargo, github-actions",8,0,0,0,8,57,4,P1,jcode-codeql.json; jcode-grype-raw.json; jcode-grype.json; jcode-sbom.json
+maigret,maigret-sbom.json,150,"github-actions, pip",3,0,0,0,3,76,9,P1,maigret-codeql.json; maigret-grype-raw.json; maigret-grype.json; maigret-sbom.json
+n8n-mcp,n8n-mcp-sbom.json,1590,"github-actions, npm",124,0,0,0,124,0,0,P2,n8n-mcp-codeql.json; n8n-mcp-grype-raw.json; n8n-mcp-grype.json; n8n-mcp-sbom.json
+opencode,opencode.json,775,"cargo, github-actions",15,0,0,0,15,218,17,P0,opencode-codeql.json; opencode-grype-raw.json; opencode-grype.json; opencode-sbom.json; opencode.json
+presenton,presenton-sbom.json,1083,"github-actions, npm, pip",65,0,0,0,65,0,0,P2,presenton-codeql.json; presenton-grype-raw.json; presenton-grype.json; presenton-sbom.json
+qBittorrent,qBittorrent-sbom.json,30,github-actions,0,0,0,0,0,0,0,P3,qBittorrent-grype-raw.json; qBittorrent-grype.json; qBittorrent-sbom.json
+ruflo,ruflo-sbom.json,3773,"cargo, github-actions, npm, pip",231,0,0,0,231,0,0,P2,ruflo-codeql.json; ruflo-grype-raw.json; ruflo-grype.json; ruflo-sbom.json
+skills,skills-sbom.json,370,npm,18,0,0,0,18,0,0,P2,skills-codeql.json; skills-grype-raw.json; skills-grype.json; skills-sbom.json

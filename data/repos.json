@@ -1,0 +1,69 @@
+{
+  "repositories": [
+    {
+      "url": "https://github.com/anthropics/claude-code-action.git",
+      "path": "data/repos/claude-code-action",
+      "ref": null
+    },
+    {
+      "url": "https://github.com/cirolini/genai-code-review.git",
+      "path": "data/repos/genai-code-review",
+      "ref": null
+    },
+    {
+      "url": "https://github.com/anomalyco/opencode.git",
+      "path": "data/repos/opencode",
+      "ref": null
+    },
+    {
+      "url": "https://github.com/ruvnet/ruflo.git",
+      "path": "data/repos/ruflo",
+      "ref": null
+    },
+    {
+      "url": "https://github.com/TauricResearch/TradingAgents.git",
+      "path": "data/repos/TradingAgents",
+      "ref": null
+    },
+    {
+      "url": "https://github.com/browserbase/skills.git",
+      "path": "data/repos/skills",
+      "ref": null
+    },
+    {
+      "url": "https://github.com/Hmbown/DeepSeek-TUI.git",
+      "path": "data/repos/DeepSeek-TUI",
+      "ref": null
+    },
+    {
+      "url": "https://github.com/soxoj/maigret.git",
+      "path": "data/repos/maigret",
+      "ref": null
+    },
+    {
+      "url": "https://github.com/qbittorrent/qBittorrent.git",
+      "path": "data/repos/qBittorrent",
+      "ref": null
+    },
+    {
+      "url": "https://github.com/czlonkowski/n8n-mcp.git",
+      "path": "data/repos/n8n-mcp",
+      "ref": null
+    },
+    {
+      "url": "https://github.com/1jehuang/jcode.git",
+      "path": "data/repos/jcode",
+      "ref": null
+    },
+    {
+      "url": "https://github.com/msitarzewski/agency-agents.git",
+      "path": "data/repos/agency-agents",
+      "ref": null
+    },
+    {
+      "url": "https://github.com/virattt/dexter.git",
+      "path": "data/repos/dexter",
+      "ref": null
+    }
+  ]
+}

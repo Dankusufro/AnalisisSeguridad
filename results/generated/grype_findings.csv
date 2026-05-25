@@ -1,0 +1,571 @@
+repo,source_file,package_name,current_version,vulnerability_id,severity,fix_version,message,cwe,cvss_score
+DeepSeek-TUI,DeepSeek-TUI-grype.json,quinn-proto,0.11.13,GHSA-6xvm-j4wr-6v98,low,N/A,Quinn affected by unauthenticated remote DoS via panic in QUIC transport parameter parsing,N/A,0
+DeepSeek-TUI,DeepSeek-TUI-grype.json,bytes,1.11.0,GHSA-434x-w66g-qw3r,low,N/A,bytes has integer overflow in BytesMut::reserve,N/A,0
+DeepSeek-TUI,DeepSeek-TUI-grype.json,time,0.3.46,GHSA-r6v5-fh4h-64xc,low,N/A,time vulnerable to stack exhaustion Denial of Service attack,N/A,0
+DeepSeek-TUI,DeepSeek-TUI-grype.json,actions/download-artifact,v4,GHSA-cxww-7g56-2vh6,low,N/A,@actions/download-artifact has an Arbitrary File Write via artifact extraction,N/A,0
+DeepSeek-TUI,DeepSeek-TUI-grype.json,aws-lc-sys,0.38.0,GHSA-394x-vwmw-crm3,low,N/A,AWS-LC X.509 Name Constraints Bypass via Wildcard/Unicode CN,N/A,0
+DeepSeek-TUI,DeepSeek-TUI-grype.json,aws-lc-sys,0.38.0,GHSA-9f94-5g5w-gf6r,low,N/A,CRL Distribution Point Scope Check Logic Error in AWS-LC,N/A,0
+DeepSeek-TUI,DeepSeek-TUI-grype.json,rustls-webpki,0.103.8,GHSA-82j2-j2ch-gfr8,low,N/A,rustls-webpki: Denial of service via panic on malformed CRL BIT STRING,N/A,0
+DeepSeek-TUI,DeepSeek-TUI-grype.json,rustls-webpki,0.103.8,GHSA-pwjx-qhcg-rvj4,low,N/A,webpki: CRLs not considered authoritative by Distribution Point due to faulty matching logic,N/A,0
+DeepSeek-TUI,DeepSeek-TUI-grype.json,lru,0.12.5,GHSA-rhfx-m35p-ff5j,low,N/A,`IterMut` violates Stacked Borrows by invalidating internal pointer,N/A,0
+DeepSeek-TUI,DeepSeek-TUI-grype.json,rand,0.9.2,GHSA-cq8v-f236-94qc,low,N/A,Rand is unsound with a custom logger using rand::rng(),N/A,0
+DeepSeek-TUI,DeepSeek-TUI-grype.json,rustls-webpki,0.103.8,GHSA-965h-392x-2mh5,low,N/A,webpki: Name constraints for URI names were incorrectly accepted,N/A,0
+DeepSeek-TUI,DeepSeek-TUI-grype.json,rustls-webpki,0.103.8,GHSA-xgp8-3hg3-c2mh,low,N/A,webpki: Name constraints were accepted for certificates asserting a wildcard name,N/A,0
+TradingAgents,TradingAgents-grype.json,langchain-community,0.3.25,GHSA-pc6w-59fv-rh23,low,N/A,Langchain Community Vulnerable to XML External Entity (XXE) Attacks,N/A,0
+TradingAgents,TradingAgents-grype.json,langgraph-checkpoint,2.0.26,GHSA-wwqv-p2pp-99h5,low,N/A,"LangGraph Checkpoint affected by RCE in ""json"" mode of JsonPlusSerializer",N/A,0
+TradingAgents,TradingAgents-grype.json,python-multipart,0.0.18,GHSA-wp53-j4wj-2cfg,low,N/A,Python-Multipart has Arbitrary File Write via Non-Default Configuration,N/A,0
+TradingAgents,TradingAgents-grype.json,python-socketio,5.13.0,GHSA-g8c6-8fjj-2r4m,low,N/A,python-socketio vulnerable to arbitrary Python code execution (RCE) through malicious pickle deserialization in certain multi-server deployments,N/A,0
+TradingAgents,TradingAgents-grype.json,starlette,0.41.3,GHSA-7f5h-v6xp-fcq8,low,N/A,Starlette vulnerable to O(n^2) DoS via Range header merging in ``starlette.responses.FileResponse``,N/A,0
+TradingAgents,TradingAgents-grype.json,langgraph-checkpoint,2.0.26,GHSA-mhr3-j7m5-c7c9,low,N/A,LangGraph: BaseCache Deserialization of Untrusted Data may lead to Remote Code Execution,N/A,0
+TradingAgents,TradingAgents-grype.json,langgraph,0.4.8,GHSA-g48c-2wqr-h844,low,N/A,LangGraph checkpoint loading has unsafe msgpack deserialization,N/A,0
+TradingAgents,TradingAgents-grype.json,langchain-text-splitters,0.3.8,GHSA-m42m-m8cr-8m58,low,N/A,LangChain Text Splitters is vulnerable to XML External Entity (XXE) attacks due to unsafe XSLT parsing,N/A,0
+TradingAgents,TradingAgents-grype.json,starlette,0.41.3,GHSA-2c2j-9gv5-cj73,low,N/A,Starlette has possible denial-of-service vector when parsing large files in multipart forms,N/A,0
+TradingAgents,TradingAgents-grype.json,mcp,1.9.4,GHSA-j975-95f5-7wqh,low,N/A,"MCP Python SDK has Unhandled Exception in Streamable HTTP Transport, Leading to Denial of Service",N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-c427-h43c-vf67,low,N/A,AIOHTTP accepts duplicate Host headers,N/A,0
+TradingAgents,TradingAgents-grype.json,marshmallow,3.26.1,GHSA-428g-f7cq-pgp5,low,N/A,Marshmallow has DoS in Schema.load(many),N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-6mq8-rvhq-8wgg,low,N/A,AIOHTTP's HTTP Parser auto_decompress feature is vulnerable to zip bomb,N/A,0
+TradingAgents,TradingAgents-grype.json,urllib3,2.4.0,GHSA-pq67-6m6q-mj2v,low,N/A,urllib3 redirects are not disabled when retries are disabled on PoolManager instantiation,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-p998-jp59-783m,low,N/A,AIOHTTP affected by UNC SSRF/NTLMv2 Credential Theft/Local File Read in static resource handler on Windows,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-6jhg-hg63-jvvf,low,N/A,AIOHTTP vulnerable to  denial of service through large payloads,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-jj3x-wxrx-4x23,low,N/A,AIOHTTP vulnerable to DoS when bypassing asserts,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-m5qp-6w8w-w647,low,N/A,AIOHTTP has a Multipart Header Size Bypass,N/A,0
+TradingAgents,TradingAgents-grype.json,urllib3,2.4.0,GHSA-48p4-8xcf-vxj5,low,N/A,urllib3 does not control redirects in browsers and Node.js,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-w2fm-2cpv-w7v5,low,N/A,"aiohttp allows unlimited trailer headers, leading to possible uncapped memory usage",N/A,0
+TradingAgents,TradingAgents-grype.json,chainlit,2.5.5,GHSA-2g59-m95p-pgfq,low,N/A,Chainlit contain a server-side request forgery (SSRF) vulnerability,N/A,0
+TradingAgents,TradingAgents-grype.json,lxml,5.4.0,GHSA-vfmq-68hx-4jfw,low,N/A,lxml: Default configuration of iterparse() and ETCompatXMLParser() allows XXE to local files,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-g84x-mcqj-x9qq,low,N/A,AIOHTTP vulnerable to DoS through chunked messages,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-63hf-3vf5-4wqf,low,N/A,AIOHTTP's C parser (llhttp) accepts null bytes and control characters in response header values - header injection/security bypass,N/A,0
+TradingAgents,TradingAgents-grype.json,urllib3,2.4.0,GHSA-38jv-5279-wg99,low,N/A,Decompression-bomb safeguards bypassed when following HTTP redirects (streaming API),N/A,0
+TradingAgents,TradingAgents-grype.json,langchain-core,0.3.83,GHSA-qh6h-p6c9-ff54,low,N/A,LangChain Core has Path Traversal vulnerabilites in legacy `load_prompt` functions,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-9548-qrrj-x5pj,low,N/A,AIOHTTP is vulnerable to HTTP Request/Response Smuggling through incorrect parsing of chunked trailer sections,N/A,0
+TradingAgents,TradingAgents-grype.json,langchain-text-splitters,0.3.8,GHSA-fv5p-p927-qmxr,low,N/A,LangChain Text Splitters: HTMLHeaderTextSplitter.split_text_from_url SSRF Redirect Bypass,N/A,0
+TradingAgents,TradingAgents-grype.json,pyasn1,0.6.1,GHSA-jr27-m4p2-rc6r,low,N/A,Denial of Service in pyasn1 via Unbounded Recursion,N/A,0
+TradingAgents,TradingAgents-grype.json,orjson,3.10.18,GHSA-hx9q-6w63-j58v,low,N/A,orjson does not limit recursion for deeply nested JSON documents,N/A,0
+TradingAgents,TradingAgents-grype.json,langsmith,0.3.45,GHSA-rr7j-v2q5-chgv,low,N/A,LangSmith SDK: Streaming token events bypass output redaction,N/A,0
+TradingAgents,TradingAgents-grype.json,urllib3,2.4.0,GHSA-gm62-xv2j-4w53,low,N/A,urllib3 allows an unbounded number of links in the decompression chain,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-54jq-c3m8-4m76,low,N/A,AIOHTTP vulnerable to brute-force leak of internal static ﬁle path components,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-hcc4-c3v8-rx92,low,N/A,AIOHTTP Affected by Denial of Service (DoS) via Unbounded DNS Cache in TCPConnector,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-3wq7-rqq7-wx6j,low,N/A,AIOHTTP has late size enforcement for non-file multipart fields causes memory DoS,N/A,0
+TradingAgents,TradingAgents-grype.json,pyasn1,0.6.1,GHSA-63vm-454h-vhhq,low,N/A,pyasn1 has a DoS vulnerability in decoder,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-966j-vmvw-g2g9,low,N/A,AIOHTTP leaks Cookie and Proxy-Authorization headers on cross-origin redirect,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-mqqc-3gqh-h2x8,low,N/A,AIOHTTP has unicode match groups in regexes for ASCII protocol elements,N/A,0
+TradingAgents,TradingAgents-grype.json,urllib3,2.4.0,GHSA-2xpw-w6gg-jr37,low,N/A,urllib3 streaming API improperly handles highly compressed data,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-69f9-5gxw-wvc2,low,N/A,AIOHTTP's unicode processing of header values could cause parsing discrepancies,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-2vrm-gr82-f7m5,low,N/A,AIOHTTP has CRLF injection through multipart part content type header construction,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-mwh4-6h8g-pg8w,low,N/A,AIOHTTP has HTTP response splitting via \r in reason phrase,N/A,0
+TradingAgents,TradingAgents-grype.json,mcp,1.9.4,GHSA-9h52-p55h-vw2f,low,N/A,Model Context Protocol (MCP) Python SDK does not enable DNS rebinding protection by default,N/A,0
+TradingAgents,TradingAgents-grype.json,curl-cffi,0.11.3,GHSA-qw2m-4pqf-rmpp,low,N/A,curl_cffi: Redirect-based SSRF leads to internal network access in curl_cffi (with TLS impersonation bypass),N/A,0
+TradingAgents,TradingAgents-grype.json,langchain-openai,0.3.23,GHSA-r7w7-9xr2-qq2r,low,N/A,langchain-openai: Image token counting SSRF protection can be bypassed via DNS rebinding,N/A,0
+TradingAgents,TradingAgents-grype.json,python-multipart,0.0.18,GHSA-mj87-hwqh-73pj,low,N/A,python-multipart affected by Denial of Service via large multipart preamble or epilogue data,N/A,0
+TradingAgents,TradingAgents-grype.json,protobuf,5.29.5,GHSA-7gcm-g887-7qv7,low,N/A,protobuf affected by a JSON recursion depth bypass,N/A,0
+TradingAgents,TradingAgents-grype.json,pyjwt,2.10.1,GHSA-752w-5fwx-jx9f,low,N/A,PyJWT accepts unknown `crit` header extensions,N/A,0
+TradingAgents,TradingAgents-grype.json,langchain-core,0.3.83,GHSA-2g6r-c272-w58r,low,N/A,LangChain affected by SSRF via image_url token counting in ChatOpenAI.get_num_tokens_from_messages,N/A,0
+TradingAgents,TradingAgents-grype.json,python-dotenv,1.1.0,GHSA-mf9w-mj56-hr94,low,N/A,python-dotenv: Symlink following in set_key allows arbitrary file overwrite via cross-device rename fallback,N/A,0
+TradingAgents,TradingAgents-grype.json,chainlit,2.5.5,GHSA-v492-6xx2-p57g,low,N/A,Chainlit contains an authorization bypass vulnerability,N/A,0
+TradingAgents,TradingAgents-grype.json,aiohttp,3.12.13,GHSA-fh55-r93g-j68g,low,N/A,AIOHTTP Vulnerable to Cookie Parser Warning Storm,N/A,0
+TradingAgents,TradingAgents-grype.json,requests,2.32.4,GHSA-gc5v-m9x4-r6x2,low,N/A,Requests has Insecure Temp File Reuse in its extract_zipped_paths() utility function,N/A,0
+TradingAgents,TradingAgents-grype.json,filelock,3.18.0,GHSA-w853-jp5j-5j7f,low,N/A,filelock has a TOCTOU race condition which allows symlink attacks during lock file creation,N/A,0
+TradingAgents,TradingAgents-grype.json,filelock,3.18.0,GHSA-qmgc-5h2g-mvrw,low,N/A,filelock Time-of-Check-Time-of-Use (TOCTOU) Symlink Vulnerability in SoftFileLock,N/A,0
+TradingAgents,TradingAgents-grype.json,pygments,2.19.1,GHSA-5239-wwwm-4pmq,low,N/A,Pygments has Regular Expression Denial of Service (ReDoS) due to Inefficient Regex for GUID Matching,N/A,0
+Understand-Anything,Understand-Anything-grype.json,vite,6.4.1,GHSA-p9ff-h696-f583,low,N/A,Vite Vulnerable to Arbitrary File Read via Vite Dev Server WebSocket,N/A,0
+Understand-Anything,Understand-Anything-grype.json,vite,7.3.1,GHSA-p9ff-h696-f583,low,N/A,Vite Vulnerable to Arbitrary File Read via Vite Dev Server WebSocket,N/A,0
+Understand-Anything,Understand-Anything-grype.json,vite,7.3.1,GHSA-v2wj-q39q-566r,low,N/A,Vite: `server.fs.deny` bypassed with queries,N/A,0
+Understand-Anything,Understand-Anything-grype.json,vite,6.4.1,GHSA-4w7w-66w2-5vf9,low,N/A,Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling,N/A,0
+Understand-Anything,Understand-Anything-grype.json,vite,7.3.1,GHSA-4w7w-66w2-5vf9,low,N/A,Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling,N/A,0
+Understand-Anything,Understand-Anything-grype.json,picomatch,2.3.1,GHSA-3v7f-55p6-f55p,low,N/A,Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching,N/A,0
+Understand-Anything,Understand-Anything-grype.json,picomatch,4.0.3,GHSA-3v7f-55p6-f55p,low,N/A,Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching,N/A,0
+Understand-Anything,Understand-Anything-grype.json,picomatch,2.3.1,GHSA-c2c7-rcm5-vvqj,low,N/A,Picomatch has a ReDoS vulnerability via extglob quantifiers,N/A,0
+Understand-Anything,Understand-Anything-grype.json,picomatch,4.0.3,GHSA-c2c7-rcm5-vvqj,low,N/A,Picomatch has a ReDoS vulnerability via extglob quantifiers,N/A,0
+Understand-Anything,Understand-Anything-grype.json,brace-expansion,2.0.2,GHSA-f886-m6hf-6m8v,low,N/A,brace-expansion: Zero-step sequence causes process hang and memory exhaustion,N/A,0
+Understand-Anything,Understand-Anything-grype.json,postcss,8.5.8,GHSA-qx2v-qp2m-jg93,low,N/A,PostCSS has XSS via Unescaped </style> in its CSS Stringify Output,N/A,0
+Understand-Anything,Understand-Anything-grype.json,postcss,8.5.8,GHSA-qx2v-qp2m-jg93,low,N/A,PostCSS has XSS via Unescaped </style> in its CSS Stringify Output,N/A,0
+Understand-Anything,Understand-Anything-grype.json,devalue,5.6.4,GHSA-77vg-94rm-hx3p,low,N/A,Svelte devalue: DoS via sparse array deserialization,N/A,0
+Understand-Anything,Understand-Anything-grype.json,brace-expansion,5.0.5,GHSA-jxxr-4gwj-5jf2,low,N/A,brace-expansion: Large numeric range defeats documented `max` DoS protection,N/A,0
+Understand-Anything,Understand-Anything-grype.json,brace-expansion,5.0.5,GHSA-jxxr-4gwj-5jf2,low,N/A,brace-expansion: Large numeric range defeats documented `max` DoS protection,N/A,0
+Understand-Anything,Understand-Anything-grype.json,smol-toml,1.6.0,GHSA-v3rj-xjv7-4jmq,low,N/A,smol-toml: Denial of Service via TOML documents containing thousands of consecutive commented lines,N/A,0
+claude-code-action,claude-code-action-grype.json,undici,5.29.0,GHSA-v9p9-hfj2-hcw8,low,N/A,Undici has Unhandled Exception in WebSocket Client Due to Invalid server_max_window_bits Validation,N/A,0
+claude-code-action,claude-code-action-grype.json,undici,5.29.0,GHSA-vrm6-8vpv-qv8q,low,N/A,Undici has Unbounded Memory Consumption in WebSocket permessage-deflate Decompression,N/A,0
+claude-code-action,claude-code-action-grype.json,undici,5.29.0,GHSA-g9mf-h72j-4rw9,low,N/A,Undici has an unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resource exhaustion,N/A,0
+claude-code-action,claude-code-action-grype.json,undici,5.29.0,GHSA-2mjp-6q6p-2qxm,low,N/A,Undici has an HTTP Request/Response Smuggling issue,N/A,0
+claude-code-action,claude-code-action-grype.json,undici,5.29.0,GHSA-4992-7rv2-5pvq,low,N/A,Undici has CRLF Injection in undici via `upgrade` option,N/A,0
+claude-plugins-official,claude-plugins-official-grype.json,actions/download-artifact,v4,GHSA-cxww-7g56-2vh6,low,N/A,@actions/download-artifact has an Arbitrary File Write via artifact extraction,N/A,0
+codegraph,codegraph-grype.json,picomatch,4.0.3,GHSA-3v7f-55p6-f55p,low,N/A,Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching,N/A,0
+codegraph,codegraph-grype.json,picomatch,4.0.3,GHSA-c2c7-rcm5-vvqj,low,N/A,Picomatch has a ReDoS vulnerability via extglob quantifiers,N/A,0
+dexter,dexter-grype.json,protobufjs,6.8.8,GHSA-xq3m-2v4x-88gg,low,N/A,Arbitrary code execution in protobufjs,N/A,0
+dexter,dexter-grype.json,protobufjs,7.5.4,GHSA-xq3m-2v4x-88gg,low,N/A,Arbitrary code execution in protobufjs,N/A,0
+dexter,dexter-grype.json,file-type,21.3.0,GHSA-j47w-4g3g-c36v,low,N/A,file-type: ZIP Decompression Bomb DoS via [Content_Types].xml entry,N/A,0
+dexter,dexter-grype.json,langsmith,0.4.12,GHSA-fw9q-39r9-c252,low,N/A,LangSmith Client SDKs has Prototype Pollution in langsmith-sdk via Incomplete `__proto__` Guard in Internal lodash `set()`,N/A,0
+dexter,dexter-grype.json,langsmith,0.5.13,GHSA-fw9q-39r9-c252,low,N/A,LangSmith Client SDKs has Prototype Pollution in langsmith-sdk via Incomplete `__proto__` Guard in Internal lodash `set()`,N/A,0
+dexter,dexter-grype.json,langsmith,0.4.12,GHSA-rr7j-v2q5-chgv,low,N/A,LangSmith SDK: Streaming token events bypass output redaction,N/A,0
+dexter,dexter-grype.json,langsmith,0.5.13,GHSA-rr7j-v2q5-chgv,low,N/A,LangSmith SDK: Streaming token events bypass output redaction,N/A,0
+dexter,dexter-grype.json,file-type,21.3.0,GHSA-5v7r-6r5c-r473,low,N/A,file-type affected by infinite loop in ASF parser on malformed input with zero-size sub-header,N/A,0
+dexter,dexter-grype.json,music-metadata,11.12.0,GHSA-v6c2-xwv6-8xf7,low,N/A,music-metadata has an infinite loop vulnerability in ASF parser,N/A,0
+dexter,dexter-grype.json,uuid,10.0.0,GHSA-w5hq-g745-h8pq,low,N/A,uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided,N/A,0
+dexter,dexter-grype.json,uuid,11.1.0,GHSA-w5hq-g745-h8pq,low,N/A,uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided,N/A,0
+genai-code-review,genai-code-review-grype.json,requests,2.31.0,GHSA-9hjg-9r4m-mvj7,low,N/A,Requests vulnerable to .netrc credentials leak via malicious URLs,N/A,0
+genai-code-review,genai-code-review-grype.json,requests,2.31.0,GHSA-9wx4-h78v-vm56,low,N/A,Requests `Session` object does not verify requests after making first request with verify=False,N/A,0
+genai-code-review,genai-code-review-grype.json,requests,2.31.0,GHSA-gc5v-m9x4-r6x2,low,N/A,Requests has Insecure Temp File Reuse in its extract_zipped_paths() utility function,N/A,0
+jcode,jcode-grype.json,openssl,0.10.75,GHSA-hppc-g8h3-xhp3,low,N/A,rust-openssl: Unchecked callback length in PSK/cookie trampolines leaks adjacent memory to peer,N/A,0
+jcode,jcode-grype.json,openssl,0.10.75,GHSA-pqf5-4pqq-29f5,low,N/A,rust-openssl: Deriver::derive and PkeyCtxRef::derive can overflow short buffers on OpenSSL 1.1.1,N/A,0
+jcode,jcode-grype.json,openssl,0.10.75,GHSA-ghm9-cr32-g9qj,low,N/A,rust-openssl: rustMdCtxRef::digest_final() writes past caller buffer with no length check,N/A,0
+jcode,jcode-grype.json,openssl,0.10.75,GHSA-8c75-8mhr-p7r9,low,N/A,rust-openssl has incorrect bounds assertion in aes key wrap,N/A,0
+jcode,jcode-grype.json,openssl,0.10.75,GHSA-xmgf-hq76-4vx2,low,N/A,rust-opennssl has an Out-of-bounds read in PEM password callback when returning an oversized length,N/A,0
+jcode,jcode-grype.json,actions/download-artifact,v4,GHSA-cxww-7g56-2vh6,low,N/A,@actions/download-artifact has an Arbitrary File Write via artifact extraction,N/A,0
+jcode,jcode-grype.json,lru,0.12.5,GHSA-rhfx-m35p-ff5j,low,N/A,`IterMut` violates Stacked Borrows by invalidating internal pointer,N/A,0
+jcode,jcode-grype.json,rand,0.8.5,GHSA-cq8v-f236-94qc,low,N/A,Rand is unsound with a custom logger using rand::rng(),N/A,0
+maigret,maigret-grype.json,pypdf2,3.0.1,GHSA-4vvm-4w3v-6mr8,low,N/A,pypdf and PyPDF2 possible Infinite Loop when a comment isn't followed by a character,N/A,0
+maigret,maigret-grype.json,actions/download-artifact,v4,GHSA-cxww-7g56-2vh6,low,N/A,@actions/download-artifact has an Arbitrary File Write via artifact extraction,N/A,0
+maigret,maigret-grype.json,pypa/gh-action-pypi-publish,release/v1,GHSA-vxmw-7h4f-hqxh,low,N/A,PyPI publish GitHub Action vulnerable to injectable expression expansions in action steps,N/A,0
+n8n-mcp,n8n-mcp-grype.json,semver,5.3.0,GHSA-c2qf-rxjj-qqgw,low,N/A,semver vulnerable to Regular Expression Denial of Service,N/A,0
+n8n-mcp,n8n-mcp-grype.json,form-data,4.0.0,GHSA-fjxv-7rqg-78g4,low,N/A,form-data uses unsafe random function in form-data for choosing boundary,N/A,0
+n8n-mcp,n8n-mcp-grype.json,langchain,0.1.37,GHSA-hc5w-c9f8-9cc4,low,N/A,Langchain Path Traversal vulnerability,N/A,0
+n8n-mcp,n8n-mcp-grype.json,handlebars,4.7.8,GHSA-2w6w-674q-4c4q,low,N/A,Handlebars.js has JavaScript Injection via AST Type Confusion,N/A,0
+n8n-mcp,n8n-mcp-grype.json,undici,6.21.3,GHSA-v9p9-hfj2-hcw8,low,N/A,Undici has Unhandled Exception in WebSocket Client Due to Invalid server_max_window_bits Validation,N/A,0
+n8n-mcp,n8n-mcp-grype.json,@grpc/grpc-js,1.7.3,GHSA-7v5v-9h63-cj86,low,N/A,@grpc/grpc-js can allocate memory for incoming messages well above configured limits,N/A,0
+n8n-mcp,n8n-mcp-grype.json,@azure/identity,3.4.2,GHSA-m5vv-6r4h-3vj9,low,N/A,Azure Identity Libraries and Microsoft Authentication Library Elevation of Privilege Vulnerability,N/A,0
+n8n-mcp,n8n-mcp-grype.json,undici,6.21.3,GHSA-f269-vfmq-vjvj,low,N/A,Undici: Malicious WebSocket 64-bit length overflows parser and crashes the client,N/A,0
+n8n-mcp,n8n-mcp-grype.json,expr-eval,2.0.2,GHSA-jc85-fpwf-qm7x,low,N/A,expr-eval does not restrict functions passed to the evaluate function,N/A,0
+n8n-mcp,n8n-mcp-grype.json,protobufjs,7.5.4,GHSA-xq3m-2v4x-88gg,low,N/A,Arbitrary code execution in protobufjs,N/A,0
+n8n-mcp,n8n-mcp-grype.json,@langchain/core,0.1.63,GHSA-r399-636x-v7f6,low,N/A,LangChain serialization injection vulnerability enables secret extraction,N/A,0
+n8n-mcp,n8n-mcp-grype.json,@langchain/core,0.2.36,GHSA-r399-636x-v7f6,low,N/A,LangChain serialization injection vulnerability enables secret extraction,N/A,0
+n8n-mcp,n8n-mcp-grype.json,langchain,0.1.37,GHSA-r399-636x-v7f6,low,N/A,LangChain serialization injection vulnerability enables secret extraction,N/A,0
+n8n-mcp,n8n-mcp-grype.json,node-forge,1.3.1,GHSA-5gfm-wpxj-wjgq,low,N/A,node-forge has an Interpretation Conflict vulnerability via its ASN.1 Validator Desynchronization,N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,5.2.5,GHSA-37qj-frw5-hhjh,low,N/A,fast-xml-parser has RangeError DoS Numeric Entities Bug,N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,5.3.2,GHSA-37qj-frw5-hhjh,low,N/A,fast-xml-parser has RangeError DoS Numeric Entities Bug,N/A,0
+n8n-mcp,n8n-mcp-grype.json,@supabase/auth-js,2.69.1,GHSA-8r88-6cj9-9fh5,low,N/A,auth-js Vulnerable to Insecure Path Routing from Malformed User Input,N/A,0
+n8n-mcp,n8n-mcp-grype.json,path-to-regexp,8.3.0,GHSA-j3q9-mxjg-w52f,low,N/A,path-to-regexp vulnerable to Denial of Service via sequential optional groups,N/A,0
+n8n-mcp,n8n-mcp-grype.json,node-forge,1.3.1,GHSA-5m6q-g25r-mvwx,low,N/A,Forge has Denial of Service via Infinite Loop in BigInteger.modInverse() with Zero Input,N/A,0
+n8n-mcp,n8n-mcp-grype.json,expr-eval,2.0.2,GHSA-8gw3-rxh4-v6jx,low,N/A,expr-eval vulnerable to Prototype Pollution,N/A,0
+n8n-mcp,n8n-mcp-grype.json,showdown,2.1.0,GHSA-rmmh-p597-ppvv,low,N/A,Showdown vulnerable to Regular Expression Denial of Service (ReDoS) in link/anchor parsing,N/A,0
+n8n-mcp,n8n-mcp-grype.json,@xmldom/xmldom,0.8.11,GHSA-wh4c-j3r5-mjhp,low,N/A,xmldom: XML injection via unsafe CDATA serialization allows attacker-controlled markup insertion,N/A,0
+n8n-mcp,n8n-mcp-grype.json,handlebars,4.7.8,GHSA-9cx6-37pm-9jff,low,N/A,Handlebars.js has Denial of Service via Malformed Decorator Syntax in Template Compilation,N/A,0
+n8n-mcp,n8n-mcp-grype.json,node-forge,1.3.1,GHSA-554w-wpv2-vw27,low,N/A,node-forge has ASN.1 Unbounded Recursion,N/A,0
+n8n-mcp,n8n-mcp-grype.json,@langchain/community,0.0.57,GHSA-6m59-8fmv-m5f9,low,N/A,@langchain/community SQL Injection vulnerability,N/A,0
+n8n-mcp,n8n-mcp-grype.json,qs,6.11.2,GHSA-6rw7-vpxm-498p,low,N/A,qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion,N/A,0
+n8n-mcp,n8n-mcp-grype.json,qs,6.14.0,GHSA-6rw7-vpxm-498p,low,N/A,qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion,N/A,0
+n8n-mcp,n8n-mcp-grype.json,node-forge,1.3.1,GHSA-65ch-62r8-g69g,low,N/A,node-forge is vulnerable to ASN.1 OID Integer Truncation,N/A,0
+n8n-mcp,n8n-mcp-grype.json,node-forge,1.3.1,GHSA-ppp5-5v6c-4jwp,low,N/A,Forge has signature forgery in RSA-PKCS due to ASN.1 extra field,N/A,0
+n8n-mcp,n8n-mcp-grype.json,path-to-regexp,8.3.0,GHSA-27v5-c462-wpq7,low,N/A,path-to-regexp vulnerable to Regular Expression Denial of Service via multiple wildcards,N/A,0
+n8n-mcp,n8n-mcp-grype.json,node-forge,1.3.1,GHSA-q67f-28xg-22rw,low,N/A,Forge has signature forgery in Ed25519 due to missing S > L check,N/A,0
+n8n-mcp,n8n-mcp-grype.json,picomatch,2.3.1,GHSA-3v7f-55p6-f55p,low,N/A,Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching,N/A,0
+n8n-mcp,n8n-mcp-grype.json,yaml,2.8.1,GHSA-48c2-rrv3-qjmp,low,N/A,yaml is vulnerable to Stack Overflow via deeply nested YAML collections,N/A,0
+n8n-mcp,n8n-mcp-grype.json,langsmith,0.1.68,GHSA-fw9q-39r9-c252,low,N/A,LangSmith Client SDKs has Prototype Pollution in langsmith-sdk via Incomplete `__proto__` Guard in Internal lodash `set()`,N/A,0
+n8n-mcp,n8n-mcp-grype.json,langsmith,0.3.87,GHSA-fw9q-39r9-c252,low,N/A,LangSmith Client SDKs has Prototype Pollution in langsmith-sdk via Incomplete `__proto__` Guard in Internal lodash `set()`,N/A,0
+n8n-mcp,n8n-mcp-grype.json,langsmith,0.5.15,GHSA-fw9q-39r9-c252,low,N/A,LangSmith Client SDKs has Prototype Pollution in langsmith-sdk via Incomplete `__proto__` Guard in Internal lodash `set()`,N/A,0
+n8n-mcp,n8n-mcp-grype.json,handlebars,4.7.8,GHSA-3mfm-83xf-c92r,low,N/A,Handlebars.js has JavaScript Injection via AST Type Confusion by tampering @partial-block,N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,4.4.1,GHSA-jmr7-xgp7-cmfj,low,N/A,fast-xml-parser affected by DoS through entity expansion in DOCTYPE (no expansion limit),N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,5.2.5,GHSA-jmr7-xgp7-cmfj,low,N/A,fast-xml-parser affected by DoS through entity expansion in DOCTYPE (no expansion limit),N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,5.3.2,GHSA-jmr7-xgp7-cmfj,low,N/A,fast-xml-parser affected by DoS through entity expansion in DOCTYPE (no expansion limit),N/A,0
+n8n-mcp,n8n-mcp-grype.json,handlebars,4.7.8,GHSA-2qvq-rjwj-gvw9,low,N/A,Handlebars.js has Prototype Pollution Leading to XSS through Partial Template Injection,N/A,0
+n8n-mcp,n8n-mcp-grype.json,minimatch,3.1.2,GHSA-3ppc-4f35-3m26,low,N/A,minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern,N/A,0
+n8n-mcp,n8n-mcp-grype.json,minimatch,9.0.5,GHSA-3ppc-4f35-3m26,low,N/A,minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern,N/A,0
+n8n-mcp,n8n-mcp-grype.json,minimatch,3.1.2,GHSA-7r86-cg39-jmmj,low,N/A,minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments,N/A,0
+n8n-mcp,n8n-mcp-grype.json,minimatch,9.0.5,GHSA-7r86-cg39-jmmj,low,N/A,minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments,N/A,0
+n8n-mcp,n8n-mcp-grype.json,express-rate-limit,8.2.1,GHSA-46wh-pxpv-q5gq,low,N/A,express-rate-limit: IPv4-mapped IPv6 addresses bypass per-client rate limiting on servers with dual-stack network,N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,4.4.1,GHSA-8gc5-j5rx-235r,low,N/A,fast-xml-parser affected by numeric entity expansion bypassing all entity expansion limits (incomplete fix for CVE-2026-26278),N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,5.2.5,GHSA-8gc5-j5rx-235r,low,N/A,fast-xml-parser affected by numeric entity expansion bypassing all entity expansion limits (incomplete fix for CVE-2026-26278),N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,5.3.2,GHSA-8gc5-j5rx-235r,low,N/A,fast-xml-parser affected by numeric entity expansion bypassing all entity expansion limits (incomplete fix for CVE-2026-26278),N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,5.3.6,GHSA-8gc5-j5rx-235r,low,N/A,fast-xml-parser affected by numeric entity expansion bypassing all entity expansion limits (incomplete fix for CVE-2026-26278),N/A,0
+n8n-mcp,n8n-mcp-grype.json,@langchain/community,0.0.57,GHSA-mphv-75cg-56wg,low,N/A,LangChain Community: redirect chaining can lead to SSRF bypass via RecursiveUrlLoader,N/A,0
+n8n-mcp,n8n-mcp-grype.json,@langchain/community,1.1.14,GHSA-mphv-75cg-56wg,low,N/A,LangChain Community: redirect chaining can lead to SSRF bypass via RecursiveUrlLoader,N/A,0
+n8n-mcp,n8n-mcp-grype.json,minimatch,3.1.2,GHSA-23c5-xmqv-rm74,low,N/A,minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions,N/A,0
+n8n-mcp,n8n-mcp-grype.json,minimatch,9.0.5,GHSA-23c5-xmqv-rm74,low,N/A,minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions,N/A,0
+n8n-mcp,n8n-mcp-grype.json,langsmith,0.1.68,GHSA-rr7j-v2q5-chgv,low,N/A,LangSmith SDK: Streaming token events bypass output redaction,N/A,0
+n8n-mcp,n8n-mcp-grype.json,langsmith,0.3.87,GHSA-rr7j-v2q5-chgv,low,N/A,LangSmith SDK: Streaming token events bypass output redaction,N/A,0
+n8n-mcp,n8n-mcp-grype.json,langsmith,0.5.15,GHSA-rr7j-v2q5-chgv,low,N/A,LangSmith SDK: Streaming token events bypass output redaction,N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,4.4.1,GHSA-jp2q-39xq-3w4g,low,N/A,Entity Expansion Limits Bypassed When Set to Zero Due to JavaScript Falsy Evaluation in fast-xml-parser,N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,5.2.5,GHSA-jp2q-39xq-3w4g,low,N/A,Entity Expansion Limits Bypassed When Set to Zero Due to JavaScript Falsy Evaluation in fast-xml-parser,N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,5.3.2,GHSA-jp2q-39xq-3w4g,low,N/A,Entity Expansion Limits Bypassed When Set to Zero Due to JavaScript Falsy Evaluation in fast-xml-parser,N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,5.3.6,GHSA-jp2q-39xq-3w4g,low,N/A,Entity Expansion Limits Bypassed When Set to Zero Due to JavaScript Falsy Evaluation in fast-xml-parser,N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,4.4.1,GHSA-m7jm-9gc2-mpf2,low,N/A,fast-xml-parser has an entity encoding bypass via regex injection in DOCTYPE entity names,N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,5.2.5,GHSA-m7jm-9gc2-mpf2,low,N/A,fast-xml-parser has an entity encoding bypass via regex injection in DOCTYPE entity names,N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,5.3.2,GHSA-m7jm-9gc2-mpf2,low,N/A,fast-xml-parser has an entity encoding bypass via regex injection in DOCTYPE entity names,N/A,0
+n8n-mcp,n8n-mcp-grype.json,handlebars,4.7.8,GHSA-xhpv-hc6g-r9c6,low,N/A,Handlebars.js has JavaScript Injection via AST Type Confusion when passing an object as dynamic partial,N/A,0
+n8n-mcp,n8n-mcp-grype.json,node-forge,1.3.1,GHSA-2328-f5f3-gj25,low,N/A,Forge has a basicConstraints bypass in its certificate chain verification (RFC 5280 violation),N/A,0
+n8n-mcp,n8n-mcp-grype.json,tar,6.2.1,GHSA-34x7-hfp2-rc4v,low,N/A,node-tar Vulnerable to Arbitrary File Creation/Overwrite via Hardlink Path Traversal,N/A,0
+n8n-mcp,n8n-mcp-grype.json,postcss,8.5.6,GHSA-qx2v-qp2m-jg93,low,N/A,PostCSS has XSS via Unescaped </style> in its CSS Stringify Output,N/A,0
+n8n-mcp,n8n-mcp-grype.json,qs,6.11.2,GHSA-w7fw-mjwx-w883,low,N/A,qs's arrayLimit bypass in comma parsing allows denial of service,N/A,0
+n8n-mcp,n8n-mcp-grype.json,qs,6.14.0,GHSA-w7fw-mjwx-w883,low,N/A,qs's arrayLimit bypass in comma parsing allows denial of service,N/A,0
+n8n-mcp,n8n-mcp-grype.json,qs,6.14.1,GHSA-w7fw-mjwx-w883,low,N/A,qs's arrayLimit bypass in comma parsing allows denial of service,N/A,0
+n8n-mcp,n8n-mcp-grype.json,underscore,1.13.7,GHSA-qpx9-hpmf-5gmw,low,N/A,"Underscore has unlimited recursion in _.flatten and _.isEqual, potential for DoS attack",N/A,0
+n8n-mcp,n8n-mcp-grype.json,file-type,16.5.4,GHSA-5v7r-6r5c-r473,low,N/A,file-type affected by infinite loop in ASF parser on malformed input with zero-size sub-header,N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,4.4.1,GHSA-fj3w-jwp8-x2g3,low,N/A,fast-xml-parser has stack overflow in XMLBuilder with preserveOrder,N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,5.2.5,GHSA-fj3w-jwp8-x2g3,low,N/A,fast-xml-parser has stack overflow in XMLBuilder with preserveOrder,N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,5.3.2,GHSA-fj3w-jwp8-x2g3,low,N/A,fast-xml-parser has stack overflow in XMLBuilder with preserveOrder,N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,5.3.6,GHSA-fj3w-jwp8-x2g3,low,N/A,fast-xml-parser has stack overflow in XMLBuilder with preserveOrder,N/A,0
+n8n-mcp,n8n-mcp-grype.json,undici,6.21.3,GHSA-vrm6-8vpv-qv8q,low,N/A,Undici has Unbounded Memory Consumption in WebSocket permessage-deflate Decompression,N/A,0
+n8n-mcp,n8n-mcp-grype.json,picomatch,2.3.1,GHSA-c2c7-rcm5-vvqj,low,N/A,Picomatch has a ReDoS vulnerability via extglob quantifiers,N/A,0
+n8n-mcp,n8n-mcp-grype.json,brace-expansion,1.1.12,GHSA-f886-m6hf-6m8v,low,N/A,brace-expansion: Zero-step sequence causes process hang and memory exhaustion,N/A,0
+n8n-mcp,n8n-mcp-grype.json,brace-expansion,2.0.2,GHSA-f886-m6hf-6m8v,low,N/A,brace-expansion: Zero-step sequence causes process hang and memory exhaustion,N/A,0
+n8n-mcp,n8n-mcp-grype.json,hono,4.12.9,GHSA-r5rp-j6wh-rvv4,low,N/A,Hono: Non-breaking space prefix bypass in cookie name handling in getCookie(),N/A,0
+n8n-mcp,n8n-mcp-grype.json,@hono/node-server,1.19.9,GHSA-wc8c-qw6v-h7f6,low,N/A,@hono/node-server has authorization bypass for protected static paths via encoded slashes in Serve Static Middleware,N/A,0
+n8n-mcp,n8n-mcp-grype.json,undici,6.21.3,GHSA-g9mf-h72j-4rw9,low,N/A,Undici has an unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resource exhaustion,N/A,0
+n8n-mcp,n8n-mcp-grype.json,undici,6.21.3,GHSA-2mjp-6q6p-2qxm,low,N/A,Undici has an HTTP Request/Response Smuggling issue,N/A,0
+n8n-mcp,n8n-mcp-grype.json,hono,4.12.9,GHSA-wmmm-f939-6g9c,low,N/A,Hono: Middleware bypass via repeated slashes in serveStatic,N/A,0
+n8n-mcp,n8n-mcp-grype.json,@hono/node-server,1.19.9,GHSA-92pp-h63x-v22m,low,N/A,@hono/node-server: Middleware bypass via repeated slashes in serveStatic,N/A,0
+n8n-mcp,n8n-mcp-grype.json,hono,4.12.9,GHSA-xf4j-xp2r-rqqx,low,N/A,Hono: Path traversal in toSSG() allows writing files outside the output directory,N/A,0
+n8n-mcp,n8n-mcp-grype.json,ajv,7.2.4,GHSA-2g4f-4pwh-qvx6,low,N/A,ajv has ReDoS when using `$data` option,N/A,0
+n8n-mcp,n8n-mcp-grype.json,langsmith,0.3.87,GHSA-v34v-rq6j-cj6p,low,N/A,LangSmith Client SDK Affected by Server-Side Request Forgery via Tracing Header Injection,N/A,0
+n8n-mcp,n8n-mcp-grype.json,handlebars,4.7.8,GHSA-xjpj-3mr7-gcpf,low,N/A,Handlebars.js has JavaScript Injection in CLI Precompiler via Unescaped Names and Options,N/A,0
+n8n-mcp,n8n-mcp-grype.json,tar,6.2.1,GHSA-r6q2-hw4h-h46w,low,N/A,Race Condition in node-tar Path Reservations via Unicode Ligature Collisions on macOS APFS,N/A,0
+n8n-mcp,n8n-mcp-grype.json,hono,4.12.9,GHSA-xpcf-pg52-r92g,low,N/A,Hono has incorrect IP matching in ipRestriction() for IPv4-mapped IPv6 addresses,N/A,0
+n8n-mcp,n8n-mcp-grype.json,tar,6.2.1,GHSA-9ppj-qmqm-q256,low,N/A,node-tar Symlink Path Traversal via Drive-Relative Linkpath,N/A,0
+n8n-mcp,n8n-mcp-grype.json,tar,6.2.1,GHSA-qffp-2rhf-9h96,low,N/A,tar has Hardlink Path Traversal via Drive-Relative Linkpath,N/A,0
+n8n-mcp,n8n-mcp-grype.json,@langchain/community,0.0.57,GHSA-gf3v-fwqg-4vh7,low,N/A,@langchain/community affected by SSRF Bypass in RecursiveUrlLoader via insufficient URL origin validation,N/A,0
+n8n-mcp,n8n-mcp-grype.json,tar,6.2.1,GHSA-83g3-92jg-28cx,low,N/A,Arbitrary File Read/Write via Hardlink Target Escape Through Symlink Chain in node-tar Extraction,N/A,0
+n8n-mcp,n8n-mcp-grype.json,tar,6.2.1,GHSA-8qq5-rm4j-mr97,low,N/A,node-tar is Vulnerable to Arbitrary File Overwrite and Symlink Poisoning via Insufficient Path Sanitization,N/A,0
+n8n-mcp,n8n-mcp-grype.json,undici,6.21.3,GHSA-4992-7rv2-5pvq,low,N/A,Undici has CRLF Injection in undici via `upgrade` option,N/A,0
+n8n-mcp,n8n-mcp-grype.json,@tootallnate/once,1.1.2,GHSA-vpq2-c234-7xj6,low,N/A,@tootallnate/once vulnerable to Incorrect Control Flow Scoping,N/A,0
+n8n-mcp,n8n-mcp-grype.json,@tootallnate/once,2.0.0,GHSA-vpq2-c234-7xj6,low,N/A,@tootallnate/once vulnerable to Incorrect Control Flow Scoping,N/A,0
+n8n-mcp,n8n-mcp-grype.json,@xmldom/xmldom,0.8.11,GHSA-2v35-w6hq-6mfw,low,N/A,xmldom: Uncontrolled recursion in XML serialization leads to DoS,N/A,0
+n8n-mcp,n8n-mcp-grype.json,@xmldom/xmldom,0.8.11,GHSA-f6ww-3ggp-fr8h,low,N/A,xmldom has XML injection through unvalidated DocumentType serialization,N/A,0
+n8n-mcp,n8n-mcp-grype.json,@xmldom/xmldom,0.8.11,GHSA-j759-j44w-7fr8,low,N/A,xmldom has XML node injection through unvalidated comment serialization,N/A,0
+n8n-mcp,n8n-mcp-grype.json,@xmldom/xmldom,0.8.11,GHSA-x6wf-f3px-wcqx,low,N/A,xmldom has XML node injection through unvalidated processing instruction serialization,N/A,0
+n8n-mcp,n8n-mcp-grype.json,actions/download-artifact,v4,GHSA-cxww-7g56-2vh6,low,N/A,@actions/download-artifact has an Arbitrary File Write via artifact extraction,N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,4.4.1,GHSA-gh4j-gqv2-49f6,low,N/A,fast-xml-parser XMLBuilder: XML Comment and CDATA Injection via Unescaped Delimiters,N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,5.2.5,GHSA-gh4j-gqv2-49f6,low,N/A,fast-xml-parser XMLBuilder: XML Comment and CDATA Injection via Unescaped Delimiters,N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,5.3.2,GHSA-gh4j-gqv2-49f6,low,N/A,fast-xml-parser XMLBuilder: XML Comment and CDATA Injection via Unescaped Delimiters,N/A,0
+n8n-mcp,n8n-mcp-grype.json,fast-xml-parser,5.3.6,GHSA-gh4j-gqv2-49f6,low,N/A,fast-xml-parser XMLBuilder: XML Comment and CDATA Injection via Unescaped Delimiters,N/A,0
+n8n-mcp,n8n-mcp-grype.json,follow-redirects,1.15.11,GHSA-r4q5-vmmm-2653,low,N/A,follow-redirects leaks Custom Authentication Headers to Cross-Domain Redirect Targets,N/A,0
+n8n-mcp,n8n-mcp-grype.json,handlebars,4.7.8,GHSA-7rx3-28cr-v5wh,low,N/A,Handlebars.js has a Prototype Method Access Control Gap via Missing __lookupSetter__ Blocklist Entry,N/A,0
+n8n-mcp,n8n-mcp-grype.json,hono,4.12.9,GHSA-26pp-8wgv-hjvm,low,N/A,Hono missing validation of cookie name on write path in setCookie(),N/A,0
+n8n-mcp,n8n-mcp-grype.json,hono,4.12.9,GHSA-458j-xx4x-4375,low,N/A,hono Improperly Handles JSX Attribute Names Allows HTML Injection in hono/jsx SSR,N/A,0
+n8n-mcp,n8n-mcp-grype.json,nodemailer,7.0.11,GHSA-vvjj-xcjg-gr5g,low,N/A,Nodemailer Vulnerable to SMTP Command Injection via CRLF in Transport name Option (EHLO/HELO),N/A,0
+n8n-mcp,n8n-mcp-grype.json,nodemailer,7.0.13,GHSA-vvjj-xcjg-gr5g,low,N/A,Nodemailer Vulnerable to SMTP Command Injection via CRLF in Transport name Option (EHLO/HELO),N/A,0
+n8n-mcp,n8n-mcp-grype.json,uuid,10.0.0,GHSA-w5hq-g745-h8pq,low,N/A,uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided,N/A,0
+n8n-mcp,n8n-mcp-grype.json,uuid,11.1.0,GHSA-w5hq-g745-h8pq,low,N/A,uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided,N/A,0
+n8n-mcp,n8n-mcp-grype.json,uuid,13.0.0,GHSA-w5hq-g745-h8pq,low,N/A,uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided,N/A,0
+n8n-mcp,n8n-mcp-grype.json,uuid,8.3.2,GHSA-w5hq-g745-h8pq,low,N/A,uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided,N/A,0
+n8n-mcp,n8n-mcp-grype.json,uuid,9.0.1,GHSA-w5hq-g745-h8pq,low,N/A,uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided,N/A,0
+n8n-mcp,n8n-mcp-grype.json,handlebars,4.7.8,GHSA-442j-39wm-28r2,low,N/A,Handlebars.js has a Property Access Validation Bypass in container.lookup,N/A,0
+n8n-mcp,n8n-mcp-grype.json,nodemailer,7.0.11,GHSA-c7w3-x93f-qmm8,low,N/A,Nodemailer has SMTP command injection due to unsanitized `envelope.size` parameter,N/A,0
+n8n-mcp,n8n-mcp-grype.json,nodemailer,7.0.13,GHSA-c7w3-x93f-qmm8,low,N/A,Nodemailer has SMTP command injection due to unsanitized `envelope.size` parameter,N/A,0
+opencode,opencode-grype.json,quinn-proto,0.11.13,GHSA-6xvm-j4wr-6v98,low,N/A,Quinn affected by unauthenticated remote DoS via panic in QUIC transport parameter parsing,N/A,0
+opencode,opencode-grype.json,bytes,1.11.0,GHSA-434x-w66g-qw3r,low,N/A,bytes has integer overflow in BytesMut::reserve,N/A,0
+opencode,opencode-grype.json,tar,0.4.44,GHSA-gchp-q4r4-x4ff,low,N/A,tar-rs incorrectly ignores PAX size headers if header size is nonzero,N/A,0
+opencode,opencode-grype.json,time,0.3.44,GHSA-r6v5-fh4h-64xc,low,N/A,time vulnerable to stack exhaustion Denial of Service attack,N/A,0
+opencode,opencode-grype.json,tar,0.4.44,GHSA-j4xf-2g29-59ph,low,N/A,tar-rs `unpack_in` can chmod arbitrary directories by following symlinks,N/A,0
+opencode,opencode-grype.json,actions/download-artifact,v4,GHSA-cxww-7g56-2vh6,low,N/A,@actions/download-artifact has an Arbitrary File Write via artifact extraction,N/A,0
+opencode,opencode-grype.json,actions/download-artifact,v4,GHSA-cxww-7g56-2vh6,low,N/A,@actions/download-artifact has an Arbitrary File Write via artifact extraction,N/A,0
+opencode,opencode-grype.json,rustls-webpki,0.103.8,GHSA-82j2-j2ch-gfr8,low,N/A,rustls-webpki: Denial of service via panic on malformed CRL BIT STRING,N/A,0
+opencode,opencode-grype.json,glib,0.18.5,GHSA-wrw7-89jp-8q8g,low,N/A,Unsoundness in `Iterator` and `DoubleEndedIterator` impls for `glib::VariantStrIter`,N/A,0
+opencode,opencode-grype.json,rustls-webpki,0.103.8,GHSA-pwjx-qhcg-rvj4,low,N/A,webpki: CRLs not considered authoritative by Distribution Point due to faulty matching logic,N/A,0
+opencode,opencode-grype.json,rand,0.7.3,GHSA-cq8v-f236-94qc,low,N/A,Rand is unsound with a custom logger using rand::rng(),N/A,0
+opencode,opencode-grype.json,rand,0.8.5,GHSA-cq8v-f236-94qc,low,N/A,Rand is unsound with a custom logger using rand::rng(),N/A,0
+opencode,opencode-grype.json,rand,0.9.2,GHSA-cq8v-f236-94qc,low,N/A,Rand is unsound with a custom logger using rand::rng(),N/A,0
+opencode,opencode-grype.json,rustls-webpki,0.103.8,GHSA-965h-392x-2mh5,low,N/A,webpki: Name constraints for URI names were incorrectly accepted,N/A,0
+opencode,opencode-grype.json,rustls-webpki,0.103.8,GHSA-xgp8-3hg3-c2mh,low,N/A,webpki: Name constraints were accepted for certificates asserting a wildcard name,N/A,0
+presenton,presenton-grype.json,mako,1.3.11,GHSA-2h4p-vjrc-8xpq,low,N/A,Mako vulnerable to path traversal via backslash URI on Windows in TemplateLookup,N/A,0
+presenton,presenton-grype.json,axios,1.14.0,GHSA-3w6x-2g7m-8v23,low,N/A,Axios: Invisible JSON Response Tampering via Prototype Pollution Gadget in `parseReviver`,N/A,0
+presenton,presenton-grype.json,axios,1.14.0,GHSA-w9j2-pvgh-6h63,low,N/A,Axios: Authentication Bypass via Prototype Pollution Gadget in `validateStatus` Merge Strategy,N/A,0
+presenton,presenton-grype.json,axios,1.14.0,GHSA-q8qp-cvcw-x6jj,low,N/A,Axios has prototype pollution read-side gadgets in HTTP adapter that allow credential injection and request hijacking,N/A,0
+presenton,presenton-grype.json,python-multipart,0.0.26,GHSA-pp6c-gr5w-3c5g,low,N/A,python-multipart has Denial of Service via unbounded multipart part headers,N/A,0
+presenton,presenton-grype.json,axios,1.14.0,GHSA-pmwg-cvhr-8vh7,low,N/A,Axios: Incomplete Fix for CVE-2025-62718 — NO_PROXY Protection Bypassed via RFC 1122 Loopback Subnet (127.0.0.0/8) in Axios 1.15.0,N/A,0
+presenton,presenton-grype.json,axios,1.14.0,GHSA-445q-vr5w-6q77,low,N/A,Axios: CRLF Injection in multipart/form-data body via unsanitized blob.type in formDataToStream,N/A,0
+presenton,presenton-grype.json,axios,1.14.0,GHSA-62hf-57xw-28j9,low,N/A,Axios: unbounded recursion in toFormData causes DoS via deeply nested request data,N/A,0
+presenton,presenton-grype.json,axios,1.14.0,GHSA-3p68-rc4w-qgx5,low,N/A,Axios has a NO_PROXY Hostname Normalization Bypass that Leads to SSRF,N/A,0
+presenton,presenton-grype.json,lodash,4.17.21,GHSA-r5fr-rjxr-66jc,low,N/A,lodash vulnerable to Code Injection via `_.template` imports key names,N/A,0
+presenton,presenton-grype.json,lodash-es,4.17.21,GHSA-r5fr-rjxr-66jc,low,N/A,lodash vulnerable to Code Injection via `_.template` imports key names,N/A,0
+presenton,presenton-grype.json,axios,1.14.0,GHSA-5c9x-8gcm-mpgx,low,N/A,Axios' HTTP adapter-streamed uploads bypass maxBodyLength when maxRedirects: 0,N/A,0
+presenton,presenton-grype.json,axios,1.14.0,GHSA-vf2m-468p-8v99,low,N/A,Axios: HTTP adapter streamed responses bypass maxContentLength,N/A,0
+presenton,presenton-grype.json,axios,1.14.0,GHSA-m7pr-hjqh-92cm,low,N/A,Axios: no_proxy bypass via IP alias allows SSRF,N/A,0
+presenton,presenton-grype.json,dompurify,3.2.6,GHSA-crv5-9vww-q3g8,low,N/A,DOMPurify has a SAFE_FOR_TEMPLATES bypass in RETURN_DOM mode,N/A,0
+presenton,presenton-grype.json,axios,1.14.0,GHSA-fvcv-3m26-pcqx,low,N/A,Axios has Unrestricted Cloud Metadata Exfiltration via Header Injection Chain,N/A,0
+presenton,presenton-grype.json,axios,1.14.0,GHSA-pf86-5x62-jrwf,low,N/A,"Axios: Prototype Pollution Gadgets - Response Tampering, Data Exfiltration, and Request Hijacking",N/A,0
+presenton,presenton-grype.json,picomatch,2.3.1,GHSA-3v7f-55p6-f55p,low,N/A,Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching,N/A,0
+presenton,presenton-grype.json,minimatch,10.1.1,GHSA-7r86-cg39-jmmj,low,N/A,minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments,N/A,0
+presenton,presenton-grype.json,minimatch,3.1.2,GHSA-7r86-cg39-jmmj,low,N/A,minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments,N/A,0
+presenton,presenton-grype.json,minimatch,9.0.5,GHSA-7r86-cg39-jmmj,low,N/A,minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments,N/A,0
+presenton,presenton-grype.json,axios,1.14.0,GHSA-6chq-wfr3-2hj9,low,N/A,Axios: Header Injection via Prototype Pollution,N/A,0
+presenton,presenton-grype.json,axios,1.14.0,GHSA-xx6v-rp6x-q39c,low,N/A,Axios: XSRF Token Cross-Origin Leakage via Prototype Pollution Gadget in `withXSRFToken` Boolean Coercion,N/A,0
+presenton,presenton-grype.json,lodash,4.17.21,GHSA-xxjr-mmjv-4gpg,low,N/A,Lodash has Prototype Pollution Vulnerability in `_.unset` and `_.omit` functions,N/A,0
+presenton,presenton-grype.json,lodash-es,4.17.21,GHSA-xxjr-mmjv-4gpg,low,N/A,Lodash has Prototype Pollution Vulnerability in `_.unset` and `_.omit` functions,N/A,0
+presenton,presenton-grype.json,dompurify,3.2.6,GHSA-v9jr-rg53-9pgp,low,N/A,DOMPurify: Prototype Pollution to XSS Bypass via CUSTOM_ELEMENT_HANDLING Fallback,N/A,0
+presenton,presenton-grype.json,minimatch,10.1.1,GHSA-3ppc-4f35-3m26,low,N/A,minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern,N/A,0
+presenton,presenton-grype.json,minimatch,3.1.2,GHSA-3ppc-4f35-3m26,low,N/A,minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern,N/A,0
+presenton,presenton-grype.json,minimatch,9.0.5,GHSA-3ppc-4f35-3m26,low,N/A,minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern,N/A,0
+presenton,presenton-grype.json,dompurify,3.2.6,GHSA-v8jm-5vwx-cfxm,low,N/A,DOMPurify contains a Cross-site Scripting vulnerability,N/A,0
+presenton,presenton-grype.json,minimatch,10.1.1,GHSA-23c5-xmqv-rm74,low,N/A,minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions,N/A,0
+presenton,presenton-grype.json,minimatch,3.1.2,GHSA-23c5-xmqv-rm74,low,N/A,minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions,N/A,0
+presenton,presenton-grype.json,minimatch,9.0.5,GHSA-23c5-xmqv-rm74,low,N/A,minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions,N/A,0
+presenton,presenton-grype.json,axios,1.14.0,GHSA-xhjh-pmcv-23jw,low,N/A,Axios: Null Byte Injection via Reverse-Encoding in AxiosURLSearchParams,N/A,0
+presenton,presenton-grype.json,glob,10.4.5,GHSA-5j98-mcp5-4vw2,low,N/A,glob CLI: Command injection via -c/--cmd executes matches with shell:true,N/A,0
+presenton,presenton-grype.json,@isaacs/brace-expansion,5.0.0,GHSA-7h2j-956f-4vf2,low,N/A,@isaacs/brace-expansion has Uncontrolled Resource Consumption,N/A,0
+presenton,presenton-grype.json,urllib3,2.6.3,GHSA-mf9v-mfxr-j63j,low,N/A,urllib3: Decompression-bomb safeguards bypassed in parts of the streaming API,N/A,0
+presenton,presenton-grype.json,lodash,4.17.21,GHSA-f23m-r3pf-42rh,low,N/A,lodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit`,N/A,0
+presenton,presenton-grype.json,lodash-es,4.17.21,GHSA-f23m-r3pf-42rh,low,N/A,lodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit`,N/A,0
+presenton,presenton-grype.json,picomatch,2.3.1,GHSA-c2c7-rcm5-vvqj,low,N/A,Picomatch has a ReDoS vulnerability via extglob quantifiers,N/A,0
+presenton,presenton-grype.json,mermaid,11.9.0,GHSA-7rqq-prvp-x9jh,low,N/A,Mermaid improperly sanitizes sequence diagram labels leading to XSS,N/A,0
+presenton,presenton-grype.json,brace-expansion,1.1.12,GHSA-f886-m6hf-6m8v,low,N/A,brace-expansion: Zero-step sequence causes process hang and memory exhaustion,N/A,0
+presenton,presenton-grype.json,brace-expansion,2.0.2,GHSA-f886-m6hf-6m8v,low,N/A,brace-expansion: Zero-step sequence causes process hang and memory exhaustion,N/A,0
+presenton,presenton-grype.json,markdown-it,14.1.0,GHSA-38c4-r59v-3vqw,low,N/A,markdown-it is has a Regular Expression Denial of Service (ReDoS),N/A,0
+presenton,presenton-grype.json,yaml,2.8.1,GHSA-48c2-rrv3-qjmp,low,N/A,yaml is vulnerable to Stack Overflow via deeply nested YAML collections,N/A,0
+presenton,presenton-grype.json,urllib3,2.6.3,GHSA-qccp-gfcp-xxvc,low,N/A,urllib3: Sensitive headers forwarded across origins in proxied low-level redirects,N/A,0
+presenton,presenton-grype.json,uuid,11.1.0,GHSA-w5hq-g745-h8pq,low,N/A,uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided,N/A,0
+presenton,presenton-grype.json,uuid,13.0.0,GHSA-w5hq-g745-h8pq,low,N/A,uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided,N/A,0
+presenton,presenton-grype.json,mermaid,11.9.0,GHSA-8gwm-58g9-j8pw,low,N/A,Mermaid does not properly sanitize architecture diagram iconText leading to XSS,N/A,0
+presenton,presenton-grype.json,dompurify,3.2.6,GHSA-v2wj-7wpq-c8vv,low,N/A,DOMPurify contains a Cross-site Scripting vulnerability,N/A,0
+presenton,presenton-grype.json,dompurify,3.2.6,GHSA-h7mw-gpvr-xq4m,low,N/A,DOMPurify: FORBID_TAGS bypassed by function-based ADD_TAGS predicate (asymmetry with FORBID_ATTR fix),N/A,0
+presenton,presenton-grype.json,postcss,8.4.31,GHSA-qx2v-qp2m-jg93,low,N/A,PostCSS has XSS via Unescaped </style> in its CSS Stringify Output,N/A,0
+presenton,presenton-grype.json,postcss,8.5.6,GHSA-qx2v-qp2m-jg93,low,N/A,PostCSS has XSS via Unescaped </style> in its CSS Stringify Output,N/A,0
+presenton,presenton-grype.json,postcss,8.5.6,GHSA-qx2v-qp2m-jg93,low,N/A,PostCSS has XSS via Unescaped </style> in its CSS Stringify Output,N/A,0
+presenton,presenton-grype.json,authlib,1.7.0,GHSA-r95x-qfjj-fjj2,low,N/A,Authlib OIDC Implicit/Hybrid Authorization Vulnerable to Open Redirect,N/A,0
+presenton,presenton-grype.json,dompurify,3.2.6,GHSA-39q2-94rc-95cp,low,N/A,DOMPurify's ADD_TAGS function form bypasses FORBID_TAGS due to short-circuit evaluation,N/A,0
+presenton,presenton-grype.json,dompurify,3.2.6,GHSA-cj63-jhhr-wcxv,low,N/A,DOMPurify USE_PROFILES prototype pollution allows event handlers,N/A,0
+presenton,presenton-grype.json,dompurify,3.2.6,GHSA-cjmm-f4jc-qw8r,low,N/A,DOMPurify ADD_ATTR predicate skips URI validation,N/A,0
+presenton,presenton-grype.json,dompurify,3.2.6,GHSA-h8r8-wccr-v5f2,low,N/A,DOMPurify is vulnerable to mutation-XSS via Re-Contextualization,N/A,0
+presenton,presenton-grype.json,follow-redirects,1.15.11,GHSA-r4q5-vmmm-2653,low,N/A,follow-redirects leaks Custom Authentication Headers to Cross-Domain Redirect Targets,N/A,0
+presenton,presenton-grype.json,idna,3.12,GHSA-65pc-fj4g-8rjx,low,N/A,Internationalized Domain Names in Applications (IDNA): Specially crafted inputs to idna.encode() can bypass CVE-2024-3651 fix,N/A,0
+presenton,presenton-grype.json,mermaid,11.9.0,GHSA-6m6c-36f7-fhxh,low,N/A,Mermaid Gantt Charts are vulnerable to an Infinite Loop DoS,N/A,0
+presenton,presenton-grype.json,mermaid,11.9.0,GHSA-87f9-hvmw-gh4p,low,N/A,Mermaid: Improper sanitization of configuration leads to CSS injection,N/A,0
+presenton,presenton-grype.json,mermaid,11.9.0,GHSA-ghcm-xqfw-q4vr,low,N/A,Mermaid: Improper sanitization of `classDef` in state diagrams leads to HTML injection,N/A,0
+presenton,presenton-grype.json,mermaid,11.9.0,GHSA-xcj9-5m2h-648r,low,N/A,Mermaid: Improper sanitization of `classDefs` in diagrams leads to CSS injection,N/A,0
+ruflo,ruflo-grype.json,litellm,1.54.0,GHSA-53mr-6c8q-9789,low,N/A,LiteLLM: Privilege escalation via unrestricted proxy configuration endpoint,N/A,0
+ruflo,ruflo-grype.json,litellm,1.54.0,GHSA-53mr-6c8q-9789,low,N/A,LiteLLM: Privilege escalation via unrestricted proxy configuration endpoint,N/A,0
+ruflo,ruflo-grype.json,vite,6.3.5,GHSA-p9ff-h696-f583,low,N/A,Vite Vulnerable to Arbitrary File Read via Vite Dev Server WebSocket,N/A,0
+ruflo,ruflo-grype.json,python-multipart,0.0.20,GHSA-wp53-j4wj-2cfg,low,N/A,Python-Multipart has Arbitrary File Write via Non-Default Configuration,N/A,0
+ruflo,ruflo-grype.json,vite,5.4.21,GHSA-4w7w-66w2-5vf9,low,N/A,Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling,N/A,0
+ruflo,ruflo-grype.json,vite,6.3.5,GHSA-4w7w-66w2-5vf9,low,N/A,Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling,N/A,0
+ruflo,ruflo-grype.json,vite,6.3.5,GHSA-93m4-6634-74q7,low,N/A,vite allows server.fs.deny bypass via backslash on Windows,N/A,0
+ruflo,ruflo-grype.json,python-jose,3.3.0,GHSA-6c5p-j8vq-pqhj,low,N/A,python-jose algorithm confusion with OpenSSH ECDSA keys,N/A,0
+ruflo,ruflo-grype.json,flask-cors,4.0.0,GHSA-hxwh-jpp2-84pm,low,N/A,Flask-CORS allows the `Access-Control-Allow-Private-Network` CORS header to be set to true by default,N/A,0
+ruflo,ruflo-grype.json,litellm,1.54.0,GHSA-fh2c-86xm-pm2x,low,N/A,LiteLLM Vulnerable to Denial of Service (DoS) via Crafted HTTP Request,N/A,0
+ruflo,ruflo-grype.json,litellm,1.54.0,GHSA-fh2c-86xm-pm2x,low,N/A,LiteLLM Vulnerable to Denial of Service (DoS) via Crafted HTTP Request,N/A,0
+ruflo,ruflo-grype.json,form-data,4.0.3,GHSA-fjxv-7rqg-78g4,low,N/A,form-data uses unsafe random function in form-data for choosing boundary,N/A,0
+ruflo,ruflo-grype.json,vite,6.3.5,GHSA-g4jq-h2w9-997c,low,N/A,Vite middleware may serve files starting with the same name with the public directory,N/A,0
+ruflo,ruflo-grype.json,rollup,4.41.1,GHSA-mw96-cpmx-2vgc,low,N/A,Rollup 4 has Arbitrary File Write via Path Traversal,N/A,0
+ruflo,ruflo-grype.json,flask-cors,4.0.0,GHSA-7rxf-gvfg-47g4,low,N/A,Flask-CORS improper regex path matching vulnerability,N/A,0
+ruflo,ruflo-grype.json,cryptography,44.0.0,GHSA-79v4-65xg-pq4g,low,N/A,Vulnerable OpenSSL included in cryptography wheels,N/A,0
+ruflo,ruflo-grype.json,litellm,1.54.0,GHSA-fjcf-3j3r-78rp,low,N/A,LiteLLM Has an Improper Authorization Vulnerability,N/A,0
+ruflo,ruflo-grype.json,litellm,1.54.0,GHSA-fjcf-3j3r-78rp,low,N/A,LiteLLM Has an Improper Authorization Vulnerability,N/A,0
+ruflo,ruflo-grype.json,handlebars,4.7.8,GHSA-2w6w-674q-4c4q,low,N/A,Handlebars.js has JavaScript Injection via AST Type Confusion,N/A,0
+ruflo,ruflo-grype.json,undici,7.16.0,GHSA-v9p9-hfj2-hcw8,low,N/A,Undici has Unhandled Exception in WebSocket Client Due to Invalid server_max_window_bits Validation,N/A,0
+ruflo,ruflo-grype.json,undici,7.18.2,GHSA-v9p9-hfj2-hcw8,low,N/A,Undici has Unhandled Exception in WebSocket Client Due to Invalid server_max_window_bits Validation,N/A,0
+ruflo,ruflo-grype.json,undici,7.22.0,GHSA-v9p9-hfj2-hcw8,low,N/A,Undici has Unhandled Exception in WebSocket Client Due to Invalid server_max_window_bits Validation,N/A,0
+ruflo,ruflo-grype.json,basic-ftp,5.0.5,GHSA-5rq4-664w-9x2c,low,N/A,Basic FTP has Path Traversal Vulnerability in its downloadToDir() method,N/A,0
+ruflo,ruflo-grype.json,@anthropic-ai/claude-code,2.0.1,GHSA-vp62-r36r-9xqp,low,N/A,Claude Code: Sandbox Escape via Symlink Following Allows Arbitrary File Write Outside Workspace,N/A,0
+ruflo,ruflo-grype.json,@anthropic-ai/claude-code,2.0.1,GHSA-mhg7-666j-cqg4,low,N/A,Claude Code Vulnerable to Command Injection via Piped sed Command Bypasses File Write Restrictions,N/A,0
+ruflo,ruflo-grype.json,@anthropic-ai/claude-code,2.0.1,GHSA-66q4-vfjg-2qhh,low,N/A,Claude Code Vulnerable to Command Injection via Directory Change Bypasses Write Protection,N/A,0
+ruflo,ruflo-grype.json,undici,7.16.0,GHSA-f269-vfmq-vjvj,low,N/A,Undici: Malicious WebSocket 64-bit length overflows parser and crashes the client,N/A,0
+ruflo,ruflo-grype.json,undici,7.18.2,GHSA-f269-vfmq-vjvj,low,N/A,Undici: Malicious WebSocket 64-bit length overflows parser and crashes the client,N/A,0
+ruflo,ruflo-grype.json,undici,7.22.0,GHSA-f269-vfmq-vjvj,low,N/A,Undici: Malicious WebSocket 64-bit length overflows parser and crashes the client,N/A,0
+ruflo,ruflo-grype.json,python-jose,3.3.0,GHSA-cjwg-qfpm-7377,low,N/A,python-jose denial of service via compressed JWE content,N/A,0
+ruflo,ruflo-grype.json,@anthropic-ai/claude-code,2.0.1,GHSA-mmgp-wc2j-qcv7,low,N/A,Claude Code has a Workspace Trust Dialog Bypass via Repo-Controlled Settings File,N/A,0
+ruflo,ruflo-grype.json,flask-cors,4.0.0,GHSA-84pr-m4jr-85g5,low,N/A,flask-cors vulnerable to log injection when the log level is set to debug,N/A,0
+ruflo,ruflo-grype.json,litellm,1.54.0,GHSA-jjhc-v7c2-5hh6,low,N/A,LiteLLM: Authentication bypass via OIDC userinfo cache key collision,N/A,0
+ruflo,ruflo-grype.json,litellm,1.54.0,GHSA-jjhc-v7c2-5hh6,low,N/A,LiteLLM: Authentication bypass via OIDC userinfo cache key collision,N/A,0
+ruflo,ruflo-grype.json,devalue,5.6.3,GHSA-cfw5-2vxh-hr84,low,N/A,devalue has prototype pollution in devalue.parse and devalue.unflatten,N/A,0
+ruflo,ruflo-grype.json,@sveltejs/kit,2.52.2,GHSA-2crg-3p73-43xp,low,N/A,@sveltejs/adapter-node has a BODY_SIZE_LIMIT bypass,N/A,0
+ruflo,ruflo-grype.json,cookie,0.6.0,GHSA-pxg6-pf52-xh8x,low,N/A,"cookie accepts cookie name, path, and domain with out of bounds characters",N/A,0
+ruflo,ruflo-grype.json,@anthropic-ai/claude-code,2.0.1,GHSA-7mv8-j34q-vp7q,low,N/A,@anthropic-ai/claude-code has Sed Command Validation Bypass that Allows Arbitrary File Writes,N/A,0
+ruflo,ruflo-grype.json,protobufjs,6.11.4,GHSA-xq3m-2v4x-88gg,low,N/A,Arbitrary code execution in protobufjs,N/A,0
+ruflo,ruflo-grype.json,protobufjs,6.11.4,GHSA-xq3m-2v4x-88gg,low,N/A,Arbitrary code execution in protobufjs,N/A,0
+ruflo,ruflo-grype.json,protobufjs,6.11.6,GHSA-xq3m-2v4x-88gg,low,N/A,Arbitrary code execution in protobufjs,N/A,0
+ruflo,ruflo-grype.json,protobufjs,7.5.4,GHSA-xq3m-2v4x-88gg,low,N/A,Arbitrary code execution in protobufjs,N/A,0
+ruflo,ruflo-grype.json,flask-cors,4.0.0,GHSA-8vgw-p6qm-5gr7,low,N/A,Flask-CORS allows for inconsistent CORS matching,N/A,0
+ruflo,ruflo-grype.json,validator,13.15.15,GHSA-vghf-hv5q-vc2g,low,N/A,Validator is Vulnerable to Incomplete Filtering of One or More Instances of Special Elements,N/A,0
+ruflo,ruflo-grype.json,flatted,3.3.3,GHSA-rf6f-7fwh-wjgh,low,N/A,Prototype Pollution via parse() in NodeJS flatted,N/A,0
+ruflo,ruflo-grype.json,path-to-regexp,8.2.0,GHSA-j3q9-mxjg-w52f,low,N/A,path-to-regexp vulnerable to Denial of Service via sequential optional groups,N/A,0
+ruflo,ruflo-grype.json,path-to-regexp,8.2.0,GHSA-j3q9-mxjg-w52f,low,N/A,path-to-regexp vulnerable to Denial of Service via sequential optional groups,N/A,0
+ruflo,ruflo-grype.json,path-to-regexp,8.3.0,GHSA-j3q9-mxjg-w52f,low,N/A,path-to-regexp vulnerable to Denial of Service via sequential optional groups,N/A,0
+ruflo,ruflo-grype.json,path-to-regexp,8.3.0,GHSA-j3q9-mxjg-w52f,low,N/A,path-to-regexp vulnerable to Denial of Service via sequential optional groups,N/A,0
+ruflo,ruflo-grype.json,tmp,0.0.33,GHSA-52f5-9888-hmc6,low,N/A,tmp allows arbitrary temporary file / directory write via symbolic link `dir` parameter,N/A,0
+ruflo,ruflo-grype.json,tmp,0.0.33,GHSA-52f5-9888-hmc6,low,N/A,tmp allows arbitrary temporary file / directory write via symbolic link `dir` parameter,N/A,0
+ruflo,ruflo-grype.json,black,23.7.0,GHSA-fj7x-q9j7-g6q6,low,N/A,Black vulnerable to Regular Expression Denial of Service (ReDoS),N/A,0
+ruflo,ruflo-grype.json,basic-ftp,5.0.5,GHSA-rp42-5vxx-qpwr,low,N/A,basic-ftp vulnerable to denial of service via unbounded memory consumption in Client.list(),N/A,0
+ruflo,ruflo-grype.json,path-to-regexp,0.1.12,GHSA-37ch-88jc-xwx2,low,N/A,path-to-regexp vulnerable to Regular Expression Denial of Service via multiple route parameters,N/A,0
+ruflo,ruflo-grype.json,path-to-regexp,0.1.12,GHSA-37ch-88jc-xwx2,low,N/A,path-to-regexp vulnerable to Regular Expression Denial of Service via multiple route parameters,N/A,0
+ruflo,ruflo-grype.json,path-to-regexp,0.1.12,GHSA-37ch-88jc-xwx2,low,N/A,path-to-regexp vulnerable to Regular Expression Denial of Service via multiple route parameters,N/A,0
+ruflo,ruflo-grype.json,path-to-regexp,0.1.12,GHSA-37ch-88jc-xwx2,low,N/A,path-to-regexp vulnerable to Regular Expression Denial of Service via multiple route parameters,N/A,0
+ruflo,ruflo-grype.json,handlebars,4.7.8,GHSA-9cx6-37pm-9jff,low,N/A,Handlebars.js has Denial of Service via Malformed Decorator Syntax in Template Compilation,N/A,0
+ruflo,ruflo-grype.json,@anthropic-ai/claude-code,2.0.1,GHSA-qgqw-h4xq-7w8w,low,N/A,Claude Code has a Command Injection in find Command Bypasses User Approval Prompt,N/A,0
+ruflo,ruflo-grype.json,file-type,21.0.0,GHSA-j47w-4g3g-c36v,low,N/A,file-type: ZIP Decompression Bomb DoS via [Content_Types].xml entry,N/A,0
+ruflo,ruflo-grype.json,file-type,21.0.0,GHSA-j47w-4g3g-c36v,low,N/A,file-type: ZIP Decompression Bomb DoS via [Content_Types].xml entry,N/A,0
+ruflo,ruflo-grype.json,file-type,21.3.0,GHSA-j47w-4g3g-c36v,low,N/A,file-type: ZIP Decompression Bomb DoS via [Content_Types].xml entry,N/A,0
+ruflo,ruflo-grype.json,axios,1.12.2,GHSA-43fc-jf86-j433,low,N/A,Axios is Vulnerable to Denial of Service via __proto__ Key in mergeConfig,N/A,0
+ruflo,ruflo-grype.json,hono,4.12.0,GHSA-q5qw-h33p-qvwr,low,N/A,Hono vulnerable to arbitrary file access via serveStatic vulnerability,N/A,0
+ruflo,ruflo-grype.json,hono,4.12.3,GHSA-q5qw-h33p-qvwr,low,N/A,Hono vulnerable to arbitrary file access via serveStatic vulnerability,N/A,0
+ruflo,ruflo-grype.json,qs,6.13.0,GHSA-6rw7-vpxm-498p,low,N/A,qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion,N/A,0
+ruflo,ruflo-grype.json,qs,6.13.0,GHSA-6rw7-vpxm-498p,low,N/A,qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion,N/A,0
+ruflo,ruflo-grype.json,qs,6.14.0,GHSA-6rw7-vpxm-498p,low,N/A,qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion,N/A,0
+ruflo,ruflo-grype.json,qs,6.14.0,GHSA-6rw7-vpxm-498p,low,N/A,qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion,N/A,0
+ruflo,ruflo-grype.json,flask-cors,4.0.0,GHSA-43qf-4rqw-9q2g,low,N/A,Flask-CORS vulnerable to Improper Handling of Case Sensitivity,N/A,0
+ruflo,ruflo-grype.json,hono,4.12.0,GHSA-p6xx-57qc-3wxr,low,N/A,Hono Vulnerable to SSE Control Field Injection via CR/LF in writeSSE(),N/A,0
+ruflo,ruflo-grype.json,hono,4.12.3,GHSA-p6xx-57qc-3wxr,low,N/A,Hono Vulnerable to SSE Control Field Injection via CR/LF in writeSSE(),N/A,0
+ruflo,ruflo-grype.json,path-to-regexp,8.2.0,GHSA-27v5-c462-wpq7,low,N/A,path-to-regexp vulnerable to Regular Expression Denial of Service via multiple wildcards,N/A,0
+ruflo,ruflo-grype.json,path-to-regexp,8.2.0,GHSA-27v5-c462-wpq7,low,N/A,path-to-regexp vulnerable to Regular Expression Denial of Service via multiple wildcards,N/A,0
+ruflo,ruflo-grype.json,path-to-regexp,8.3.0,GHSA-27v5-c462-wpq7,low,N/A,path-to-regexp vulnerable to Regular Expression Denial of Service via multiple wildcards,N/A,0
+ruflo,ruflo-grype.json,path-to-regexp,8.3.0,GHSA-27v5-c462-wpq7,low,N/A,path-to-regexp vulnerable to Regular Expression Denial of Service via multiple wildcards,N/A,0
+ruflo,ruflo-grype.json,@sveltejs/kit,2.52.2,GHSA-3f6h-2hrp-w5wx,low,N/A,@sveltejs/kit: Unvalidated redirect in handle hook causes Denial-of-Service,N/A,0
+ruflo,ruflo-grype.json,picomatch,2.3.1,GHSA-3v7f-55p6-f55p,low,N/A,Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching,N/A,0
+ruflo,ruflo-grype.json,picomatch,2.3.1,GHSA-3v7f-55p6-f55p,low,N/A,Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching,N/A,0
+ruflo,ruflo-grype.json,picomatch,2.3.1,GHSA-3v7f-55p6-f55p,low,N/A,Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching,N/A,0
+ruflo,ruflo-grype.json,picomatch,2.3.1,GHSA-3v7f-55p6-f55p,low,N/A,Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching,N/A,0
+ruflo,ruflo-grype.json,picomatch,4.0.2,GHSA-3v7f-55p6-f55p,low,N/A,Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching,N/A,0
+ruflo,ruflo-grype.json,validator,13.15.15,GHSA-9965-vmph-33xx,low,N/A,validator.js has a URL validation bypass vulnerability in its isURL function,N/A,0
+ruflo,ruflo-grype.json,yaml,2.8.0,GHSA-48c2-rrv3-qjmp,low,N/A,yaml is vulnerable to Stack Overflow via deeply nested YAML collections,N/A,0
+ruflo,ruflo-grype.json,yaml,2.8.1,GHSA-48c2-rrv3-qjmp,low,N/A,yaml is vulnerable to Stack Overflow via deeply nested YAML collections,N/A,0
+ruflo,ruflo-grype.json,yaml,2.8.2,GHSA-48c2-rrv3-qjmp,low,N/A,yaml is vulnerable to Stack Overflow via deeply nested YAML collections,N/A,0
+ruflo,ruflo-grype.json,handlebars,4.7.8,GHSA-3mfm-83xf-c92r,low,N/A,Handlebars.js has JavaScript Injection via AST Type Confusion by tampering @partial-block,N/A,0
+ruflo,ruflo-grype.json,tar-fs,2.1.3,GHSA-vj76-c3g6-qr5v,low,N/A,tar-fs has a symlink validation bypass if destination directory is predictable with a specific tarball,N/A,0
+ruflo,ruflo-grype.json,tar-fs,2.1.3,GHSA-vj76-c3g6-qr5v,low,N/A,tar-fs has a symlink validation bypass if destination directory is predictable with a specific tarball,N/A,0
+ruflo,ruflo-grype.json,tar-fs,3.1.0,GHSA-vj76-c3g6-qr5v,low,N/A,tar-fs has a symlink validation bypass if destination directory is predictable with a specific tarball,N/A,0
+ruflo,ruflo-grype.json,axios,1.12.2,GHSA-3p68-rc4w-qgx5,low,N/A,Axios has a NO_PROXY Hostname Normalization Bypass that Leads to SSRF,N/A,0
+ruflo,ruflo-grype.json,axios,1.13.6,GHSA-3p68-rc4w-qgx5,low,N/A,Axios has a NO_PROXY Hostname Normalization Bypass that Leads to SSRF,N/A,0
+ruflo,ruflo-grype.json,handlebars,4.7.8,GHSA-2qvq-rjwj-gvw9,low,N/A,Handlebars.js has Prototype Pollution Leading to XSS through Partial Template Injection,N/A,0
+ruflo,ruflo-grype.json,minimatch,10.0.3,GHSA-3ppc-4f35-3m26,low,N/A,minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern,N/A,0
+ruflo,ruflo-grype.json,minimatch,10.0.3,GHSA-3ppc-4f35-3m26,low,N/A,minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern,N/A,0
+ruflo,ruflo-grype.json,minimatch,3.1.2,GHSA-3ppc-4f35-3m26,low,N/A,minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern,N/A,0
+ruflo,ruflo-grype.json,minimatch,5.1.6,GHSA-3ppc-4f35-3m26,low,N/A,minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern,N/A,0
+ruflo,ruflo-grype.json,minimatch,9.0.3,GHSA-3ppc-4f35-3m26,low,N/A,minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern,N/A,0
+ruflo,ruflo-grype.json,minimatch,9.0.5,GHSA-3ppc-4f35-3m26,low,N/A,minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern,N/A,0
+ruflo,ruflo-grype.json,minimatch,9.0.5,GHSA-3ppc-4f35-3m26,low,N/A,minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern,N/A,0
+ruflo,ruflo-grype.json,minimatch,10.0.3,GHSA-7r86-cg39-jmmj,low,N/A,minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments,N/A,0
+ruflo,ruflo-grype.json,minimatch,10.0.3,GHSA-7r86-cg39-jmmj,low,N/A,minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments,N/A,0
+ruflo,ruflo-grype.json,minimatch,3.1.2,GHSA-7r86-cg39-jmmj,low,N/A,minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments,N/A,0
+ruflo,ruflo-grype.json,minimatch,5.1.6,GHSA-7r86-cg39-jmmj,low,N/A,minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments,N/A,0
+ruflo,ruflo-grype.json,minimatch,9.0.3,GHSA-7r86-cg39-jmmj,low,N/A,minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments,N/A,0
+ruflo,ruflo-grype.json,minimatch,9.0.5,GHSA-7r86-cg39-jmmj,low,N/A,minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments,N/A,0
+ruflo,ruflo-grype.json,minimatch,9.0.5,GHSA-7r86-cg39-jmmj,low,N/A,minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments,N/A,0
+ruflo,ruflo-grype.json,express-rate-limit,8.2.1,GHSA-46wh-pxpv-q5gq,low,N/A,express-rate-limit: IPv4-mapped IPv6 addresses bypass per-client rate limiting on servers with dual-stack network,N/A,0
+ruflo,ruflo-grype.json,express-rate-limit,8.2.1,GHSA-46wh-pxpv-q5gq,low,N/A,express-rate-limit: IPv4-mapped IPv6 addresses bypass per-client rate limiting on servers with dual-stack network,N/A,0
+ruflo,ruflo-grype.json,glob,10.4.5,GHSA-5j98-mcp5-4vw2,low,N/A,glob CLI: Command injection via -c/--cmd executes matches with shell:true,N/A,0
+ruflo,ruflo-grype.json,glob,11.0.3,GHSA-5j98-mcp5-4vw2,low,N/A,glob CLI: Command injection via -c/--cmd executes matches with shell:true,N/A,0
+ruflo,ruflo-grype.json,glob,11.0.3,GHSA-5j98-mcp5-4vw2,low,N/A,glob CLI: Command injection via -c/--cmd executes matches with shell:true,N/A,0
+ruflo,ruflo-grype.json,minimatch,10.0.3,GHSA-23c5-xmqv-rm74,low,N/A,minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions,N/A,0
+ruflo,ruflo-grype.json,minimatch,10.0.3,GHSA-23c5-xmqv-rm74,low,N/A,minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions,N/A,0
+ruflo,ruflo-grype.json,minimatch,3.1.2,GHSA-23c5-xmqv-rm74,low,N/A,minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions,N/A,0
+ruflo,ruflo-grype.json,minimatch,5.1.6,GHSA-23c5-xmqv-rm74,low,N/A,minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions,N/A,0
+ruflo,ruflo-grype.json,minimatch,9.0.3,GHSA-23c5-xmqv-rm74,low,N/A,minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions,N/A,0
+ruflo,ruflo-grype.json,minimatch,9.0.5,GHSA-23c5-xmqv-rm74,low,N/A,minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions,N/A,0
+ruflo,ruflo-grype.json,minimatch,9.0.5,GHSA-23c5-xmqv-rm74,low,N/A,minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions,N/A,0
+ruflo,ruflo-grype.json,@modelcontextprotocol/sdk,1.17.0,GHSA-8r9q-7v3j-jr4g,low,N/A,Anthropic's MCP TypeScript SDK has a ReDoS vulnerability,N/A,0
+ruflo,ruflo-grype.json,@modelcontextprotocol/sdk,1.20.1,GHSA-8r9q-7v3j-jr4g,low,N/A,Anthropic's MCP TypeScript SDK has a ReDoS vulnerability,N/A,0
+ruflo,ruflo-grype.json,hono,4.12.0,GHSA-5pq2-9x2x-5p6w,low,N/A,Hono Vulnerable to Cookie Attribute Injection via Unsanitized domain and path in setCookie(),N/A,0
+ruflo,ruflo-grype.json,hono,4.12.3,GHSA-5pq2-9x2x-5p6w,low,N/A,Hono Vulnerable to Cookie Attribute Injection via Unsanitized domain and path in setCookie(),N/A,0
+ruflo,ruflo-grype.json,handlebars,4.7.8,GHSA-xhpv-hc6g-r9c6,low,N/A,Handlebars.js has JavaScript Injection via AST Type Confusion when passing an object as dynamic partial,N/A,0
+ruflo,ruflo-grype.json,@anthropic-ai/claude-code,2.0.1,GHSA-4q92-rfm6-2cqx,low,N/A,Claude Code has Permission Deny Bypass Through Symbolic Links,N/A,0
+ruflo,ruflo-grype.json,@anthropic-ai/claude-code,2.0.1,GHSA-jh7p-qr78-84p7,low,N/A,Claude Code Leaks Data via Malicious Environment Configuration Before Trust Confirmation,N/A,0
+ruflo,ruflo-grype.json,js-yaml,3.14.1,GHSA-mh29-5h37-fv8m,low,N/A,js-yaml has prototype pollution in merge (<<),N/A,0
+ruflo,ruflo-grype.json,js-yaml,4.1.0,GHSA-mh29-5h37-fv8m,low,N/A,js-yaml has prototype pollution in merge (<<),N/A,0
+ruflo,ruflo-grype.json,@anthropic-ai/claude-code,2.0.1,GHSA-ff64-7w26-62rf,low,N/A,Claude Code has Sandbox Escape via Persistent Configuration Injection in settings.json,N/A,0
+ruflo,ruflo-grype.json,postcss,8.5.4,GHSA-qx2v-qp2m-jg93,low,N/A,PostCSS has XSS via Unescaped </style> in its CSS Stringify Output,N/A,0
+ruflo,ruflo-grype.json,black,23.7.0,GHSA-3936-cmfr-pm3m,low,N/A,Black: Arbitrary file writes from unsanitized user input in cache file name,N/A,0
+ruflo,ruflo-grype.json,qs,6.13.0,GHSA-w7fw-mjwx-w883,low,N/A,qs's arrayLimit bypass in comma parsing allows denial of service,N/A,0
+ruflo,ruflo-grype.json,qs,6.13.0,GHSA-w7fw-mjwx-w883,low,N/A,qs's arrayLimit bypass in comma parsing allows denial of service,N/A,0
+ruflo,ruflo-grype.json,qs,6.14.0,GHSA-w7fw-mjwx-w883,low,N/A,qs's arrayLimit bypass in comma parsing allows denial of service,N/A,0
+ruflo,ruflo-grype.json,qs,6.14.0,GHSA-w7fw-mjwx-w883,low,N/A,qs's arrayLimit bypass in comma parsing allows denial of service,N/A,0
+ruflo,ruflo-grype.json,qs,6.14.1,GHSA-w7fw-mjwx-w883,low,N/A,qs's arrayLimit bypass in comma parsing allows denial of service,N/A,0
+ruflo,ruflo-grype.json,@anthropic-ai/claude-code,2.0.1,GHSA-q728-gf8j-w49r,low,N/A,Claude Code has a Path Restriction Bypass via ZSH Clobber which Allows Arbitrary File Writes,N/A,0
+ruflo,ruflo-grype.json,@isaacs/brace-expansion,5.0.0,GHSA-7h2j-956f-4vf2,low,N/A,@isaacs/brace-expansion has Uncontrolled Resource Consumption,N/A,0
+ruflo,ruflo-grype.json,@isaacs/brace-expansion,5.0.0,GHSA-7h2j-956f-4vf2,low,N/A,@isaacs/brace-expansion has Uncontrolled Resource Consumption,N/A,0
+ruflo,ruflo-grype.json,flatted,3.3.3,GHSA-25h7-pfq9-p65f,low,N/A,flatted vulnerable to unbounded recursion DoS in parse() revive phase,N/A,0
+ruflo,ruflo-grype.json,file-type,21.0.0,GHSA-5v7r-6r5c-r473,low,N/A,file-type affected by infinite loop in ASF parser on malformed input with zero-size sub-header,N/A,0
+ruflo,ruflo-grype.json,file-type,21.0.0,GHSA-5v7r-6r5c-r473,low,N/A,file-type affected by infinite loop in ASF parser on malformed input with zero-size sub-header,N/A,0
+ruflo,ruflo-grype.json,file-type,21.3.0,GHSA-5v7r-6r5c-r473,low,N/A,file-type affected by infinite loop in ASF parser on malformed input with zero-size sub-header,N/A,0
+ruflo,ruflo-grype.json,body-parser,2.2.0,GHSA-wqch-xfxh-vrr4,low,N/A,body-parser is vulnerable to denial of service when url encoding is used,N/A,0
+ruflo,ruflo-grype.json,body-parser,2.2.0,GHSA-wqch-xfxh-vrr4,low,N/A,body-parser is vulnerable to denial of service when url encoding is used,N/A,0
+ruflo,ruflo-grype.json,undici,7.16.0,GHSA-vrm6-8vpv-qv8q,low,N/A,Undici has Unbounded Memory Consumption in WebSocket permessage-deflate Decompression,N/A,0
+ruflo,ruflo-grype.json,undici,7.18.2,GHSA-vrm6-8vpv-qv8q,low,N/A,Undici has Unbounded Memory Consumption in WebSocket permessage-deflate Decompression,N/A,0
+ruflo,ruflo-grype.json,undici,7.22.0,GHSA-vrm6-8vpv-qv8q,low,N/A,Undici has Unbounded Memory Consumption in WebSocket permessage-deflate Decompression,N/A,0
+ruflo,ruflo-grype.json,svelte,5.53.0,GHSA-phwv-c562-gvmh,low,N/A,Svelte vulnerable to XSS during SSR with contenteditable `bind:innerText` and `bind:textContent`,N/A,0
+ruflo,ruflo-grype.json,svelte,5.53.0,GHSA-qgvg-pr8v-6rr3,low,N/A,Svelte: XSS via HTML Comment Injection in SSR Error Boundary Hydration Markers,N/A,0
+ruflo,ruflo-grype.json,picomatch,2.3.1,GHSA-c2c7-rcm5-vvqj,low,N/A,Picomatch has a ReDoS vulnerability via extglob quantifiers,N/A,0
+ruflo,ruflo-grype.json,picomatch,2.3.1,GHSA-c2c7-rcm5-vvqj,low,N/A,Picomatch has a ReDoS vulnerability via extglob quantifiers,N/A,0
+ruflo,ruflo-grype.json,picomatch,2.3.1,GHSA-c2c7-rcm5-vvqj,low,N/A,Picomatch has a ReDoS vulnerability via extglob quantifiers,N/A,0
+ruflo,ruflo-grype.json,picomatch,2.3.1,GHSA-c2c7-rcm5-vvqj,low,N/A,Picomatch has a ReDoS vulnerability via extglob quantifiers,N/A,0
+ruflo,ruflo-grype.json,picomatch,4.0.2,GHSA-c2c7-rcm5-vvqj,low,N/A,Picomatch has a ReDoS vulnerability via extglob quantifiers,N/A,0
+ruflo,ruflo-grype.json,brace-expansion,1.1.12,GHSA-f886-m6hf-6m8v,low,N/A,brace-expansion: Zero-step sequence causes process hang and memory exhaustion,N/A,0
+ruflo,ruflo-grype.json,brace-expansion,2.0.2,GHSA-f886-m6hf-6m8v,low,N/A,brace-expansion: Zero-step sequence causes process hang and memory exhaustion,N/A,0
+ruflo,ruflo-grype.json,brace-expansion,2.0.2,GHSA-f886-m6hf-6m8v,low,N/A,brace-expansion: Zero-step sequence causes process hang and memory exhaustion,N/A,0
+ruflo,ruflo-grype.json,brace-expansion,2.0.2,GHSA-f886-m6hf-6m8v,low,N/A,brace-expansion: Zero-step sequence causes process hang and memory exhaustion,N/A,0
+ruflo,ruflo-grype.json,hono,4.12.0,GHSA-r5rp-j6wh-rvv4,low,N/A,Hono: Non-breaking space prefix bypass in cookie name handling in getCookie(),N/A,0
+ruflo,ruflo-grype.json,hono,4.12.3,GHSA-r5rp-j6wh-rvv4,low,N/A,Hono: Non-breaking space prefix bypass in cookie name handling in getCookie(),N/A,0
+ruflo,ruflo-grype.json,@hono/node-server,1.19.9,GHSA-wc8c-qw6v-h7f6,low,N/A,@hono/node-server has authorization bypass for protected static paths via encoded slashes in Serve Static Middleware,N/A,0
+ruflo,ruflo-grype.json,@hono/node-server,1.19.9,GHSA-wc8c-qw6v-h7f6,low,N/A,@hono/node-server has authorization bypass for protected static paths via encoded slashes in Serve Static Middleware,N/A,0
+ruflo,ruflo-grype.json,axios,1.12.2,GHSA-fvcv-3m26-pcqx,low,N/A,Axios has Unrestricted Cloud Metadata Exfiltration via Header Injection Chain,N/A,0
+ruflo,ruflo-grype.json,axios,1.13.6,GHSA-fvcv-3m26-pcqx,low,N/A,Axios has Unrestricted Cloud Metadata Exfiltration via Header Injection Chain,N/A,0
+ruflo,ruflo-grype.json,@modelcontextprotocol/sdk,1.17.0,GHSA-w48q-cv73-mx4w,low,N/A,Model Context Protocol (MCP) TypeScript SDK does not enable DNS rebinding protection by default,N/A,0
+ruflo,ruflo-grype.json,@modelcontextprotocol/sdk,1.20.1,GHSA-w48q-cv73-mx4w,low,N/A,Model Context Protocol (MCP) TypeScript SDK does not enable DNS rebinding protection by default,N/A,0
+ruflo,ruflo-grype.json,@modelcontextprotocol/sdk,1.17.0,GHSA-345p-7cg4-v4c7,low,N/A,@modelcontextprotocol/sdk has cross-client data leak via shared server/transport instance reuse,N/A,0
+ruflo,ruflo-grype.json,@modelcontextprotocol/sdk,1.20.1,GHSA-345p-7cg4-v4c7,low,N/A,@modelcontextprotocol/sdk has cross-client data leak via shared server/transport instance reuse,N/A,0
+ruflo,ruflo-grype.json,undici,7.16.0,GHSA-g9mf-h72j-4rw9,low,N/A,Undici has an unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resource exhaustion,N/A,0
+ruflo,ruflo-grype.json,undici,7.18.2,GHSA-phc3-fgpg-7m6h,low,N/A,Undici has Unbounded Memory Consumption in its DeduplicationHandler via Response Buffering that leads to DoS,N/A,0
+ruflo,ruflo-grype.json,undici,7.22.0,GHSA-phc3-fgpg-7m6h,low,N/A,Undici has Unbounded Memory Consumption in its DeduplicationHandler via Response Buffering that leads to DoS,N/A,0
+ruflo,ruflo-grype.json,undici,7.16.0,GHSA-2mjp-6q6p-2qxm,low,N/A,Undici has an HTTP Request/Response Smuggling issue,N/A,0
+ruflo,ruflo-grype.json,undici,7.18.2,GHSA-2mjp-6q6p-2qxm,low,N/A,Undici has an HTTP Request/Response Smuggling issue,N/A,0
+ruflo,ruflo-grype.json,undici,7.22.0,GHSA-2mjp-6q6p-2qxm,low,N/A,Undici has an HTTP Request/Response Smuggling issue,N/A,0
+ruflo,ruflo-grype.json,python-multipart,0.0.20,GHSA-mj87-hwqh-73pj,low,N/A,python-multipart affected by Denial of Service via large multipart preamble or epilogue data,N/A,0
+ruflo,ruflo-grype.json,hono,4.12.0,GHSA-wmmm-f939-6g9c,low,N/A,Hono: Middleware bypass via repeated slashes in serveStatic,N/A,0
+ruflo,ruflo-grype.json,hono,4.12.3,GHSA-wmmm-f939-6g9c,low,N/A,Hono: Middleware bypass via repeated slashes in serveStatic,N/A,0
+ruflo,ruflo-grype.json,@hono/node-server,1.19.9,GHSA-92pp-h63x-v22m,low,N/A,@hono/node-server: Middleware bypass via repeated slashes in serveStatic,N/A,0
+ruflo,ruflo-grype.json,@hono/node-server,1.19.9,GHSA-92pp-h63x-v22m,low,N/A,@hono/node-server: Middleware bypass via repeated slashes in serveStatic,N/A,0
+ruflo,ruflo-grype.json,hono,4.12.0,GHSA-xf4j-xp2r-rqqx,low,N/A,Hono: Path traversal in toSSG() allows writing files outside the output directory,N/A,0
+ruflo,ruflo-grype.json,hono,4.12.3,GHSA-xf4j-xp2r-rqqx,low,N/A,Hono: Path traversal in toSSG() allows writing files outside the output directory,N/A,0
+ruflo,ruflo-grype.json,ajv,6.12.6,GHSA-2g4f-4pwh-qvx6,low,N/A,ajv has ReDoS when using `$data` option,N/A,0
+ruflo,ruflo-grype.json,ajv,6.12.6,GHSA-2g4f-4pwh-qvx6,low,N/A,ajv has ReDoS when using `$data` option,N/A,0
+ruflo,ruflo-grype.json,ajv,8.17.1,GHSA-2g4f-4pwh-qvx6,low,N/A,ajv has ReDoS when using `$data` option,N/A,0
+ruflo,ruflo-grype.json,jws,3.2.2,GHSA-869p-cjfg-cm3x,low,N/A,auth0/node-jws Improperly Verifies HMAC Signature,N/A,0
+ruflo,ruflo-grype.json,jws,4.0.0,GHSA-869p-cjfg-cm3x,low,N/A,auth0/node-jws Improperly Verifies HMAC Signature,N/A,0
+ruflo,ruflo-grype.json,cryptography,44.0.0,GHSA-r6ph-v2qm-q3c2,low,N/A,cryptography Vulnerable to a Subgroup Attack Due to Missing Subgroup Validation for SECT Curves,N/A,0
+ruflo,ruflo-grype.json,handlebars,4.7.8,GHSA-xjpj-3mr7-gcpf,low,N/A,Handlebars.js has JavaScript Injection in CLI Precompiler via Unescaped Names and Options,N/A,0
+ruflo,ruflo-grype.json,hono,4.12.0,GHSA-xpcf-pg52-r92g,low,N/A,Hono has incorrect IP matching in ipRestriction() for IPv4-mapped IPv6 addresses,N/A,0
+ruflo,ruflo-grype.json,hono,4.12.3,GHSA-xpcf-pg52-r92g,low,N/A,Hono has incorrect IP matching in ipRestriction() for IPv4-mapped IPv6 addresses,N/A,0
+ruflo,ruflo-grype.json,@anthropic-ai/claude-code,2.0.1,GHSA-5cwg-9f6j-9jvx,low,N/A,Claude Code: Insecure System-Wide Configuration Loading Enables Local Privilege Escalation on Windows,N/A,0
+ruflo,ruflo-grype.json,python-dotenv,1.0.0,GHSA-mf9w-mj56-hr94,low,N/A,python-dotenv: Symlink following in set_key allows arbitrary file overwrite via cross-device rename fallback,N/A,0
+ruflo,ruflo-grype.json,python-dotenv,1.0.1,GHSA-mf9w-mj56-hr94,low,N/A,python-dotenv: Symlink following in set_key allows arbitrary file overwrite via cross-device rename fallback,N/A,0
+ruflo,ruflo-grype.json,hono,4.12.0,GHSA-xh87-mx6m-69f3,low,N/A,Hono is Vulnerable to Authentication Bypass by IP Spoofing in AWS Lambda ALB conninfo,N/A,0
+ruflo,ruflo-grype.json,undici,7.16.0,GHSA-4992-7rv2-5pvq,low,N/A,Undici has CRLF Injection in undici via `upgrade` option,N/A,0
+ruflo,ruflo-grype.json,undici,7.18.2,GHSA-4992-7rv2-5pvq,low,N/A,Undici has CRLF Injection in undici via `upgrade` option,N/A,0
+ruflo,ruflo-grype.json,undici,7.22.0,GHSA-4992-7rv2-5pvq,low,N/A,Undici has CRLF Injection in undici via `upgrade` option,N/A,0
+ruflo,ruflo-grype.json,vite,6.3.5,GHSA-jqfw-vq24-v9c3,low,N/A,Vite's `server.fs` settings were not applied to HTML files,N/A,0
+ruflo,ruflo-grype.json,@tootallnate/once,2.0.0,GHSA-vpq2-c234-7xj6,low,N/A,@tootallnate/once vulnerable to Incorrect Control Flow Scoping,N/A,0
+ruflo,ruflo-grype.json,pytest,7.4.0,GHSA-6w46-j5rx-g56g,low,N/A,pytest has vulnerable tmpdir handling,N/A,0
+ruflo,ruflo-grype.json,pytest,8.3.4,GHSA-6w46-j5rx-g56g,low,N/A,pytest has vulnerable tmpdir handling,N/A,0
+ruflo,ruflo-grype.json,flask,2.3.2,GHSA-68rp-wp8r-4726,low,N/A,Flask session does not add `Vary: Cookie` header when accessed in some ways,N/A,0
+ruflo,ruflo-grype.json,cryptography,44.0.0,GHSA-m959-cc7f-wv43,low,N/A,cryptography has incomplete DNS name constraint enforcement on peer names,N/A,0
+ruflo,ruflo-grype.json,mcp-bridge,1.0.0,GHSA-wvr4-3wq4-gpc5,low,N/A,MCP Connect has unauthenticated remote OS command execution via /bridge endpoint,N/A,0
+ruflo,ruflo-grype.json,actions/download-artifact,v4,GHSA-cxww-7g56-2vh6,low,N/A,@actions/download-artifact has an Arbitrary File Write via artifact extraction,N/A,0
+ruflo,ruflo-grype.json,actions/download-artifact,v4,GHSA-cxww-7g56-2vh6,low,N/A,@actions/download-artifact has an Arbitrary File Write via artifact extraction,N/A,0
+ruflo,ruflo-grype.json,actions/download-artifact,v4,GHSA-cxww-7g56-2vh6,low,N/A,@actions/download-artifact has an Arbitrary File Write via artifact extraction,N/A,0
+ruflo,ruflo-grype.json,actions/download-artifact,v4,GHSA-cxww-7g56-2vh6,low,N/A,@actions/download-artifact has an Arbitrary File Write via artifact extraction,N/A,0
+ruflo,ruflo-grype.json,basic-ftp,5.0.5,GHSA-6v7q-wjvx-w8wg,low,N/A,basic-ftp: Incomplete CRLF Injection Protection Allows Arbitrary FTP Command Execution via Credentials and MKD Commands,N/A,0
+ruflo,ruflo-grype.json,litellm,1.54.0,GHSA-69x8-hrgq-fjj8,low,N/A,LiteLLM: Password hash exposure and pass-the-hash authentication bypass,N/A,0
+ruflo,ruflo-grype.json,litellm,1.54.0,GHSA-69x8-hrgq-fjj8,low,N/A,LiteLLM: Password hash exposure and pass-the-hash authentication bypass,N/A,0
+ruflo,ruflo-grype.json,esbuild,0.21.5,GHSA-67mh-4wv8-2f99,low,N/A,esbuild enables any website to send any requests to the development server and read the response,N/A,0
+ruflo,ruflo-grype.json,follow-redirects,1.15.11,GHSA-r4q5-vmmm-2653,low,N/A,follow-redirects leaks Custom Authentication Headers to Cross-Domain Redirect Targets,N/A,0
+ruflo,ruflo-grype.json,follow-redirects,1.15.11,GHSA-r4q5-vmmm-2653,low,N/A,follow-redirects leaks Custom Authentication Headers to Cross-Domain Redirect Targets,N/A,0
+ruflo,ruflo-grype.json,handlebars,4.7.8,GHSA-7rx3-28cr-v5wh,low,N/A,Handlebars.js has a Prototype Method Access Control Gap via Missing __lookupSetter__ Blocklist Entry,N/A,0
+ruflo,ruflo-grype.json,hono,4.12.0,GHSA-26pp-8wgv-hjvm,low,N/A,Hono missing validation of cookie name on write path in setCookie(),N/A,0
+ruflo,ruflo-grype.json,hono,4.12.0,GHSA-458j-xx4x-4375,low,N/A,hono Improperly Handles JSX Attribute Names Allows HTML Injection in hono/jsx SSR,N/A,0
+ruflo,ruflo-grype.json,hono,4.12.0,GHSA-v8w9-8mx6-g223,low,N/A,Hono vulnerable to Prototype Pollution possible through __proto__ key allowed in parseBody({ dot: true }),N/A,0
+ruflo,ruflo-grype.json,hono,4.12.3,GHSA-26pp-8wgv-hjvm,low,N/A,Hono missing validation of cookie name on write path in setCookie(),N/A,0
+ruflo,ruflo-grype.json,hono,4.12.3,GHSA-458j-xx4x-4375,low,N/A,hono Improperly Handles JSX Attribute Names Allows HTML Injection in hono/jsx SSR,N/A,0
+ruflo,ruflo-grype.json,hono,4.12.3,GHSA-v8w9-8mx6-g223,low,N/A,Hono vulnerable to Prototype Pollution possible through __proto__ key allowed in parseBody({ dot: true }),N/A,0
+ruflo,ruflo-grype.json,uuid,10.0.0,GHSA-w5hq-g745-h8pq,low,N/A,uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided,N/A,0
+ruflo,ruflo-grype.json,uuid,13.0.0,GHSA-w5hq-g745-h8pq,low,N/A,uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided,N/A,0
+ruflo,ruflo-grype.json,uuid,9.0.1,GHSA-w5hq-g745-h8pq,low,N/A,uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided,N/A,0
+ruflo,ruflo-grype.json,uuid,9.0.1,GHSA-w5hq-g745-h8pq,low,N/A,uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided,N/A,0
+ruflo,ruflo-grype.json,uuid,9.0.1,GHSA-w5hq-g745-h8pq,low,N/A,uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided,N/A,0
+ruflo,ruflo-grype.json,uuid,9.0.1,GHSA-w5hq-g745-h8pq,low,N/A,uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided,N/A,0
+ruflo,ruflo-grype.json,@sveltejs/kit,2.52.2,GHSA-fpg4-jhqr-589c,low,N/A,SvelteKit  has deserialization expansion in unvalidated `form` remote function leading to Denial of Service (experimental only),N/A,0
+ruflo,ruflo-grype.json,devalue,5.6.3,GHSA-mwv9-gp5h-frr4,low,N/A,Sveltejs devalue's `devalue.parse` and `devalue.unflatten` emit objects with `__proto__` own properties,N/A,0
+ruflo,ruflo-grype.json,handlebars,4.7.8,GHSA-442j-39wm-28r2,low,N/A,Handlebars.js has a Property Access Validation Bypass in container.lookup,N/A,0
+skills,skills-grype.json,basic-ftp,5.2.0,GHSA-chqc-8p9q-pq6q,low,N/A,basic-ftp has FTP Command Injection via CRLF,N/A,0
+skills,skills-grype.json,protobufjs,7.5.4,GHSA-xq3m-2v4x-88gg,low,N/A,Arbitrary code execution in protobufjs,N/A,0
+skills,skills-grype.json,path-to-regexp,8.3.0,GHSA-j3q9-mxjg-w52f,low,N/A,path-to-regexp vulnerable to Denial of Service via sequential optional groups,N/A,0
+skills,skills-grype.json,basic-ftp,5.2.0,GHSA-rp42-5vxx-qpwr,low,N/A,basic-ftp vulnerable to denial of service via unbounded memory consumption in Client.list(),N/A,0
+skills,skills-grype.json,path-to-regexp,8.3.0,GHSA-27v5-c462-wpq7,low,N/A,path-to-regexp vulnerable to Regular Expression Denial of Service via multiple wildcards,N/A,0
+skills,skills-grype.json,langsmith,0.3.87,GHSA-fw9q-39r9-c252,low,N/A,LangSmith Client SDKs has Prototype Pollution in langsmith-sdk via Incomplete `__proto__` Guard in Internal lodash `set()`,N/A,0
+skills,skills-grype.json,langsmith,0.3.87,GHSA-rr7j-v2q5-chgv,low,N/A,LangSmith SDK: Streaming token events bypass output redaction,N/A,0
+skills,skills-grype.json,hono,4.12.9,GHSA-r5rp-j6wh-rvv4,low,N/A,Hono: Non-breaking space prefix bypass in cookie name handling in getCookie(),N/A,0
+skills,skills-grype.json,hono,4.12.9,GHSA-wmmm-f939-6g9c,low,N/A,Hono: Middleware bypass via repeated slashes in serveStatic,N/A,0
+skills,skills-grype.json,@hono/node-server,1.19.11,GHSA-92pp-h63x-v22m,low,N/A,@hono/node-server: Middleware bypass via repeated slashes in serveStatic,N/A,0
+skills,skills-grype.json,hono,4.12.9,GHSA-xf4j-xp2r-rqqx,low,N/A,Hono: Path traversal in toSSG() allows writing files outside the output directory,N/A,0
+skills,skills-grype.json,langsmith,0.3.87,GHSA-v34v-rq6j-cj6p,low,N/A,LangSmith Client SDK Affected by Server-Side Request Forgery via Tracing Header Injection,N/A,0
+skills,skills-grype.json,hono,4.12.9,GHSA-xpcf-pg52-r92g,low,N/A,Hono has incorrect IP matching in ipRestriction() for IPv4-mapped IPv6 addresses,N/A,0
+skills,skills-grype.json,basic-ftp,5.2.0,GHSA-6v7q-wjvx-w8wg,low,N/A,basic-ftp: Incomplete CRLF Injection Protection Allows Arbitrary FTP Command Execution via Credentials and MKD Commands,N/A,0
+skills,skills-grype.json,hono,4.12.9,GHSA-26pp-8wgv-hjvm,low,N/A,Hono missing validation of cookie name on write path in setCookie(),N/A,0
+skills,skills-grype.json,hono,4.12.9,GHSA-458j-xx4x-4375,low,N/A,hono Improperly Handles JSX Attribute Names Allows HTML Injection in hono/jsx SSR,N/A,0
+skills,skills-grype.json,uuid,10.0.0,GHSA-w5hq-g745-h8pq,low,N/A,uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided,N/A,0
+skills,skills-grype.json,uuid,11.1.0,GHSA-w5hq-g745-h8pq,low,N/A,uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided,N/A,0

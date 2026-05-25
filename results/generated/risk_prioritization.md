@@ -1,0 +1,26 @@
+# Priorizacion de Riesgo
+
+| Repositorio | Prioridad | Evidencia principal | Dependencias | CodeQL seguridad | Accion recomendada |
+| --- | --- | --- | --- | --- | --- |
+| Understand-Anything | P0 | js/shell-command-injection-from-environment | 16 | 11 | Mitigar de inmediato: revisar flujo explotable, corregir construccion de comandos y bloquear release si aplica. |
+| opencode | P0 | js/command-line-injection; js/indirect-command-line-injection; js/shell-command-injection-from-environment | 15 | 17 | Mitigar de inmediato: revisar flujo explotable, corregir construccion de comandos y bloquear release si aplica. |
+| Anthropic-Cybersecurity-Skills | P1 | py/clear-text-logging-sensitive-data; py/clear-text-storage-sensitive-data; py/weak-sensitive-data-hashing | 0 | 183 | Corregir en el corto plazo: proteger datos sensibles, validar entradas y agregar pruebas de seguridad. |
+| ai-engineering-from-scratch | P1 | py/clear-text-logging-sensitive-data; py/http-response-splitting; py/weak-sensitive-data-hashing | 0 | 4 | Corregir en el corto plazo: proteger datos sensibles, validar entradas y agregar pruebas de seguridad. |
+| claude-code-action | P1 | js/file-access-to-http; js/http-to-file-access; js/xss-through-dom | 5 | 14 | Corregir en el corto plazo: proteger datos sensibles, validar entradas y agregar pruebas de seguridad. |
+| jcode | P1 | py/clear-text-logging-sensitive-data | 8 | 4 | Corregir en el corto plazo: proteger datos sensibles, validar entradas y agregar pruebas de seguridad. |
+| maigret | P1 | py/log-injection; py/weak-sensitive-data-hashing | 3 | 9 | Corregir en el corto plazo: proteger datos sensibles, validar entradas y agregar pruebas de seguridad. |
+| DeepSeek-TUI | P2 | actions/download-artifact; aws-lc-sys; bytes; lru; quinn-proto; rand; rustls-webpki; time | 12 | 0 | Planificar actualizacion y monitoreo: revisar paquetes afectados y aplicar hardening. |
+| TradingAgents | P2 | aiohttp; chainlit; curl-cffi; filelock; langchain-community; langchain-core; langchain-openai; langchain-text-splitters | 56 | 0 | Planificar actualizacion y monitoreo: revisar paquetes afectados y aplicar hardening. |
+| claude-plugins-official | P2 | actions/download-artifact | 1 | 0 | Planificar actualizacion y monitoreo: revisar paquetes afectados y aplicar hardening. |
+| codegraph | P2 | picomatch | 2 | 0 | Planificar actualizacion y monitoreo: revisar paquetes afectados y aplicar hardening. |
+| dexter | P2 | file-type; langsmith; music-metadata; protobufjs; uuid | 11 | 0 | Planificar actualizacion y monitoreo: revisar paquetes afectados y aplicar hardening. |
+| genai-code-review | P2 | requests | 3 | 0 | Planificar actualizacion y monitoreo: revisar paquetes afectados y aplicar hardening. |
+| n8n-mcp | P2 | @azure/identity; @grpc/grpc-js; @hono/node-server; @langchain/community; @langchain/core; @supabase/auth-js; @tootallnate/once; @xmldom/xmldom | 124 | 0 | Planificar actualizacion y monitoreo: revisar paquetes afectados y aplicar hardening. |
+| presenton | P2 | @isaacs/brace-expansion; authlib; axios; brace-expansion; dompurify; follow-redirects; glob; idna | 65 | 0 | Planificar actualizacion y monitoreo: revisar paquetes afectados y aplicar hardening. |
+| ruflo | P2 | @anthropic-ai/claude-code; @hono/node-server; @isaacs/brace-expansion; @modelcontextprotocol/sdk; @sveltejs/kit; @tootallnate/once; actions/download-artifact; ajv | 231 | 0 | Planificar actualizacion y monitoreo: revisar paquetes afectados y aplicar hardening. |
+| skills | P2 | @hono/node-server; basic-ftp; hono; langsmith; path-to-regexp; protobufjs; uuid | 18 | 0 | Planificar actualizacion y monitoreo: revisar paquetes afectados y aplicar hardening. |
+| FinceptTerminal | P3 | Sin hallazgos criticos | 0 | 0 | Registrar como deuda tecnica y resolver despues de riesgos altos. |
+| agency-agents | P3 | Sin hallazgos criticos | 0 | 0 | Registrar como deuda tecnica y resolver despues de riesgos altos. |
+| andrej-karpathy-skills | P3 | Sin hallazgos criticos | 0 | 0 | Registrar como deuda tecnica y resolver despues de riesgos altos. |
+| chrome-devtools-mcp | P3 | Sin hallazgos criticos | 0 | 0 | Registrar como deuda tecnica y resolver despues de riesgos altos. |
+| qBittorrent | P3 | Sin hallazgos criticos | 0 | 0 | Registrar como deuda tecnica y resolver despues de riesgos altos. |

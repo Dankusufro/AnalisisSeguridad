@@ -1,0 +1,214 @@
+{
+  "total_vulnerabilities": 18,
+  "vulnerabilities_by_severity": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 18
+  },
+  "vulnerabilities": [
+    {
+      "package_name": "basic-ftp",
+      "current_version": "5.2.0",
+      "vuln_id": "GHSA-chqc-8p9q-pq6q",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "basic-ftp has FTP Command Injection via CRLF",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "protobufjs",
+      "current_version": "7.5.4",
+      "vuln_id": "GHSA-xq3m-2v4x-88gg",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Arbitrary code execution in protobufjs",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "path-to-regexp",
+      "current_version": "8.3.0",
+      "vuln_id": "GHSA-j3q9-mxjg-w52f",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "path-to-regexp vulnerable to Denial of Service via sequential optional groups",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "basic-ftp",
+      "current_version": "5.2.0",
+      "vuln_id": "GHSA-rp42-5vxx-qpwr",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "basic-ftp vulnerable to denial of service via unbounded memory consumption in Client.list()",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "path-to-regexp",
+      "current_version": "8.3.0",
+      "vuln_id": "GHSA-27v5-c462-wpq7",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "path-to-regexp vulnerable to Regular Expression Denial of Service via multiple wildcards",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "langsmith",
+      "current_version": "0.3.87",
+      "vuln_id": "GHSA-fw9q-39r9-c252",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "LangSmith Client SDKs has Prototype Pollution in langsmith-sdk via Incomplete `__proto__` Guard in Internal lodash `set()`",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "langsmith",
+      "current_version": "0.3.87",
+      "vuln_id": "GHSA-rr7j-v2q5-chgv",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "LangSmith SDK: Streaming token events bypass output redaction",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hono",
+      "current_version": "4.12.9",
+      "vuln_id": "GHSA-r5rp-j6wh-rvv4",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Hono: Non-breaking space prefix bypass in cookie name handling in getCookie()",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hono",
+      "current_version": "4.12.9",
+      "vuln_id": "GHSA-wmmm-f939-6g9c",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Hono: Middleware bypass via repeated slashes in serveStatic",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "@hono/node-server",
+      "current_version": "1.19.11",
+      "vuln_id": "GHSA-92pp-h63x-v22m",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "@hono/node-server: Middleware bypass via repeated slashes in serveStatic",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hono",
+      "current_version": "4.12.9",
+      "vuln_id": "GHSA-xf4j-xp2r-rqqx",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Hono: Path traversal in toSSG() allows writing files outside the output directory",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "langsmith",
+      "current_version": "0.3.87",
+      "vuln_id": "GHSA-v34v-rq6j-cj6p",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "LangSmith Client SDK Affected by Server-Side Request Forgery via Tracing Header Injection",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hono",
+      "current_version": "4.12.9",
+      "vuln_id": "GHSA-xpcf-pg52-r92g",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Hono has incorrect IP matching in ipRestriction() for IPv4-mapped IPv6 addresses",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "basic-ftp",
+      "current_version": "5.2.0",
+      "vuln_id": "GHSA-6v7q-wjvx-w8wg",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "basic-ftp: Incomplete CRLF Injection Protection Allows Arbitrary FTP Command Execution via Credentials and MKD Commands",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hono",
+      "current_version": "4.12.9",
+      "vuln_id": "GHSA-26pp-8wgv-hjvm",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "Hono missing validation of cookie name on write path in setCookie()",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "hono",
+      "current_version": "4.12.9",
+      "vuln_id": "GHSA-458j-xx4x-4375",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "hono Improperly Handles JSX Attribute Names Allows HTML Injection in hono/jsx SSR",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "uuid",
+      "current_version": "10.0.0",
+      "vuln_id": "GHSA-w5hq-g745-h8pq",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    },
+    {
+      "package_name": "uuid",
+      "current_version": "11.1.0",
+      "vuln_id": "GHSA-w5hq-g745-h8pq",
+      "vuln_severity": "low",
+      "fix_version": "N/A",
+      "message": "uuid: Missing buffer bounds check in v3/v5/v6 when buf is provided",
+      "cwe": "N/A",
+      "cvss_score": 0,
+      "type": "vulnerability"
+    }
+  ],
+  "grype_metadata": {
+    "grype_version": "unknown",
+    "db_location": "",
+    "scanned_path": "/IdeaProjects/produccion_software_emi305/data/repos/skills"
+  }
+}

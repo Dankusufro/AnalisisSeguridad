@@ -1,0 +1,1510 @@
+{
+  "artifacts": [
+    {
+      "id": "9473485be47ffbb0",
+      "name": "@clack/core",
+      "version": "1.3.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/package-lock.json",
+          "accessPath": "/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/package-lock.json",
+              "accessPath": "/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:\\@clack\\/core:\\@clack\\/core:1.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/%40clack/core@1.3.0",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/@clack/core/-/core-1.3.0.tgz",
+        "integrity": "sha512-xJPHpAmEQUBrXSLx0gF+q5K/IyihXpsHZcha+jB+tyahsKRK3Dxo4D0coZDewHo12NhiuzC3dTtMPbm53GEAAA==",
+        "dependencies": {
+          "fast-wrap-ansi": "^0.2.0",
+          "sisteransi": "^1.0.5"
+        }
+      }
+    },
+    {
+      "id": "c109416d58682880",
+      "name": "@clack/prompts",
+      "version": "1.3.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/package-lock.json",
+          "accessPath": "/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/package-lock.json",
+              "accessPath": "/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:\\@clack\\/prompts:\\@clack\\/prompts:1.3.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/%40clack/prompts@1.3.0",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/@clack/prompts/-/prompts-1.3.0.tgz",
+        "integrity": "sha512-GgcWwRCs/xPtaqlMy8qRhPnZf9vlWcWZNHAitnVQ3yk7JmSralSiq5q07yaffYE8SogtDm7zFeKccx1QNVARpw==",
+        "dependencies": {
+          "@clack/core": "1.3.0",
+          "fast-string-width": "^3.0.2",
+          "fast-wrap-ansi": "^0.2.0",
+          "sisteransi": "^1.0.5"
+        }
+      }
+    },
+    {
+      "id": "5130f0dc5c2e52d9",
+      "name": "@colbymchenry/codegraph",
+      "version": "0.9.3",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/package-lock.json",
+          "accessPath": "/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/package-lock.json",
+              "accessPath": "/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:\\@colbymchenry\\/codegraph:\\@colbymchenry\\/codegraph:0.9.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/%40colbymchenry/codegraph@0.9.3",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "",
+        "integrity": "",
+        "dependencies": {
+          "@clack/prompts": "^1.3.0",
+          "commander": "^14.0.2",
+          "fast-string-width": "^3.0.2",
+          "fast-wrap-ansi": "^0.2.0",
+          "ignore": "^7.0.5",
+          "jsonc-parser": "^3.3.1",
+          "picomatch": "^4.0.3",
+          "sisteransi": "^1.0.5",
+          "tree-sitter-wasms": "^0.1.11",
+          "web-tree-sitter": "^0.25.3"
+        }
+      }
+    },
+    {
+      "id": "17f85c44f7973c32",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/release.yml",
+          "accessPath": "/.github/workflows/release.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "18256ba5f5ef9f56",
+      "name": "actions/setup-node",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/release.yml",
+          "accessPath": "/.github/workflows/release.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-node:actions\\/setup-node:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-node:actions\\/setup_node:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_node:actions\\/setup-node:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_node:actions\\/setup_node:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-node:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_node:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-node@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-node@v6"
+      }
+    },
+    {
+      "id": "43ddc3ab10c3fa57",
+      "name": "commander",
+      "version": "14.0.3",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/package-lock.json",
+          "accessPath": "/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/package-lock.json",
+              "accessPath": "/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:commander:commander:14.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/commander@14.0.3",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/commander/-/commander-14.0.3.tgz",
+        "integrity": "sha512-H+y0Jo/T1RZ9qPP4Eh1pkcQcLRglraJaSLoyOtHxu6AapkjWVCy2Sit1QQ4x3Dng8qDlSsZEet7g5Pq06MvTgw==",
+        "dependencies": null
+      }
+    },
+    {
+      "id": "3bfdfa0a99169487",
+      "name": "fast-string-truncated-width",
+      "version": "3.0.3",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/package-lock.json",
+          "accessPath": "/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/package-lock.json",
+              "accessPath": "/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:fast-string-truncated-width:fast-string-truncated-width:3.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast-string-truncated-width:fast_string_truncated_width:3.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast_string_truncated_width:fast-string-truncated-width:3.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast_string_truncated_width:fast_string_truncated_width:3.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast-string-truncated:fast-string-truncated-width:3.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast-string-truncated:fast_string_truncated_width:3.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast_string_truncated:fast-string-truncated-width:3.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast_string_truncated:fast_string_truncated_width:3.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast-string:fast-string-truncated-width:3.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast-string:fast_string_truncated_width:3.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast_string:fast-string-truncated-width:3.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast_string:fast_string_truncated_width:3.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast:fast-string-truncated-width:3.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast:fast_string_truncated_width:3.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/fast-string-truncated-width@3.0.3",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/fast-string-truncated-width/-/fast-string-truncated-width-3.0.3.tgz",
+        "integrity": "sha512-0jjjIEL6+0jag3l2XWWizO64/aZVtpiGE3t0Zgqxv0DPuxiMjvB3M24fCyhZUO4KomJQPj3LTSUnDP3GpdwC0g==",
+        "dependencies": null
+      }
+    },
+    {
+      "id": "85eb4c3154d35c5b",
+      "name": "fast-string-width",
+      "version": "3.0.2",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/package-lock.json",
+          "accessPath": "/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/package-lock.json",
+              "accessPath": "/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:fast-string-width:fast-string-width:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast-string-width:fast_string_width:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast_string_width:fast-string-width:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast_string_width:fast_string_width:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast-string:fast-string-width:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast-string:fast_string_width:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast_string:fast-string-width:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast_string:fast_string_width:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast:fast-string-width:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast:fast_string_width:3.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/fast-string-width@3.0.2",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/fast-string-width/-/fast-string-width-3.0.2.tgz",
+        "integrity": "sha512-gX8LrtNEI5hq8DVUfRQMbr5lpaS4nMIWV+7XEbXk2b8kiQIizgnlr12B4dA3ZEx3308ze0O4Q1R+cHts8kyUJg==",
+        "dependencies": {
+          "fast-string-truncated-width": "^3.0.2"
+        }
+      }
+    },
+    {
+      "id": "cfda44f85778836c",
+      "name": "fast-wrap-ansi",
+      "version": "0.2.0",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/package-lock.json",
+          "accessPath": "/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/package-lock.json",
+              "accessPath": "/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:fast-wrap-ansi:fast-wrap-ansi:0.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast-wrap-ansi:fast_wrap_ansi:0.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast_wrap_ansi:fast-wrap-ansi:0.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast_wrap_ansi:fast_wrap_ansi:0.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast-wrap:fast-wrap-ansi:0.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast-wrap:fast_wrap_ansi:0.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast_wrap:fast-wrap-ansi:0.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast_wrap:fast_wrap_ansi:0.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast:fast-wrap-ansi:0.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:fast:fast_wrap_ansi:0.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/fast-wrap-ansi@0.2.0",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/fast-wrap-ansi/-/fast-wrap-ansi-0.2.0.tgz",
+        "integrity": "sha512-rLV8JHxTyhVmFYhBJuMujcrHqOT2cnO5Zxj37qROj23CP39GXubJRBUFF0z8KFK77Uc0SukZUf7JZhsVEQ6n8w==",
+        "dependencies": {
+          "fast-string-width": "^3.0.2"
+        }
+      }
+    },
+    {
+      "id": "08bed68b930631f3",
+      "name": "ignore",
+      "version": "7.0.5",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/package-lock.json",
+          "accessPath": "/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/package-lock.json",
+              "accessPath": "/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:ignore:ignore:7.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/ignore@7.0.5",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/ignore/-/ignore-7.0.5.tgz",
+        "integrity": "sha512-Hs59xBNfUIunMFgWAbGX5cq6893IbWg4KnrjbYwX3tx0ztorVgTDA6B2sxf8ejHJ4wz8BqGUMYlnzNBer5NvGg==",
+        "dependencies": null
+      }
+    },
+    {
+      "id": "6fe1829451eda2c0",
+      "name": "jsonc-parser",
+      "version": "3.3.1",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/package-lock.json",
+          "accessPath": "/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/package-lock.json",
+              "accessPath": "/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:jsonc-parser:jsonc-parser:3.3.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jsonc-parser:jsonc_parser:3.3.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jsonc_parser:jsonc-parser:3.3.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jsonc_parser:jsonc_parser:3.3.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jsonc:jsonc-parser:3.3.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:jsonc:jsonc_parser:3.3.1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/jsonc-parser@3.3.1",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/jsonc-parser/-/jsonc-parser-3.3.1.tgz",
+        "integrity": "sha512-HUgH65KyejrUFPvHFPbqOY0rsFip3Bo5wb4ngvdi1EpCYWUQDC5V+Y7mZws+DLkr4M//zQJoanu1SP+87Dv1oQ==",
+        "dependencies": null
+      }
+    },
+    {
+      "id": "a0ad1a2fe5d5d793",
+      "name": "picomatch",
+      "version": "4.0.3",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/package-lock.json",
+          "accessPath": "/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/package-lock.json",
+              "accessPath": "/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:jonschlinkert:picomatch:4.0.3:*:*:*:*:node.js:*:*",
+          "source": "nvd-cpe-dictionary"
+        }
+      ],
+      "purl": "pkg:npm/picomatch@4.0.3",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz",
+        "integrity": "sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==",
+        "dependencies": null
+      }
+    },
+    {
+      "id": "c972ee4ed3555c04",
+      "name": "sisteransi",
+      "version": "1.0.5",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/package-lock.json",
+          "accessPath": "/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/package-lock.json",
+              "accessPath": "/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:sisteransi:sisteransi:1.0.5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/sisteransi@1.0.5",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/sisteransi/-/sisteransi-1.0.5.tgz",
+        "integrity": "sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==",
+        "dependencies": null
+      }
+    },
+    {
+      "id": "1e02d81528529a94",
+      "name": "tree-sitter-wasms",
+      "version": "0.1.13",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/package-lock.json",
+          "accessPath": "/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Unlicense",
+          "spdxExpression": "Unlicense",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/package-lock.json",
+              "accessPath": "/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:tree-sitter-wasms:tree-sitter-wasms:0.1.13:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tree-sitter-wasms:tree_sitter_wasms:0.1.13:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tree_sitter_wasms:tree-sitter-wasms:0.1.13:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tree_sitter_wasms:tree_sitter_wasms:0.1.13:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tree-sitter:tree-sitter-wasms:0.1.13:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tree-sitter:tree_sitter_wasms:0.1.13:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tree_sitter:tree-sitter-wasms:0.1.13:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tree_sitter:tree_sitter_wasms:0.1.13:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tree:tree-sitter-wasms:0.1.13:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:tree:tree_sitter_wasms:0.1.13:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/tree-sitter-wasms@0.1.13",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/tree-sitter-wasms/-/tree-sitter-wasms-0.1.13.tgz",
+        "integrity": "sha512-wT+cR6DwaIz80/vho3AvSF0N4txuNx/5bcRKoXouOfClpxh/qqrF4URNLQXbbt8MaAxeksZcZd1j8gcGjc+QxQ==",
+        "dependencies": {
+          "tree-sitter-wasms": "^0.1.11"
+        }
+      }
+    },
+    {
+      "id": "66a26005b222f9db",
+      "name": "web-tree-sitter",
+      "version": "0.25.10",
+      "type": "npm",
+      "foundBy": "javascript-lock-cataloger",
+      "locations": [
+        {
+          "path": "/package-lock.json",
+          "accessPath": "/package-lock.json",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "MIT",
+          "spdxExpression": "MIT",
+          "type": "declared",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/package-lock.json",
+              "accessPath": "/package-lock.json",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "javascript",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:web-tree-sitter:web-tree-sitter:0.25.10:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:web-tree-sitter:web_tree_sitter:0.25.10:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:web_tree_sitter:web-tree-sitter:0.25.10:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:web_tree_sitter:web_tree_sitter:0.25.10:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:web-tree:web-tree-sitter:0.25.10:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:web-tree:web_tree_sitter:0.25.10:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:web_tree:web-tree-sitter:0.25.10:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:web_tree:web_tree_sitter:0.25.10:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:web:web-tree-sitter:0.25.10:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:web:web_tree_sitter:0.25.10:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:npm/web-tree-sitter@0.25.10",
+      "metadataType": "javascript-npm-package-lock-entry",
+      "metadata": {
+        "resolved": "https://registry.npmjs.org/web-tree-sitter/-/web-tree-sitter-0.25.10.tgz",
+        "integrity": "sha512-Y09sF44/13XvgVKgO2cNDw5rGk6s26MgoZPXLESvMXeefBf7i6/73eFurre0IsTW6E14Y0ArIzhUMmjoc7xyzA==",
+        "dependencies": null
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "076b8c759591e4a4a8b1954893f6821d74d55d1dfaed2a8000669d26f4d0cfb3",
+      "child": "08bed68b930631f3",
+      "type": "contains"
+    },
+    {
+      "parent": "076b8c759591e4a4a8b1954893f6821d74d55d1dfaed2a8000669d26f4d0cfb3",
+      "child": "17f85c44f7973c32",
+      "type": "contains"
+    },
+    {
+      "parent": "076b8c759591e4a4a8b1954893f6821d74d55d1dfaed2a8000669d26f4d0cfb3",
+      "child": "18256ba5f5ef9f56",
+      "type": "contains"
+    },
+    {
+      "parent": "076b8c759591e4a4a8b1954893f6821d74d55d1dfaed2a8000669d26f4d0cfb3",
+      "child": "1e02d81528529a94",
+      "type": "contains"
+    },
+    {
+      "parent": "076b8c759591e4a4a8b1954893f6821d74d55d1dfaed2a8000669d26f4d0cfb3",
+      "child": "3bfdfa0a99169487",
+      "type": "contains"
+    },
+    {
+      "parent": "076b8c759591e4a4a8b1954893f6821d74d55d1dfaed2a8000669d26f4d0cfb3",
+      "child": "43ddc3ab10c3fa57",
+      "type": "contains"
+    },
+    {
+      "parent": "076b8c759591e4a4a8b1954893f6821d74d55d1dfaed2a8000669d26f4d0cfb3",
+      "child": "5130f0dc5c2e52d9",
+      "type": "contains"
+    },
+    {
+      "parent": "076b8c759591e4a4a8b1954893f6821d74d55d1dfaed2a8000669d26f4d0cfb3",
+      "child": "66a26005b222f9db",
+      "type": "contains"
+    },
+    {
+      "parent": "076b8c759591e4a4a8b1954893f6821d74d55d1dfaed2a8000669d26f4d0cfb3",
+      "child": "6fe1829451eda2c0",
+      "type": "contains"
+    },
+    {
+      "parent": "076b8c759591e4a4a8b1954893f6821d74d55d1dfaed2a8000669d26f4d0cfb3",
+      "child": "85eb4c3154d35c5b",
+      "type": "contains"
+    },
+    {
+      "parent": "076b8c759591e4a4a8b1954893f6821d74d55d1dfaed2a8000669d26f4d0cfb3",
+      "child": "9473485be47ffbb0",
+      "type": "contains"
+    },
+    {
+      "parent": "076b8c759591e4a4a8b1954893f6821d74d55d1dfaed2a8000669d26f4d0cfb3",
+      "child": "a0ad1a2fe5d5d793",
+      "type": "contains"
+    },
+    {
+      "parent": "076b8c759591e4a4a8b1954893f6821d74d55d1dfaed2a8000669d26f4d0cfb3",
+      "child": "c109416d58682880",
+      "type": "contains"
+    },
+    {
+      "parent": "076b8c759591e4a4a8b1954893f6821d74d55d1dfaed2a8000669d26f4d0cfb3",
+      "child": "c972ee4ed3555c04",
+      "type": "contains"
+    },
+    {
+      "parent": "076b8c759591e4a4a8b1954893f6821d74d55d1dfaed2a8000669d26f4d0cfb3",
+      "child": "cfda44f85778836c",
+      "type": "contains"
+    },
+    {
+      "parent": "08bed68b930631f3",
+      "child": "5130f0dc5c2e52d9",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "08bed68b930631f3",
+      "child": "fd71c2238fc07657",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "17f85c44f7973c32",
+      "child": "cc210d8a1a5f5704",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "18256ba5f5ef9f56",
+      "child": "cc210d8a1a5f5704",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1e02d81528529a94",
+      "child": "1e02d81528529a94",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "1e02d81528529a94",
+      "child": "5130f0dc5c2e52d9",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "1e02d81528529a94",
+      "child": "fd71c2238fc07657",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "3bfdfa0a99169487",
+      "child": "85eb4c3154d35c5b",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "3bfdfa0a99169487",
+      "child": "fd71c2238fc07657",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "43ddc3ab10c3fa57",
+      "child": "5130f0dc5c2e52d9",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "43ddc3ab10c3fa57",
+      "child": "fd71c2238fc07657",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "5130f0dc5c2e52d9",
+      "child": "fd71c2238fc07657",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "66a26005b222f9db",
+      "child": "5130f0dc5c2e52d9",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "66a26005b222f9db",
+      "child": "fd71c2238fc07657",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "6fe1829451eda2c0",
+      "child": "5130f0dc5c2e52d9",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "6fe1829451eda2c0",
+      "child": "fd71c2238fc07657",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "85eb4c3154d35c5b",
+      "child": "5130f0dc5c2e52d9",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "85eb4c3154d35c5b",
+      "child": "c109416d58682880",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "85eb4c3154d35c5b",
+      "child": "cfda44f85778836c",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "85eb4c3154d35c5b",
+      "child": "fd71c2238fc07657",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "9473485be47ffbb0",
+      "child": "c109416d58682880",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "9473485be47ffbb0",
+      "child": "fd71c2238fc07657",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a0ad1a2fe5d5d793",
+      "child": "5130f0dc5c2e52d9",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "a0ad1a2fe5d5d793",
+      "child": "fd71c2238fc07657",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "c109416d58682880",
+      "child": "5130f0dc5c2e52d9",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "c109416d58682880",
+      "child": "fd71c2238fc07657",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "c972ee4ed3555c04",
+      "child": "5130f0dc5c2e52d9",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "c972ee4ed3555c04",
+      "child": "9473485be47ffbb0",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "c972ee4ed3555c04",
+      "child": "c109416d58682880",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "c972ee4ed3555c04",
+      "child": "fd71c2238fc07657",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "cfda44f85778836c",
+      "child": "5130f0dc5c2e52d9",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "cfda44f85778836c",
+      "child": "9473485be47ffbb0",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "cfda44f85778836c",
+      "child": "c109416d58682880",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "cfda44f85778836c",
+      "child": "fd71c2238fc07657",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "cc210d8a1a5f5704",
+      "location": {
+        "path": "/.github/workflows/release.yml"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 501,
+        "groupID": 20,
+        "mimeType": "text/plain",
+        "size": 5158
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "9a885dda84e86dee147e15b47e065ee6a134da2d"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "9ce27dc7a1b8163a19d03db48417435a7d5726e83c824bc1533fc687c7c1f13b"
+        }
+      ]
+    },
+    {
+      "id": "fd71c2238fc07657",
+      "location": {
+        "path": "/package-lock.json"
+      },
+      "metadata": {
+        "mode": 644,
+        "type": "RegularFile",
+        "userID": 501,
+        "groupID": 20,
+        "mimeType": "application/json",
+        "size": 52855
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "1983e8fe5f89d650cc8ebc152605afbf4404be1d"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "fa557c8aa543b456ceb2db1f28cf54bd6ac5b2712956bc7218c77916aefd9910"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "id": "076b8c759591e4a4a8b1954893f6821d74d55d1dfaed2a8000669d26f4d0cfb3",
+    "name": "/Users/lights/produccion_software_emi305/data/repos/codegraph",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "/Users/lights/produccion_software_emi305/data/repos/codegraph"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.44.0",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory",
+            "file"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "conda-meta-cataloger",
+          "dart-pubspec-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "deb-archive-cataloger",
+          "dotnet-deps-binary-cataloger",
+          "dotnet-packages-lock-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "file-content-cataloger",
+          "file-digest-cataloger",
+          "file-executable-cataloger",
+          "file-metadata-cataloger",
+          "gguf-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "homebrew-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-jvm-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-cataloger",
+          "opam-cataloger",
+          "pe-binary-package-cataloger",
+          "php-composer-lock-cataloger",
+          "php-interpreter-cataloger",
+          "php-pear-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "r-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "snap-cataloger",
+          "swift-package-manager-cataloger",
+          "swipl-pack-cataloger",
+          "terraform-lock-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "licenses": {
+        "coverage": 75,
+        "include-content": "none"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "valkey-binary",
+          "nodejs-binary",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "deno-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "hashicorp-vault-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "openldap-search-binary",
+          "qt-qtbase-lib",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary",
+          "chrome-binary",
+          "ffmpeg-binary",
+          "ffmpeg-library",
+          "ffmpeg-library",
+          "elixir-binary",
+          "elixir-library",
+          "istio-binary",
+          "istio-binary",
+          "grafana-binary",
+          "grafana-binary",
+          "envoy-binary",
+          "mongodb-binary",
+          "java-binary",
+          "java-jdb-binary"
+        ],
+        "dotnet": {
+          "dep-packages-must-claim-dll": true,
+          "dep-packages-must-have-dll": false,
+          "exclude-project-references": true,
+          "propagate-dll-claims-to-parents": true,
+          "relax-dll-claims-when-bundling-detected": true
+        },
+        "golang": {
+          "local-mod-cache-dir": "/Users/lights/go/pkg/mod",
+          "local-vendor-dir": "",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": false,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-local-vendor-licenses": false,
+          "search-remote-licenses": false,
+          "use-packages-lib": true
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/Users/lights/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "nix": {
+          "capture-owned-files": false
+        },
+        "python": {
+          "guess-unpinned-requirements": false,
+          "pypi-base-url": "https://pypi.org/pypi",
+          "search-remote-licenses": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.1.3",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.3.json"
+  }
+}

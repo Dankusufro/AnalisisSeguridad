@@ -1,0 +1,20 @@
+{
+  "repositories": 22,
+  "grype_findings": 570,
+  "codeql_findings": 878,
+  "cicd_risks": 570,
+  "dependency_counts": {
+    "low": 570
+  },
+  "codeql_priority_counts": {
+    "P2": 52,
+    "P1": 188,
+    "P3": 633,
+    "P0": 5
+  },
+  "cicd_priority_counts": {
+    "P1": 255,
+    "P2": 304,
+    "P0": 11
+  }
+}

@@ -1,0 +1,807 @@
+{
+  "total_issues": 57,
+  "issues_by_severity": {
+    "error": 0,
+    "warning": 57,
+    "note": 0
+  },
+  "issues": [
+    {
+      "rule_id": "py/clear-text-logging-sensitive-data",
+      "rule_index": 38,
+      "level": "warning",
+      "message": "This expression logs [sensitive data (password)](1) as clear text.",
+      "file": "scripts/test_oauth_usage.py",
+      "region": {
+        "startLine": 221,
+        "startColumn": 11,
+        "endColumn": 57
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/clear-text-logging-sensitive-data",
+      "rule_index": 38,
+      "level": "warning",
+      "message": "This expression logs [sensitive data (password)](1) as clear text.",
+      "file": "scripts/test_oauth_usage.py",
+      "region": {
+        "startLine": 231,
+        "startColumn": 11,
+        "endColumn": 99
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/clear-text-logging-sensitive-data",
+      "rule_index": 38,
+      "level": "warning",
+      "message": "This expression logs [sensitive data (password)](1) as clear text.",
+      "file": "scripts/test_oauth_usage.py",
+      "region": {
+        "startLine": 241,
+        "startColumn": 11,
+        "endColumn": 98
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/clear-text-logging-sensitive-data",
+      "rule_index": 38,
+      "level": "warning",
+      "message": "This expression logs [sensitive data (password)](1) as clear text.\nThis expression logs [sensitive data (password)](2) as clear text.\nThis expression logs [sensitive data (password)](3) as clear text.",
+      "file": "scripts/test_oauth_usage.py",
+      "region": {
+        "startLine": 298,
+        "startColumn": 11,
+        "endLine": 318,
+        "endColumn": 4
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/mixed-returns",
+      "rule_index": 60,
+      "level": "warning",
+      "message": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None.",
+      "file": "scripts/stress_test.py",
+      "region": {
+        "startLine": 35,
+        "endColumn": 32
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/mixed-returns",
+      "rule_index": 60,
+      "level": "warning",
+      "message": "Mixing implicit and explicit returns may indicate an error, as implicit returns always return None.",
+      "file": "scripts/test_soft_interrupt.py",
+      "region": {
+        "startLine": 456,
+        "endColumn": 43
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 71,
+      "level": "warning",
+      "message": "Variable ids is not used.",
+      "file": "scripts/test_reload.py",
+      "region": {
+        "startLine": 375,
+        "startColumn": 5,
+        "endColumn": 8
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 71,
+      "level": "warning",
+      "message": "Variable parsed is not used.",
+      "file": "scripts/test_swarm_debug.py",
+      "region": {
+        "startLine": 94,
+        "startColumn": 17,
+        "endColumn": 23
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-local-variable",
+      "rule_index": 71,
+      "level": "warning",
+      "message": "Variable proposals is not used.",
+      "file": "scripts/test_swarm_debug.py",
+      "region": {
+        "startLine": 245,
+        "startColumn": 13,
+        "endColumn": 22
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/multiple-definition",
+      "rule_index": 72,
+      "level": "warning",
+      "message": "This assignment to 'argv' is unnecessary as it is [redefined](1) before this value is used.\nThis assignment to 'argv' is unnecessary as it is [redefined](2) before this value is used.",
+      "file": "scripts/bench_startup_visible_ready.py",
+      "region": {
+        "startLine": 248,
+        "startColumn": 5,
+        "endColumn": 9
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/multiple-definition",
+      "rule_index": 72,
+      "level": "warning",
+      "message": "This assignment to 'events' is unnecessary as it is [redefined](1) before this value is used.",
+      "file": "scripts/test_swarm_debug.py",
+      "region": {
+        "startLine": 409,
+        "startColumn": 9,
+        "endColumn": 15
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-global-variable",
+      "rule_index": 79,
+      "level": "warning",
+      "message": "The global variable 'existing_sessions' is not used.",
+      "file": "scripts/stress_test.py",
+      "region": {
+        "startLine": 181,
+        "startColumn": 5,
+        "endColumn": 22
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-global-variable",
+      "rule_index": 79,
+      "level": "warning",
+      "message": "The global variable 'probe' is not used.",
+      "file": "scripts/stress_test.py",
+      "region": {
+        "startLine": 236,
+        "startColumn": 5,
+        "endColumn": 10
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 114,
+      "level": "warning",
+      "message": "Import of 'sys' is not used.",
+      "file": "scripts/bench_startup.py",
+      "region": {
+        "startLine": 22,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 114,
+      "level": "warning",
+      "message": "Import of 'sys' is not used.",
+      "file": "scripts/bench_startup_visible_ready.py",
+      "region": {
+        "startLine": 24,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 114,
+      "level": "warning",
+      "message": "Import of 'threading' is not used.",
+      "file": "scripts/benchmark_takehome.py",
+      "region": {
+        "startLine": 19,
+        "endColumn": 17
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 114,
+      "level": "warning",
+      "message": "Import of 'signal' is not used.",
+      "file": "scripts/stress_test.py",
+      "region": {
+        "startLine": 20,
+        "endColumn": 14
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 114,
+      "level": "warning",
+      "message": "Import of 'sys' is not used.",
+      "file": "scripts/test_ci_suites.py",
+      "region": {
+        "startLine": 19,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 114,
+      "level": "warning",
+      "message": "Import of 'time' is not used.",
+      "file": "tests/test_injection_fix.py",
+      "region": {
+        "startLine": 15,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 114,
+      "level": "warning",
+      "message": "Import of 'sys' is not used.",
+      "file": "scripts/test_oauth_usage.py",
+      "region": {
+        "startLine": 16,
+        "endColumn": 11
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 114,
+      "level": "warning",
+      "message": "Import of 'time' is not used.",
+      "file": "tests/test_selfdev_reload.py",
+      "region": {
+        "startLine": 15,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/unused-import",
+      "rule_index": 114,
+      "level": "warning",
+      "message": "Import of 'time' is not used.",
+      "file": "scripts/test_swarm.py",
+      "region": {
+        "startLine": 22,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 145,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "scripts/bench_memory_cli.py",
+      "region": {
+        "startLine": 421,
+        "startColumn": 13,
+        "endColumn": 30
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 145,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "scripts/bench_startup_visible_ready.py",
+      "region": {
+        "startLine": 228,
+        "startColumn": 9,
+        "endColumn": 26
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 145,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "scripts/benchmark_swarm.py",
+      "region": {
+        "startLine": 220,
+        "startColumn": 13,
+        "endColumn": 55
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 145,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "scripts/benchmark_swarm.py",
+      "region": {
+        "startLine": 385,
+        "startColumn": 17,
+        "endColumn": 59
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 145,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "scripts/benchmark_swarm.py",
+      "region": {
+        "startLine": 400,
+        "startColumn": 21,
+        "endColumn": 63
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 145,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "scripts/benchmark_takehome.py",
+      "region": {
+        "startLine": 189,
+        "startColumn": 17,
+        "endColumn": 24
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 145,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "scripts/benchmark_takehome.py",
+      "region": {
+        "startLine": 307,
+        "startColumn": 17,
+        "endColumn": 24
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 145,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "scripts/benchmark_takehome.py",
+      "region": {
+        "startLine": 315,
+        "startColumn": 17,
+        "endColumn": 24
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 145,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "scripts/jcode_monitor.py",
+      "region": {
+        "startLine": 100,
+        "startColumn": 21,
+        "endColumn": 49
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 145,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "scripts/jcode_monitor.py",
+      "region": {
+        "startLine": 102,
+        "startColumn": 5,
+        "endColumn": 28
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 145,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "scripts/jcode_monitor.py",
+      "region": {
+        "startLine": 104,
+        "startColumn": 5,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 145,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "scripts/profile_remote_resume_burst.py",
+      "region": {
+        "startLine": 208,
+        "startColumn": 9,
+        "endColumn": 35
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 145,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "scripts/profile_remote_resume_burst.py",
+      "region": {
+        "startLine": 386,
+        "startColumn": 9,
+        "endColumn": 35
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 145,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "scripts/profile_remote_resume_burst.py",
+      "region": {
+        "startLine": 393,
+        "startColumn": 13,
+        "endColumn": 39
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 145,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "scripts/profile_single_spawn.py",
+      "region": {
+        "startLine": 198,
+        "startColumn": 9,
+        "endColumn": 35
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 145,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "scripts/profile_single_spawn.py",
+      "region": {
+        "startLine": 205,
+        "startColumn": 13,
+        "endColumn": 39
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 145,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "scripts/profile_single_spawn.py",
+      "region": {
+        "startLine": 219,
+        "startColumn": 9,
+        "endColumn": 35
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 145,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": ".github/scripts/run_with_timeout.py",
+      "region": {
+        "startLine": 60,
+        "startColumn": 13,
+        "endColumn": 39
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 145,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "scripts/stress_test.py",
+      "region": {
+        "startLine": 71,
+        "startColumn": 5,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 145,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "scripts/stress_test.py",
+      "region": {
+        "startLine": 81,
+        "startColumn": 5,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/empty-except",
+      "rule_index": 145,
+      "level": "warning",
+      "message": "'except' clause does nothing but pass and there is no explanatory comment.",
+      "file": "scripts/stress_test.py",
+      "region": {
+        "startLine": 98,
+        "startColumn": 5,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/catch-base-exception",
+      "rule_index": 150,
+      "level": "warning",
+      "message": "Except block directly handles BaseException.",
+      "file": "scripts/benchmark_takehome.py",
+      "region": {
+        "startLine": 189,
+        "startColumn": 17,
+        "endColumn": 24
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/catch-base-exception",
+      "rule_index": 150,
+      "level": "warning",
+      "message": "Except block directly handles BaseException.",
+      "file": "scripts/benchmark_takehome.py",
+      "region": {
+        "startLine": 307,
+        "startColumn": 17,
+        "endColumn": 24
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/catch-base-exception",
+      "rule_index": 150,
+      "level": "warning",
+      "message": "Except block directly handles BaseException.",
+      "file": "scripts/benchmark_takehome.py",
+      "region": {
+        "startLine": 315,
+        "startColumn": 17,
+        "endColumn": 24
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/catch-base-exception",
+      "rule_index": 150,
+      "level": "warning",
+      "message": "Except block directly handles BaseException.",
+      "file": "scripts/jcode_monitor.py",
+      "region": {
+        "startLine": 79,
+        "startColumn": 5,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/catch-base-exception",
+      "rule_index": 150,
+      "level": "warning",
+      "message": "Except block directly handles BaseException.",
+      "file": "scripts/jcode_monitor.py",
+      "region": {
+        "startLine": 104,
+        "startColumn": 5,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/catch-base-exception",
+      "rule_index": 150,
+      "level": "warning",
+      "message": "Except block directly handles BaseException.",
+      "file": "scripts/stress_test.py",
+      "region": {
+        "startLine": 71,
+        "startColumn": 5,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/catch-base-exception",
+      "rule_index": 150,
+      "level": "warning",
+      "message": "Except block directly handles BaseException.",
+      "file": "scripts/stress_test.py",
+      "region": {
+        "startLine": 81,
+        "startColumn": 5,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/catch-base-exception",
+      "rule_index": 150,
+      "level": "warning",
+      "message": "Except block directly handles BaseException.",
+      "file": "scripts/stress_test.py",
+      "region": {
+        "startLine": 98,
+        "startColumn": 5,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/catch-base-exception",
+      "rule_index": 150,
+      "level": "warning",
+      "message": "Except block directly handles BaseException.",
+      "file": "scripts/stress_test.py",
+      "region": {
+        "startLine": 180,
+        "endColumn": 8
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/catch-base-exception",
+      "rule_index": 150,
+      "level": "warning",
+      "message": "Except block directly handles BaseException.",
+      "file": "scripts/stress_test.py",
+      "region": {
+        "startLine": 204,
+        "startColumn": 9,
+        "endColumn": 16
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/catch-base-exception",
+      "rule_index": 150,
+      "level": "warning",
+      "message": "Except block directly handles BaseException.",
+      "file": "scripts/stress_test.py",
+      "region": {
+        "startLine": 257,
+        "endColumn": 8
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/catch-base-exception",
+      "rule_index": 150,
+      "level": "warning",
+      "message": "Except block directly handles BaseException.",
+      "file": "scripts/test_soft_interrupt.py",
+      "region": {
+        "startLine": 47,
+        "startColumn": 5,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/catch-base-exception",
+      "rule_index": 150,
+      "level": "warning",
+      "message": "Except block directly handles BaseException.",
+      "file": "scripts/test_soft_interrupt.py",
+      "region": {
+        "startLine": 79,
+        "startColumn": 5,
+        "endColumn": 12
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    },
+    {
+      "rule_id": "py/catch-base-exception",
+      "rule_index": 150,
+      "level": "warning",
+      "message": "Except block directly handles BaseException.",
+      "file": "scripts/test_soft_interrupt.py",
+      "region": {
+        "startLine": 92,
+        "startColumn": 9,
+        "endColumn": 16
+      },
+      "kind": "notApplicable",
+      "properties": {}
+    }
+  ],
+  "sarif_metadata": {
+    "version": "2.1.0",
+    "schema_uri": "https://json.schemastore.org/sarif-2.1.0.json",
+    "tool": {
+      "name": "CodeQL",
+      "version": "unknown",
+      "information_uri": ""
+    },
+    "tool_name": "CodeQL",
+    "tool_version": "unknown"
+  }
+}
