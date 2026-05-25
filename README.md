@@ -286,16 +286,3 @@ El equipo debe gestionar las vulnerabilidades con una estrategia basada en evide
 La primera decision es atender P0 en `opencode`, `Understand-Anything` y workflows criticos. La segunda decision es corregir P1 relacionados con exposicion de datos sensibles, XSS, escrituras inseguras y permisos CI/CD. La tercera decision es gestionar P2 mediante actualizaciones planificadas, fijacion de acciones por SHA y monitoreo continuo.
 
 Esta propuesta reduce el riesgo porque transforma los resultados de herramientas en un proceso operativo: conocer los hallazgos, verificarlos, evidenciarlos, priorizarlos y actuar con responsables, plazos y criterios claros.
-
-## Presentacion oral de 10 minutos
-
-| Minuto | Contenido |
-| --- | --- |
-| 0:00 - 1:00 | Contexto: se analizaron SBOM, Grype, CodeQL y workflows para 22 repositorios con evidencia. |
-| 1:00 - 2:00 | Metricas clave: 570 Grype low, 878 CodeQL, 570 riesgos CI/CD. |
-| 2:00 - 4:00 | Hallazgos principales: P0 en `opencode` y `Understand-Anything`; riesgos CI/CD P0 en `opencode`, `dexter`, `claude-code-action`, `maigret` y `ruflo`. |
-| 4:00 - 5:30 | Vectores: dependencias/codigo, CI/CD y humanos. |
-| 5:30 - 7:00 | Ciclo Conozco -> Verifico -> Evidencio -> Decido y Actuo usando command injection como ejemplo. |
-| 7:00 - 8:30 | Priorizacion P0, P1, P2 y P3. |
-| 8:30 - 9:30 | Acciones propuestas: corregir P0, proteger secretos, reducir permisos, fijar acciones por SHA y actualizar dependencias. |
-| 9:30 - 10:00 | Cierre: la propuesta reduce riesgo al convertir evidencia en decisiones y acciones concretas. |
